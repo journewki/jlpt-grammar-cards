@@ -33,7 +33,7 @@ struct HomeView: View {
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text(freeCycleUsed ? "평생 이용권으로 계속 학습하기" : "무료 체험: 1사이클 학습 가능")
                                         .font(.headline)
-                                    Text("밥 한 끼 값으로 580개 문법 평생 무제한")
+                                    Text("단돈 \(store.product?.displayPrice ?? "₩15,900")으로 580개 문법 평생 무제한")
                                         .font(.caption)
                                         .foregroundStyle(.secondary)
                                 }

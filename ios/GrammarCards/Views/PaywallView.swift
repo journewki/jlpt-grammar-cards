@@ -93,9 +93,10 @@ struct PaywallContent: View {
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(.secondary)
             }
-            Text("밥 한 끼 값으로\n평생 무제한")
-                .font(.largeTitle.bold())
+            Text("단돈 \(store.product?.displayPrice ?? "₩15,900")으로\n일본어 문법 마스터할 기회,\n설마 놓치실 건가요?")
+                .font(.title.bold())
                 .multilineTextAlignment(.center)
+                .minimumScaleFactor(0.8)
             Text("JLPT N5~N1 필수 문법 580개를 한 번에 정복하세요")
                 .font(.body)
                 .multilineTextAlignment(.center)
