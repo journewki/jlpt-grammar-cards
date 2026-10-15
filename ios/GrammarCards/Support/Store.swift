@@ -12,6 +12,8 @@ final class Store {
     private(set) var product: Product?
     private(set) var isUnlocked: Bool
     private(set) var isPurchasing = false
+    /// 평생 이용권 구매일 (구매 기록에서 읽음)
+    private(set) var purchaseDate: Date?
     var message: String?
 
     @ObservationIgnored private var updatesTask: Task<Void, Never>?
@@ -47,6 +49,7 @@ final class Store {
                transaction.productID == Self.lifetimeID,
                transaction.revocationDate == nil {
                 owned = true
+                purchaseDate = transaction.purchaseDate
             }
         }
         setUnlocked(owned)
@@ -85,6 +88,7 @@ final class Store {
     private func handle(_ result: VerificationResult<Transaction>) async {
         guard case .verified(let transaction) = result else { return }
         if transaction.productID == Self.lifetimeID {
+            purchaseDate = transaction.purchaseDate
             setUnlocked(transaction.revocationDate == nil)
         }
         await transaction.finish()

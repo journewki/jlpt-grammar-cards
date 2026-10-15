@@ -7,19 +7,30 @@ struct SettingsView: View {
     @AppStorage(SettingsKey.showFurigana) private var showFurigana = true
     @AppStorage(SettingsKey.autoPlaySpeech) private var autoPlaySpeech = false
     @AppStorage(SettingsKey.speechRate) private var speechRate = SpeechRate.normal.rawValue
-    @AppStorage(SettingsKey.freeCycleUsed) private var freeCycleUsed = false
     @Environment(Store.self) private var store
-    @State private var showPaywall = false
+    @State private var restoreMessage: String?
 
     var body: some View {
         Form {
             Section("이용권") {
-                if store.isUnlocked {
-                    Label("평생 이용권 사용 중", systemImage: "checkmark.seal.fill")
-                        .foregroundStyle(.green)
-                } else {
-                    Button("평생 이용권 구매") { showPaywall = true }
-                    Button("구매 복원") { Task { await store.restore() } }
+                NavigationLink {
+                    LicenseView()
+                } label: {
+                    LabeledContent {
+                        Text(store.isUnlocked ? "이용 중" : "미구매")
+                            .foregroundStyle(store.isUnlocked ? Color.green : Color.secondary)
+                    } label: {
+                        Label("평생 이용권", systemImage: store.isUnlocked ? "checkmark.seal.fill" : "crown.fill")
+                    }
+                }
+                if !store.isUnlocked {
+                    Button("구매 복원") {
+                        Task {
+                            await store.restore()
+                            restoreMessage = store.message
+                            store.message = nil
+                        }
+                    }
                 }
             }
 
@@ -63,12 +74,11 @@ struct SettingsView: View {
             }
         }
         .navigationTitle("설정")
-        .sheet(isPresented: $showPaywall) { PaywallView(trialEnded: freeCycleUsed) }
-        .alert("알림", isPresented: Binding(get: { store.message != nil && !showPaywall },
-                                          set: { if !$0 { store.message = nil } })) {
+        .alert("알림", isPresented: Binding(get: { restoreMessage != nil },
+                                          set: { if !$0 { restoreMessage = nil } })) {
             Button("확인", role: .cancel) {}
         } message: {
-            Text(store.message ?? "")
+            Text(restoreMessage ?? "")
         }
     }
 }

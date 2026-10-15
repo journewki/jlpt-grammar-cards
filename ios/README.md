@@ -52,7 +52,7 @@ ios/
 │   │   ├── StudyView.swift     카드 학습 (스와이프, 뜻 보기) + 결과
 │   │   ├── CardFaceView.swift  카드 한 장
 │   │   ├── RubyText.swift      후리가나 예문 표시
-│   │   ├── PaywallView.swift   평생 이용권 구매 화면
+│   │   ├── PaywallView.swift   평생 이용권 구매 화면, 설정의 이용권 화면(LicenseView)
 │   │   └── SettingsView.swift  카드 수, 모름 비율, 표시 설정, 이용권
 │   └── Support/
 │       ├── AppSettings.swift   설정 키
