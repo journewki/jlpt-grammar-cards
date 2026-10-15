@@ -1356,6 +1356,51 @@
       }
     },
     {
+      "no": 156,
+      "expression": "さしあげる",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "드리다 (あげる의 겸양어)",
+      "connection": "(윗사람)に + 물건 + を + さしあげる",
+      "example": {
+        "sentence_ja": "{先生|せんせい}に{花束|はなたば}をさしあげました。",
+        "translation_ko": "선생님께 꽃다발을 드렸습니다.",
+        "highlights": [
+          "さしあげました"
+        ]
+      }
+    },
+    {
+      "no": 157,
+      "expression": "くださる",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "주시다 (くれる의 존경어)",
+      "connection": "(윗사람)が + 私に + 물건 + を + くださる",
+      "example": {
+        "sentence_ja": "{社長|しゃちょう}が{私|わたし}に{記念品|きねんひん}をくださった。",
+        "translation_ko": "사장님이 나에게 기념품을 주셨다.",
+        "highlights": [
+          "くださった"
+        ]
+      }
+    },
+    {
+      "no": 158,
+      "expression": "いただく",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "받다 (もらう의 겸양어)",
+      "connection": "(윗사람)に/から + 물건 + を + いただく",
+      "example": {
+        "sentence_ja": "{先輩|せんぱい}のお{母|かあ}さんから{手作|てづく}りのお{菓子|かし}をいただいた。",
+        "translation_ko": "선배 어머님께 손수 만든 과자를 받았다.",
+        "highlights": [
+          "いただいた"
+        ]
+      }
+    },
+    {
       "no": 159,
       "expression": "〜てさしあげる",
       "reading": null,
@@ -1432,6 +1477,52 @@
       }
     },
     {
+      "no": 260,
+      "expression": "〜に",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~에, ~에게, ~(하)러",
+      "connection": "명사 + に",
+      "example": {
+        "sentence_ja": "{毎週|まいしゅう}{土曜日|どようび}に{祖母|そぼ}に{電話|でんわ}をかけます。",
+        "translation_ko": "매주 토요일에 할머니께 전화를 겁니다.",
+        "highlights": [
+          "に",
+          "に"
+        ]
+      }
+    },
+    {
+      "no": 312,
+      "expression": "〜を",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~을/를",
+      "connection": "명사 + を",
+      "example": {
+        "sentence_ja": "{毎朝|まいあさ}{新聞|しんぶん}を{読|よ}みます。",
+        "translation_ko": "매일 아침 신문을 읽습니다.",
+        "highlights": [
+          "を"
+        ]
+      }
+    },
+    {
+      "no": 333,
+      "expression": "〜と",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~와/과, ~(이)라고",
+      "connection": "명사 + と / 인용문 + と",
+      "example": {
+        "sentence_ja": "{週末|しゅうまつ}は{姉|あね}と{買|か}い{物|もの}に{行|い}きました。",
+        "translation_ko": "주말에는 언니와 쇼핑하러 갔습니다.",
+        "highlights": [
+          "と"
+        ]
+      }
+    },
+    {
       "no": 354,
       "expression": "〜や",
       "reading": null,
@@ -1458,6 +1549,98 @@
         "translation_ko": "수업은 9시부터 시작합니다.",
         "highlights": [
           "から"
+        ]
+      }
+    },
+    {
+      "no": 363,
+      "expression": "〜は",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~은/는 (주제)",
+      "connection": "명사 + は",
+      "example": {
+        "sentence_ja": "{私|わたし}の{趣味|しゅみ}は{料理|りょうり}です。",
+        "translation_ko": "제 취미는 요리입니다.",
+        "highlights": [
+          "は"
+        ]
+      }
+    },
+    {
+      "no": 371,
+      "expression": "〜も",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~도",
+      "connection": "명사 + も",
+      "example": {
+        "sentence_ja": "{兄|あに}も{私|わたし}も{犬|いぬ}が{好|す}きです。",
+        "translation_ko": "형도 나도 개를 좋아합니다.",
+        "highlights": [
+          "も",
+          "も"
+        ]
+      }
+    },
+    {
+      "no": 374,
+      "expression": "〜か",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~(이)나, ~인지",
+      "connection": "명사 + か + 명사 / 의문사 + か",
+      "example": {
+        "sentence_ja": "コーヒーか{紅茶|こうちゃ}、どちらにしますか。",
+        "translation_ko": "커피나 홍차, 어느 걸로 할래요?",
+        "highlights": [
+          "か"
+        ]
+      }
+    },
+    {
+      "no": 375,
+      "expression": "〜まで",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~까지",
+      "connection": "명사 + まで",
+      "example": {
+        "sentence_ja": "{駅|えき}まで{歩|ある}いて{十分|じゅっぷん}です。",
+        "translation_ko": "역까지 걸어서 10분입니다.",
+        "highlights": [
+          "まで"
+        ]
+      }
+    },
+    {
+      "no": 379,
+      "expression": "とか",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~(라)든가, ~(이)라든지",
+      "connection": "명사 + とか + 명사 + とか",
+      "example": {
+        "sentence_ja": "{休|やす}みの{日|ひ}は{映画|えいが}とか{音楽|おんがく}とかを{楽|たの}しみます。",
+        "translation_ko": "쉬는 날에는 영화라든가 음악 같은 걸 즐깁니다.",
+        "highlights": [
+          "とか",
+          "とか"
+        ]
+      }
+    },
+    {
+      "no": 380,
+      "expression": "〜だけ",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~만, ~뿐",
+      "connection": "명사 + だけ",
+      "example": {
+        "sentence_ja": "{財布|さいふ}には{千円|せんえん}だけ{残|のこ}っている。",
+        "translation_ko": "지갑에는 천 엔만 남아 있다.",
+        "highlights": [
+          "だけ"
         ]
       }
     },
@@ -1518,6 +1701,21 @@
         "translation_ko": "이 가게는 비싸지만 아주 맛있다.",
         "highlights": [
           "が、"
+        ]
+      }
+    },
+    {
+      "no": 417,
+      "expression": "〜ながら",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)면서도 (역접)",
+      "connection": "동사 ます형 / 형용사 + ながら",
+      "example": {
+        "sentence_ja": "{彼|かれ}は{体|からだ}に{悪|わる}いと{知|し}りながら、たばこをやめない。",
+        "translation_ko": "그는 몸에 나쁜 줄 알면서도 담배를 끊지 않는다.",
+        "highlights": [
+          "知りながら"
         ]
       }
     },
@@ -1612,6 +1810,81 @@
       }
     },
     {
+      "no": 483,
+      "expression": "こと",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "것, 일",
+      "connection": "연체형 + こと",
+      "example": {
+        "sentence_ja": "{趣味|しゅみ}は{写真|しゃしん}を{撮|と}ることです。",
+        "translation_ko": "취미는 사진을 찍는 것입니다.",
+        "highlights": [
+          "こと"
+        ]
+      }
+    },
+    {
+      "no": 501,
+      "expression": "もの",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "것, 물건",
+      "connection": "연체형 + もの",
+      "example": {
+        "sentence_ja": "{何|なに}か{冷|つめ}たいものが{飲|の}みたい。",
+        "translation_ko": "뭔가 차가운 게 마시고 싶다.",
+        "highlights": [
+          "もの"
+        ]
+      }
+    },
+    {
+      "no": 507,
+      "expression": "ところ",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "곳, 점, 때, ~(하)려던 참",
+      "connection": "연체형 + ところ",
+      "example": {
+        "sentence_ja": "ちょうど{今|いま}、{家|いえ}を{出|で}るところです。",
+        "translation_ko": "마침 지금 집을 나서려던 참입니다.",
+        "highlights": [
+          "ところ"
+        ]
+      }
+    },
+    {
+      "no": 514,
+      "expression": "わけ",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "이유, 의미, 사정",
+      "connection": "연체형 + わけ",
+      "example": {
+        "sentence_ja": "{彼|かれ}が{怒|おこ}っているわけがやっと{分|わ}かった。",
+        "translation_ko": "그가 화난 이유를 이제야 알았다.",
+        "highlights": [
+          "わけ"
+        ]
+      }
+    },
+    {
+      "no": 519,
+      "expression": "はず",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "(당연히) ~할 것, ~할 터",
+      "connection": "연체형 + はず",
+      "example": {
+        "sentence_ja": "{荷物|にもつ}は{明日|あした}{届|とど}くはずです。",
+        "translation_ko": "짐은 내일 도착할 겁니다.",
+        "highlights": [
+          "はず"
+        ]
+      }
+    },
+    {
       "no": 533,
       "expression": "〜ごろ",
       "reading": null,
@@ -1638,6 +1911,36 @@
         "translation_ko": "아이들이 공원에서 놀고 있습니다.",
         "highlights": [
           "たち"
+        ]
+      }
+    },
+    {
+      "no": 576,
+      "expression": "〜あわせる(合わせる)",
+      "reading": null,
+      "category": "복합 동사",
+      "meaning_ko": "서로 ~(하)다, 때마침 ~(하)다",
+      "connection": "동사 ます형 + あわせる (合わせる)",
+      "example": {
+        "sentence_ja": "{二人|ふたり}は{顔|かお}を{見合|みあ}わせて{笑|わら}った。",
+        "translation_ko": "두 사람은 서로 얼굴을 마주 보며 웃었다.",
+        "highlights": [
+          "合わせて"
+        ]
+      }
+    },
+    {
+      "no": 578,
+      "expression": "〜かえす(返す)",
+      "reading": null,
+      "category": "복합 동사",
+      "meaning_ko": "다시 ~(하)다, 되~(하)다",
+      "connection": "동사 ます형 + かえす (返す)",
+      "example": {
+        "sentence_ja": "{書|か}いたレポートを{読|よ}み{返|かえ}して、{間違|まちが}いを{直|なお}した。",
+        "translation_ko": "쓴 리포트를 다시 읽고 틀린 곳을 고쳤다.",
+        "highlights": [
+          "返して"
         ]
       }
     }

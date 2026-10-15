@@ -1242,26 +1242,29 @@
  {
   "no": 156,
   "expression": "さしあげる",
-  "level": null,
+  "level": "N5",
   "book_chapter": "수급 표현의 경어 표현",
   "book_num": 1,
-  "book_page": 167
+  "book_page": 167,
+  "level_assigned": true
  },
  {
   "no": 157,
   "expression": "くださる",
-  "level": null,
+  "level": "N5",
   "book_chapter": "수급 표현의 경어 표현",
   "book_num": 2,
-  "book_page": 168
+  "book_page": 168,
+  "level_assigned": true
  },
  {
   "no": 158,
   "expression": "いただく",
-  "level": null,
+  "level": "N5",
   "book_chapter": "수급 표현의 경어 표현",
   "book_num": 3,
-  "book_page": 168
+  "book_page": 168,
+  "level_assigned": true
  },
  {
   "no": 159,
@@ -2074,10 +2077,11 @@
  {
   "no": 260,
   "expression": "〜に",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 に",
   "book_num": 1,
-  "book_page": 308
+  "book_page": 308,
+  "level_assigned": true
  },
  {
   "no": 261,
@@ -2490,10 +2494,11 @@
  {
   "no": 312,
   "expression": "〜を",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 を",
   "book_num": 1,
-  "book_page": 328
+  "book_page": 328,
+  "level_assigned": true
  },
  {
   "no": 313,
@@ -2658,10 +2663,11 @@
  {
   "no": 333,
   "expression": "〜と",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 と와 や",
   "book_num": 1,
-  "book_page": 336
+  "book_page": 336,
+  "level_assigned": true
  },
  {
   "no": 334,
@@ -2898,10 +2904,11 @@
  {
   "no": 363,
   "expression": "〜は",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 は",
   "book_num": 1,
-  "book_page": 355
+  "book_page": 355,
+  "level_assigned": true
  },
  {
   "no": 364,
@@ -2962,10 +2969,11 @@
  {
   "no": 371,
   "expression": "〜も",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 も",
   "book_num": 1,
-  "book_page": 359
+  "book_page": 359,
+  "level_assigned": true
  },
  {
   "no": 372,
@@ -2986,18 +2994,20 @@
  {
   "no": 374,
   "expression": "〜か",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 か",
   "book_num": 1,
-  "book_page": 361
+  "book_page": 361,
+  "level_assigned": true
  },
  {
   "no": 375,
   "expression": "〜まで",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 まで",
   "book_num": 1,
-  "book_page": 364
+  "book_page": 364,
+  "level_assigned": true
  },
  {
   "no": 376,
@@ -3026,18 +3036,20 @@
  {
   "no": 379,
   "expression": "とか",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 とか",
   "book_num": 1,
-  "book_page": 367
+  "book_page": 367,
+  "level_assigned": true
  },
  {
   "no": 380,
   "expression": "〜だけ",
-  "level": null,
+  "level": "N5",
   "book_chapter": "조사 だけ",
   "book_num": 1,
-  "book_page": 368
+  "book_page": 368,
+  "level_assigned": true
  },
  {
   "no": 381,
@@ -3330,10 +3342,11 @@
  {
   "no": 417,
   "expression": "〜ながら",
-  "level": null,
+  "level": "N5",
   "book_chapter": "접속조사",
   "book_num": 12,
-  "book_page": 397
+  "book_page": 397,
+  "level_assigned": true
  },
  {
   "no": 418,
@@ -3858,10 +3871,11 @@
  {
   "no": 483,
   "expression": "こと",
-  "level": null,
+  "level": "N5",
   "book_chapter": "こと",
   "book_num": 1,
-  "book_page": 428
+  "book_page": 428,
+  "level_assigned": true
  },
  {
   "no": 484,
@@ -4002,10 +4016,11 @@
  {
   "no": 501,
   "expression": "もの",
-  "level": null,
+  "level": "N5",
   "book_chapter": "もの",
   "book_num": 1,
-  "book_page": 435
+  "book_page": 435,
+  "level_assigned": true
  },
  {
   "no": 502,
@@ -4050,10 +4065,11 @@
  {
   "no": 507,
   "expression": "ところ",
-  "level": null,
+  "level": "N5",
   "book_chapter": "ところ",
   "book_num": 1,
-  "book_page": 439
+  "book_page": 439,
+  "level_assigned": true
  },
  {
   "no": 508,
@@ -4106,10 +4122,11 @@
  {
   "no": 514,
   "expression": "わけ",
-  "level": null,
+  "level": "N5",
   "book_chapter": "わけ",
   "book_num": 1,
-  "book_page": 442
+  "book_page": 442,
+  "level_assigned": true
  },
  {
   "no": 515,
@@ -4146,10 +4163,11 @@
  {
   "no": 519,
   "expression": "はず",
-  "level": null,
+  "level": "N5",
   "book_chapter": "はず",
   "book_num": 1,
-  "book_page": 444
+  "book_page": 444,
+  "level_assigned": true
  },
  {
   "no": 520,
@@ -4602,10 +4620,11 @@
  {
   "no": 576,
   "expression": "〜あわせる(合わせる)",
-  "level": null,
+  "level": "N5",
   "book_chapter": "복합 동사",
   "book_num": 6,
-  "book_page": 481
+  "book_page": 481,
+  "level_assigned": true
  },
  {
   "no": 577,
@@ -4618,10 +4637,11 @@
  {
   "no": 578,
   "expression": "〜かえす(返す)",
-  "level": null,
+  "level": "N5",
   "book_chapter": "복합 동사",
   "book_num": 8,
-  "book_page": 482
+  "book_page": 482,
+  "level_assigned": true
  },
  {
   "no": 579,
