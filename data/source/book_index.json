@@ -1085,7 +1085,8 @@
   "level": "N4",
   "book_chapter": "타동사 응용 표현",
   "book_num": 1,
-  "book_page": 148
+  "book_page": 148,
+  "excluded": "#92과 같은 표현"
  },
  {
   "no": 137,
@@ -1093,7 +1094,8 @@
   "level": "N4",
   "book_chapter": "타동사 응용 표현",
   "book_num": 2,
-  "book_page": 148
+  "book_page": 148,
+  "excluded": "#93과 같은 표현"
  },
  {
   "no": 138,
@@ -1304,7 +1306,8 @@
   "level": "N5",
   "book_chapter": "수수 표현의 응용 표현",
   "book_num": 2,
-  "book_page": 171
+  "book_page": 171,
+  "excluded": "#83과 같은 표현"
  },
  {
   "no": 164,
@@ -1312,7 +1315,8 @@
   "level": "N5",
   "book_chapter": "수수 표현의 응용 표현",
   "book_num": 3,
-  "book_page": 171
+  "book_page": 171,
+  "excluded": "#117과 같은 표현"
  },
  {
   "no": 165,
@@ -1488,7 +1492,8 @@
   "level": "N5",
   "book_chapter": "정중어",
   "book_num": 1,
-  "book_page": 231
+  "book_page": 231,
+  "excluded": "#65과 같은 표현"
  },
  {
   "no": 187,
@@ -1544,7 +1549,8 @@
   "level": "N2",
   "book_chapter": "겸양어",
   "book_num": 2,
-  "book_page": 239
+  "book_page": 239,
+  "excluded": "#166과 같은 표현"
  },
  {
   "no": 194,
@@ -1552,7 +1558,8 @@
   "level": "N5",
   "book_chapter": "조동사의 활용",
   "book_num": 1,
-  "book_page": 247
+  "book_page": 247,
+  "excluded": "뜻 없는 활용표 (앞 단원 카드와 중복)"
  },
  {
   "no": 195,
@@ -1560,7 +1567,8 @@
   "level": "N5",
   "book_chapter": "조동사의 활용",
   "book_num": 2,
-  "book_page": 248
+  "book_page": 248,
+  "excluded": "뜻 없는 활용표 (앞 단원 카드와 중복)"
  },
  {
   "no": 196,
@@ -1568,7 +1576,8 @@
   "level": "N5",
   "book_chapter": "조동사의 활용",
   "book_num": 3,
-  "book_page": 248
+  "book_page": 248,
+  "excluded": "뜻 없는 활용표 (앞 단원 카드와 중복)"
  },
  {
   "no": 197,
@@ -1576,7 +1585,8 @@
   "level": "N5",
   "book_chapter": "조동사의 활용",
   "book_num": 4,
-  "book_page": 249
+  "book_page": 249,
+  "excluded": "뜻 없는 활용표 (앞 단원 카드와 중복)"
  },
  {
   "no": 198,
@@ -1584,7 +1594,8 @@
   "level": "N5",
   "book_chapter": "조동사의 활용",
   "book_num": 5,
-  "book_page": 250
+  "book_page": 250,
+  "excluded": "뜻 없는 활용표 (앞 단원 카드와 중복)"
  },
  {
   "no": 199,
@@ -1592,7 +1603,8 @@
   "level": "N5",
   "book_chapter": "조동사의 활용",
   "book_num": 6,
-  "book_page": 250
+  "book_page": 250,
+  "excluded": "뜻 없는 활용표 (앞 단원 카드와 중복)"
  },
  {
   "no": 200,
@@ -1600,7 +1612,8 @@
   "level": "N4",
   "book_chapter": "조동사의 활용",
   "book_num": 7,
-  "book_page": 251
+  "book_page": 251,
+  "excluded": "#78과 같은 표현"
  },
  {
   "no": 201,
@@ -1752,7 +1765,8 @@
   "level": "N1",
   "book_chapter": "고어체 조동사의 응용 표현",
   "book_num": 9,
-  "book_page": 262
+  "book_page": 262,
+  "excluded": "#146과 같은 표현"
  },
  {
   "no": 220,
@@ -1760,7 +1774,8 @@
   "level": "N1",
   "book_chapter": "고어체 조동사의 응용 표현",
   "book_num": 10,
-  "book_page": 262
+  "book_page": 262,
+  "excluded": "#145과 같은 표현"
  },
  {
   "no": 221,
@@ -3321,7 +3336,8 @@
   "level": "N4",
   "book_chapter": "접속조사",
   "book_num": 9,
-  "book_page": 395
+  "book_page": 395,
+  "excluded": "#86과 같은 표현"
  },
  {
   "no": 415,
@@ -4003,7 +4019,8 @@
   "level": "N2",
   "book_chapter": "こと",
   "book_num": 17,
-  "book_page": 434
+  "book_page": 434,
+  "excluded": "#126과 같은 표현"
  },
  {
   "no": 500,
@@ -4011,7 +4028,8 @@
   "level": "N2",
   "book_chapter": "こと",
   "book_num": 18,
-  "book_page": 434
+  "book_page": 434,
+  "excluded": "#127과 같은 표현"
  },
  {
   "no": 501,
@@ -4199,7 +4217,8 @@
   "level": "N4",
   "book_chapter": "접두어",
   "book_num": 1,
-  "book_page": 448
+  "book_page": 448,
+  "excluded": "#187과 같은 표현"
  },
  {
   "no": 524,
@@ -4399,7 +4418,8 @@
   "level": "N3",
   "book_chapter": "접미어",
   "book_num": 16,
-  "book_page": 463
+  "book_page": 463,
+  "excluded": "#457과 같은 표현"
  },
  {
   "no": 549,
@@ -4431,7 +4451,8 @@
   "level": "N2",
   "book_chapter": "접미어",
   "book_num": 20,
-  "book_page": 465
+  "book_page": 465,
+  "excluded": "#469과 같은 표현"
  },
  {
   "no": 553,
@@ -4439,7 +4460,8 @@
   "level": "N2",
   "book_chapter": "접미어",
   "book_num": 21,
-  "book_page": 465
+  "book_page": 465,
+  "excluded": "#468과 같은 표현"
  },
  {
   "no": 554,
