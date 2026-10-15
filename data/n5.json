@@ -1844,11 +1844,11 @@
       "expression": "ところ",
       "reading": null,
       "category": "형식명사",
-      "meaning_ko": "곳, 점, 때, ~(하)려던 참",
+      "meaning_ko": "곳, 점, 때",
       "connection": "연체형 + ところ",
       "example": {
-        "sentence_ja": "ちょうど{今|いま}、{家|いえ}を{出|で}るところです。",
-        "translation_ko": "마침 지금 집을 나서려던 참입니다.",
+        "sentence_ja": "{将来|しょうらい}は{海|うみ}の{近|ちか}くの{静|しず}かなところに{住|す}みたい。",
+        "translation_ko": "나중에는 바다 근처 조용한 곳에 살고 싶다.",
         "highlights": [
           "ところ"
         ]
@@ -1941,6 +1941,96 @@
         "translation_ko": "쓴 리포트를 다시 읽고 틀린 곳을 고쳤다.",
         "highlights": [
           "返して"
+        ]
+      }
+    },
+    {
+      "no": 1001,
+      "expression": "명령형 (〜え / 〜ろ)",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(해)라 (명령형)",
+      "connection": "1그룹 え단 / 2그룹 어간 + ろ / 来る → 来い / する → しろ",
+      "example": {
+        "sentence_ja": "{危|あぶ}ない！{早|はや}く{逃|に}げろ！",
+        "translation_ko": "위험해! 빨리 도망쳐!",
+        "highlights": [
+          "逃げろ"
+        ]
+      }
+    },
+    {
+      "no": 1002,
+      "expression": "〜な (금지명령)",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(하)지 마 (금지)",
+      "connection": "동사 사전형 + な",
+      "example": {
+        "sentence_ja": "ここでたばこを{吸|す}うな。",
+        "translation_ko": "여기서 담배 피우지 마.",
+        "highlights": [
+          "吸うな"
+        ]
+      }
+    },
+    {
+      "no": 1008,
+      "expression": "〜へ",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~(으)로, ~에 (방향)",
+      "connection": "장소 + へ",
+      "example": {
+        "sentence_ja": "{来週|らいしゅう}、{家族|かぞく}と{北海道|ほっかいどう}へ{行|い}きます。",
+        "translation_ko": "다음 주에 가족과 홋카이도에 갑니다.",
+        "highlights": [
+          "へ"
+        ]
+      }
+    },
+    {
+      "no": 1009,
+      "expression": "〜より",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~보다 (비교), ~부터·~에서 (기점)",
+      "connection": "명사 + より",
+      "example": {
+        "sentence_ja": "{今年|ことし}の{夏|なつ}は{去年|きょねん}より{暑|あつ}い。",
+        "translation_ko": "올여름은 작년보다 덥다.",
+        "highlights": [
+          "より"
+        ]
+      }
+    },
+    {
+      "no": 1010,
+      "expression": "〜など",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~등, ~같은 것",
+      "connection": "명사 + など",
+      "example": {
+        "sentence_ja": "{冷蔵庫|れいぞうこ}に{牛乳|ぎゅうにゅう}やジュースなどが{入|はい}っています。",
+        "translation_ko": "냉장고에 우유랑 주스 등이 들어 있습니다.",
+        "highlights": [
+          "など"
+        ]
+      }
+    },
+    {
+      "no": 1011,
+      "expression": "〜くらい・〜ぐらい",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~정도, ~쯤",
+      "connection": "수량·명사·보통형 + くらい / ぐらい",
+      "example": {
+        "sentence_ja": "{家|いえ}から{学校|がっこう}まで{自転車|じてんしゃ}で{十分|じゅっぷん}ぐらいです。",
+        "translation_ko": "집에서 학교까지 자전거로 10분 정도입니다.",
+        "highlights": [
+          "ぐらい"
         ]
       }
     }

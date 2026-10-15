@@ -1,5 +1,1721 @@
 {
   "version": 1,
   "level": "N4",
-  "grammar": []
+  "grammar": [
+    {
+      "no": 73,
+      "expression": "〜はじめる",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(하)기 시작하다",
+      "connection": "동사 ます형 + はじめる",
+      "example": {
+        "sentence_ja": "{去年|きょねん}からギターを{習|なら}いはじめました。",
+        "translation_ko": "작년부터 기타를 배우기 시작했습니다.",
+        "highlights": [
+          "習いはじめました"
+        ]
+      }
+    },
+    {
+      "no": 74,
+      "expression": "〜つづける",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "계속 ~(하)다",
+      "connection": "동사 ます형 + つづける",
+      "example": {
+        "sentence_ja": "{彼|かれ}は{三時間|さんじかん}も{走|はし}りつづけた。",
+        "translation_ko": "그는 세 시간이나 계속 달렸다.",
+        "highlights": [
+          "走りつづけた"
+        ]
+      }
+    },
+    {
+      "no": 75,
+      "expression": "〜おわる",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "다 ~(하)다, ~(하)기를 마치다",
+      "connection": "동사 ます형 + おわる",
+      "example": {
+        "sentence_ja": "この{本|ほん}、もう{読|よ}みおわりましたか。",
+        "translation_ko": "이 책, 벌써 다 읽었어요?",
+        "highlights": [
+          "読みおわりました"
+        ]
+      }
+    },
+    {
+      "no": 76,
+      "expression": "〜だす",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "(갑자기) ~(하)기 시작하다",
+      "connection": "동사 ます형 + だす",
+      "example": {
+        "sentence_ja": "{急|きゅう}に{雨|あめ}が{降|ふ}りだした。",
+        "translation_ko": "갑자기 비가 내리기 시작했다.",
+        "highlights": [
+          "降りだした"
+        ]
+      }
+    },
+    {
+      "no": 77,
+      "expression": "〜すぎる",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "너무 ~(하)다",
+      "connection": "동사 ます형 / 형용사 어간 + すぎる",
+      "example": {
+        "sentence_ja": "{昨日|きのう}は{飲|の}みすぎて、{今|いま}も{頭|あたま}が{痛|いた}い。",
+        "translation_ko": "어제 너무 마셔서 지금도 머리가 아프다.",
+        "highlights": [
+          "飲みすぎて"
+        ]
+      }
+    },
+    {
+      "no": 78,
+      "expression": "〜たがる",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "(제3자가) ~(하)고 싶어 하다",
+      "connection": "동사 ます형 + たがる",
+      "example": {
+        "sentence_ja": "{子|こ}どもが{外|そと}で{遊|あそ}びたがっている。",
+        "translation_ko": "아이가 밖에서 놀고 싶어 한다.",
+        "highlights": [
+          "遊びたがっている"
+        ]
+      }
+    },
+    {
+      "no": 80,
+      "expression": "〜やすい",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(하)기 쉽다, ~(하)기 편하다",
+      "connection": "동사 ます형 + やすい",
+      "example": {
+        "sentence_ja": "このペンは{軽|かる}くて{書|か}きやすい。",
+        "translation_ko": "이 펜은 가벼워서 쓰기 편하다.",
+        "highlights": [
+          "書きやすい"
+        ]
+      }
+    },
+    {
+      "no": 81,
+      "expression": "〜にくい",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(하)기 어렵다",
+      "connection": "동사 ます형 + にくい",
+      "example": {
+        "sentence_ja": "{先生|せんせい}の{字|じ}は{小|ちい}さくて{読|よ}みにくい。",
+        "translation_ko": "선생님 글씨는 작아서 읽기 어렵다.",
+        "highlights": [
+          "読みにくい"
+        ]
+      }
+    },
+    {
+      "no": 86,
+      "expression": "〜ても",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해)도",
+      "connection": "동사 て형 + も",
+      "example": {
+        "sentence_ja": "いくら{練習|れんしゅう}しても{上手|じょうず}にならない。",
+        "translation_ko": "아무리 연습해도 늘지 않는다.",
+        "highlights": [
+          "しても"
+        ]
+      }
+    },
+    {
+      "no": 87,
+      "expression": "〜てもいい",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해)도 된다 (허가)",
+      "connection": "동사 て형 + もいい",
+      "example": {
+        "sentence_ja": "この{部屋|へや}のパソコンを{使|つか}ってもいいですか。",
+        "translation_ko": "이 방 컴퓨터를 써도 됩니까?",
+        "highlights": [
+          "使ってもいい"
+        ]
+      }
+    },
+    {
+      "no": 88,
+      "expression": "〜てもかまわない",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해)도 상관없다",
+      "connection": "동사 て형 + もかまわない",
+      "example": {
+        "sentence_ja": "{返事|へんじ}は{明日|あした}になってもかまわない。",
+        "translation_ko": "답장은 내일이 되어도 상관없다.",
+        "highlights": [
+          "なってもかまわない"
+        ]
+      }
+    },
+    {
+      "no": 89,
+      "expression": "〜てはいけない",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해)서는 안 된다",
+      "connection": "동사 て형 + はいけない",
+      "example": {
+        "sentence_ja": "{授業中|じゅぎょうちゅう}にスマホを{使|つか}ってはいけない。",
+        "translation_ko": "수업 중에 스마트폰을 쓰면 안 된다.",
+        "highlights": [
+          "使ってはいけない"
+        ]
+      }
+    },
+    {
+      "no": 90,
+      "expression": "〜てはならない",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해)서는 안 된다 (규칙·당위)",
+      "connection": "동사 て형 + はならない",
+      "example": {
+        "sentence_ja": "{人|ひと}の{秘密|ひみつ}を{他|ほか}の{人|ひと}に{話|はな}してはならない。",
+        "translation_ko": "남의 비밀을 다른 사람에게 말해서는 안 된다.",
+        "highlights": [
+          "話してはならない"
+        ]
+      }
+    },
+    {
+      "no": 92,
+      "expression": "〜てある",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해)져 있다 (누군가 해 둔 결과)",
+      "connection": "타동사 て형 + ある",
+      "example": {
+        "sentence_ja": "{壁|かべ}に{新|あたら}しいカレンダーが{掛|か}けてある。",
+        "translation_ko": "벽에 새 달력이 걸려 있다.",
+        "highlights": [
+          "掛けてある"
+        ]
+      }
+    },
+    {
+      "no": 93,
+      "expression": "〜ておく",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해) 두다, 미리 ~(하)다",
+      "connection": "동사 て형 + おく",
+      "example": {
+        "sentence_ja": "{会議|かいぎ}の{前|まえ}に{資料|しりょう}をコピーしておきます。",
+        "translation_ko": "회의 전에 자료를 복사해 두겠습니다.",
+        "highlights": [
+          "しておきます"
+        ]
+      }
+    },
+    {
+      "no": 94,
+      "expression": "〜てみる",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해) 보다",
+      "connection": "동사 て형 + みる",
+      "example": {
+        "sentence_ja": "この{服|ふく}、{着|き}てみてもいいですか。",
+        "translation_ko": "이 옷 입어 봐도 돼요?",
+        "highlights": [
+          "着てみて"
+        ]
+      }
+    },
+    {
+      "no": 95,
+      "expression": "〜てしまう",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해) 버리다, 다 ~(하)다",
+      "connection": "동사 て형 + しまう",
+      "example": {
+        "sentence_ja": "{電車|でんしゃ}に{傘|かさ}を{忘|わす}れてしまった。",
+        "translation_ko": "전철에 우산을 두고 내려 버렸다.",
+        "highlights": [
+          "忘れてしまった"
+        ]
+      }
+    },
+    {
+      "no": 96,
+      "expression": "〜てくる",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해) 오다, ~(해)지기 시작하다",
+      "connection": "동사 て형 + くる",
+      "example": {
+        "sentence_ja": "{十月|じゅうがつ}に{入|はい}って、{少|すこ}しずつ{寒|さむ}くなってきた。",
+        "translation_ko": "10월에 들어서 조금씩 추워지기 시작했다.",
+        "highlights": [
+          "なってきた"
+        ]
+      }
+    },
+    {
+      "no": 97,
+      "expression": "〜ていく",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해) 가다, 앞으로 ~(해) 나가다",
+      "connection": "동사 て형 + いく",
+      "example": {
+        "sentence_ja": "これからも{日本語|にほんご}の{勉強|べんきょう}を{続|つづ}けていきたい。",
+        "translation_ko": "앞으로도 일본어 공부를 계속해 나가고 싶다.",
+        "highlights": [
+          "続けていきたい"
+        ]
+      }
+    },
+    {
+      "no": 108,
+      "expression": "〜た方がいい",
+      "reading": "たほうがいい",
+      "category": "동사 た형",
+      "meaning_ko": "~(하)는 편이 좋다 (조언)",
+      "connection": "동사 た형 + 方がいい",
+      "example": {
+        "sentence_ja": "{熱|ねつ}があるなら、{早|はや}く{寝|ね}た{方|ほう}がいいよ。",
+        "translation_ko": "열이 있으면 빨리 자는 게 좋아.",
+        "highlights": [
+          "寝た方がいい"
+        ]
+      }
+    },
+    {
+      "no": 118,
+      "expression": "〜なくて",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않아서",
+      "connection": "동사 ない형 + なくて",
+      "example": {
+        "sentence_ja": "{宿題|しゅくだい}が{終|お}わらなくて、{寝|ね}られなかった。",
+        "translation_ko": "숙제가 끝나지 않아서 잘 수 없었다.",
+        "highlights": [
+          "終わらなくて"
+        ]
+      }
+    },
+    {
+      "no": 119,
+      "expression": "〜ない方がいい",
+      "reading": "ないほうがいい",
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않는 편이 좋다",
+      "connection": "동사 ない형 + ない方がいい",
+      "example": {
+        "sentence_ja": "{夜遅|よるおそ}くにコーヒーは{飲|の}まない{方|ほう}がいい。",
+        "translation_ko": "밤늦게 커피는 마시지 않는 게 좋다.",
+        "highlights": [
+          "飲まない方がいい"
+        ]
+      }
+    },
+    {
+      "no": 120,
+      "expression": "〜ず(に)",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않고",
+      "connection": "동사 ない형 + ず(に) (する → せず)",
+      "example": {
+        "sentence_ja": "{彼|かれ}は{何|なに}も{言|い}わずに{帰|かえ}ってしまった。",
+        "translation_ko": "그는 아무 말도 하지 않고 돌아가 버렸다.",
+        "highlights": [
+          "言わずに"
+        ]
+      }
+    },
+    {
+      "no": 121,
+      "expression": "〜なければならない",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(해)야 한다",
+      "connection": "동사 ない형 + なければならない",
+      "example": {
+        "sentence_ja": "{明日|あした}までにレポートを{出|だ}さなければならない。",
+        "translation_ko": "내일까지 리포트를 내야 한다.",
+        "highlights": [
+          "出さなければならない"
+        ]
+      }
+    },
+    {
+      "no": 122,
+      "expression": "〜なくてはいけない",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(해)야 한다",
+      "connection": "동사 ない형 + なくてはいけない",
+      "example": {
+        "sentence_ja": "この{薬|くすり}は{一日|いちにち}{三回|さんかい}{飲|の}まなくてはいけません。",
+        "translation_ko": "이 약은 하루 세 번 먹어야 합니다.",
+        "highlights": [
+          "飲まなくてはいけません"
+        ]
+      }
+    },
+    {
+      "no": 123,
+      "expression": "〜なくてもいい",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않아도 된다",
+      "connection": "동사 ない형 + なくてもいい",
+      "example": {
+        "sentence_ja": "{明日|あした}は{休|やす}みだから、{早|はや}く{起|お}きなくてもいい。",
+        "translation_ko": "내일은 쉬는 날이니까 일찍 안 일어나도 된다.",
+        "highlights": [
+          "起きなくてもいい"
+        ]
+      }
+    },
+    {
+      "no": 124,
+      "expression": "〜なくてもかまわない",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않아도 상관없다",
+      "connection": "동사 ない형 + なくてもかまわない",
+      "example": {
+        "sentence_ja": "{無理|むり}なら{全部|ぜんぶ}{食|た}べなくてもかまいません。",
+        "translation_ko": "무리라면 다 먹지 않아도 괜찮습니다.",
+        "highlights": [
+          "食べなくてもかまいません"
+        ]
+      }
+    },
+    {
+      "no": 138,
+      "expression": "〜(よ)うと思う",
+      "reading": null,
+      "category": "의지형",
+      "meaning_ko": "~(하)려고 생각하다",
+      "connection": "동사 의지형 + と思う",
+      "example": {
+        "sentence_ja": "{週末|しゅうまつ}は{部屋|へや}を{片付|かたづ}けようと{思|おも}う。",
+        "translation_ko": "주말에는 방을 정리하려고 한다.",
+        "highlights": [
+          "片付けようと思う"
+        ]
+      }
+    },
+    {
+      "no": 139,
+      "expression": "〜(よ)うと思っている",
+      "reading": null,
+      "category": "의지형",
+      "meaning_ko": "~(하)려고 (전부터) 생각하고 있다",
+      "connection": "동사 의지형 + と思っている",
+      "example": {
+        "sentence_ja": "{来年|らいねん}、{車|くるま}を{買|か}おうと{思|おも}っています。",
+        "translation_ko": "내년에 차를 사려고 생각하고 있습니다.",
+        "highlights": [
+          "買おうと思っています"
+        ]
+      }
+    },
+    {
+      "no": 140,
+      "expression": "〜(よ)うとする",
+      "reading": null,
+      "category": "의지형",
+      "meaning_ko": "~(하)려고 하다 (막 하려는 순간)",
+      "connection": "동사 의지형 + とする",
+      "example": {
+        "sentence_ja": "{家|いえ}を{出|で}ようとしたとき、{電話|でんわ}が{鳴|な}った。",
+        "translation_ko": "집을 나서려고 할 때 전화가 울렸다.",
+        "highlights": [
+          "出ようとした"
+        ]
+      }
+    },
+    {
+      "no": 141,
+      "expression": "〜(よ)うか",
+      "reading": null,
+      "category": "의지형",
+      "meaning_ko": "~(할)까? (제안·망설임)",
+      "connection": "동사 의지형 + か",
+      "example": {
+        "sentence_ja": "{疲|つか}れたね。ちょっと{休|やす}もうか。",
+        "translation_ko": "피곤하다. 좀 쉴까?",
+        "highlights": [
+          "休もうか"
+        ]
+      }
+    },
+    {
+      "no": 149,
+      "expression": "〜なさい",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(하)렴, ~(하)세요 (부드러운 명령)",
+      "connection": "동사 ます형 + なさい",
+      "example": {
+        "sentence_ja": "ご{飯|はん}の{前|まえ}に{手|て}を{洗|あら}いなさい。",
+        "translation_ko": "밥 먹기 전에 손 씻으렴.",
+        "highlights": [
+          "洗いなさい"
+        ]
+      }
+    },
+    {
+      "no": 165,
+      "expression": "〜させてください",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "~(하)게 해 주세요",
+      "connection": "동사 사역형 て형 + ください",
+      "example": {
+        "sentence_ja": "その{仕事|しごと}、{私|わたし}にやらせてください。",
+        "translation_ko": "그 일, 제가 하게 해 주세요.",
+        "highlights": [
+          "やらせてください"
+        ]
+      }
+    },
+    {
+      "no": 172,
+      "expression": "〜たらどうですか",
+      "reading": null,
+      "category": "조건",
+      "meaning_ko": "~(하)는 게 어때요? (제안)",
+      "connection": "동사 た형 + らどうですか",
+      "example": {
+        "sentence_ja": "{一度|いちど}{病院|びょういん}に{行|い}ったらどうですか。",
+        "translation_ko": "한번 병원에 가 보는 게 어때요?",
+        "highlights": [
+          "行ったらどうですか"
+        ]
+      }
+    },
+    {
+      "no": 175,
+      "expression": "〜ことができる",
+      "reading": null,
+      "category": "가능",
+      "meaning_ko": "~(할) 수 있다",
+      "connection": "동사 사전형 + ことができる",
+      "example": {
+        "sentence_ja": "ここからは{富士山|ふじさん}を{見|み}ることができます。",
+        "translation_ko": "여기서는 후지산을 볼 수 있습니다.",
+        "highlights": [
+          "見ることができます"
+        ]
+      }
+    },
+    {
+      "no": 176,
+      "expression": "가능형 + ようになる",
+      "reading": null,
+      "category": "가능",
+      "meaning_ko": "~(할) 수 있게 되다",
+      "connection": "동사 가능형 + ようになる",
+      "example": {
+        "sentence_ja": "{毎日|まいにち}{練習|れんしゅう}して、{泳|およ}げるようになった。",
+        "translation_ko": "매일 연습해서 수영할 수 있게 되었다.",
+        "highlights": [
+          "泳げるようになった"
+        ]
+      }
+    },
+    {
+      "no": 179,
+      "expression": "〜ようになる",
+      "reading": null,
+      "category": "변화",
+      "meaning_ko": "~(하)게 되다 (습관·상태 변화)",
+      "connection": "동사 사전형 / ない형 + ようになる",
+      "example": {
+        "sentence_ja": "{一人暮|ひとりぐ}らしを{始|はじ}めてから、{料理|りょうり}をするようになった。",
+        "translation_ko": "혼자 살기 시작하고 나서 요리를 하게 되었다.",
+        "highlights": [
+          "するようになった"
+        ]
+      }
+    },
+    {
+      "no": 180,
+      "expression": "〜ようにする",
+      "reading": null,
+      "category": "변화",
+      "meaning_ko": "~(하)도록 하다 (노력)",
+      "connection": "동사 사전형 / ない형 + ようにする",
+      "example": {
+        "sentence_ja": "{毎日|まいにち}{野菜|やさい}を{食|た}べるようにしています。",
+        "translation_ko": "매일 채소를 먹도록 하고 있습니다.",
+        "highlights": [
+          "食べるようにしています"
+        ]
+      }
+    },
+    {
+      "no": 181,
+      "expression": "〜だろう",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~(이)겠지, ~(할) 것이다",
+      "connection": "보통형 (な형·명사는 だ 없이) + だろう",
+      "example": {
+        "sentence_ja": "{明日|あした}はたぶん{晴|は}れるだろう。",
+        "translation_ko": "내일은 아마 맑겠지.",
+        "highlights": [
+          "晴れるだろう"
+        ]
+      }
+    },
+    {
+      "no": 182,
+      "expression": "〜でしょう",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~(이)겠지요, ~(할) 것입니다",
+      "connection": "보통형 (な형·명사는 だ 없이) + でしょう",
+      "example": {
+        "sentence_ja": "{午後|ごご}からは{雪|ゆき}が{降|ふ}るでしょう。",
+        "translation_ko": "오후부터는 눈이 내리겠습니다.",
+        "highlights": [
+          "降るでしょう"
+        ]
+      }
+    },
+    {
+      "no": 183,
+      "expression": "〜だろうと思う",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~(할) 거라고 생각하다",
+      "connection": "보통형 + だろうと思う",
+      "example": {
+        "sentence_ja": "{彼|かれ}はきっと{来|こ}ないだろうと{思|おも}う。",
+        "translation_ko": "그는 분명 안 올 거라고 생각한다.",
+        "highlights": [
+          "来ないだろうと思う"
+        ]
+      }
+    },
+    {
+      "no": 184,
+      "expression": "〜かもしれない",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~(할)지도 모른다",
+      "connection": "보통형 (な형·명사는 だ 없이) + かもしれない",
+      "example": {
+        "sentence_ja": "{空|そら}が{暗|くら}いから、{雨|あめ}が{降|ふ}るかもしれない。",
+        "translation_ko": "하늘이 어두우니까 비가 올지도 모른다.",
+        "highlights": [
+          "降るかもしれない"
+        ]
+      }
+    },
+    {
+      "no": 185,
+      "expression": "〜みたいだ",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~인 것 같다, ~ 같다 (회화체)",
+      "connection": "보통형 (な형·명사는 だ 없이) + みたいだ",
+      "example": {
+        "sentence_ja": "{山田|やまだ}さん、{風邪|かぜ}をひいたみたいだね。",
+        "translation_ko": "야마다 씨, 감기에 걸린 것 같네.",
+        "highlights": [
+          "ひいたみたいだ"
+        ]
+      }
+    },
+    {
+      "no": 189,
+      "expression": "お+동사 ます형+になる / ご+한자어+になる",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "~(하)시다 (존경)",
+      "connection": "お + 동사 ます형 + になる / ご + 한자어 + になる",
+      "example": {
+        "sentence_ja": "{社長|しゃちょう}はもうお{帰|かえ}りになりました。",
+        "translation_ko": "사장님은 벌써 돌아가셨습니다.",
+        "highlights": [
+          "お",
+          "になりました"
+        ]
+      }
+    },
+    {
+      "no": 190,
+      "expression": "〜(ら)れる",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "~(하)시다 (존경)",
+      "connection": "동사 수동형과 같은 꼴: 〜(ら)れる",
+      "example": {
+        "sentence_ja": "{先生|せんせい}は{何時|なんじ}に{来|こ}られますか。",
+        "translation_ko": "선생님은 몇 시에 오십니까?",
+        "highlights": [
+          "来られますか"
+        ]
+      }
+    },
+    {
+      "no": 191,
+      "expression": "お+동사 ます형+ください / ご+한자어+ください",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "~(해) 주십시오 (정중한 요청)",
+      "connection": "お + 동사 ます형 + ください / ご + 한자어 + ください",
+      "example": {
+        "sentence_ja": "こちらで{少々|しょうしょう}お{待|ま}ちください。",
+        "translation_ko": "이쪽에서 잠시만 기다려 주십시오.",
+        "highlights": [
+          "お",
+          "ください"
+        ]
+      }
+    },
+    {
+      "no": 192,
+      "expression": "お+동사 ます형+する / ご+한자어+する",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "~(해) 드리다 (겸양)",
+      "connection": "お + 동사 ます형 + する / ご + 한자어 + する",
+      "example": {
+        "sentence_ja": "{荷物|にもつ}、お{持|も}ちしましょうか。",
+        "translation_ko": "짐 들어 드릴까요?",
+        "highlights": [
+          "お",
+          "しましょうか"
+        ]
+      }
+    },
+    {
+      "no": 201,
+      "expression": "〜そうだ (양태)",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~(해) 보이다, 곧 ~(할) 것 같다 (겉모습)",
+      "connection": "동사 ます형 / 형용사 어간 + そうだ",
+      "example": {
+        "sentence_ja": "このケーキ、とてもおいしそうだね。",
+        "translation_ko": "이 케이크 정말 맛있어 보이네.",
+        "highlights": [
+          "おいしそうだ"
+        ]
+      }
+    },
+    {
+      "no": 202,
+      "expression": "〜そうだ (전문)",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~(한)다고 한다 (전해 들음)",
+      "connection": "보통형 + そうだ",
+      "example": {
+        "sentence_ja": "{天気予報|てんきよほう}によると、{明日|あした}は{雨|あめ}が{降|ふ}るそうだ。",
+        "translation_ko": "일기예보에 따르면 내일은 비가 온다고 한다.",
+        "highlights": [
+          "降るそうだ"
+        ]
+      }
+    },
+    {
+      "no": 203,
+      "expression": "〜ようだ",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~인 것 같다 (근거 있는 추측), ~처럼",
+      "connection": "보통형 (な형 + な / 명사 + の) + ようだ",
+      "example": {
+        "sentence_ja": "{電気|でんき}が{消|き}えている。{誰|だれ}もいないようだ。",
+        "translation_ko": "불이 꺼져 있다. 아무도 없는 것 같다.",
+        "highlights": [
+          "いないようだ"
+        ]
+      }
+    },
+    {
+      "no": 204,
+      "expression": "〜らしい",
+      "reading": null,
+      "category": "추측",
+      "meaning_ko": "~(라)는 것 같다 (들은 정보로 추측)",
+      "connection": "보통형 (な형·명사는 だ 없이) + らしい",
+      "example": {
+        "sentence_ja": "{噂|うわさ}では、あの{店|みせ}は{来月|らいげつ}{閉店|へいてん}するらしい。",
+        "translation_ko": "소문으로는 저 가게가 다음 달에 문을 닫는다는 것 같다.",
+        "highlights": [
+          "閉店するらしい"
+        ]
+      }
+    },
+    {
+      "no": 205,
+      "expression": "〜(さ)せる",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(하)게 하다, ~시키다 (사역)",
+      "connection": "1그룹 ない형 + せる / 2그룹 어간 + させる / する → させる",
+      "example": {
+        "sentence_ja": "{母|はは}は{弟|おとうと}に{野菜|やさい}を{食|た}べさせた。",
+        "translation_ko": "엄마는 남동생에게 채소를 먹게 했다.",
+        "highlights": [
+          "食べさせた"
+        ]
+      }
+    },
+    {
+      "no": 206,
+      "expression": "〜(ら)れる",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(되)다, ~(당하)다 (수동)",
+      "connection": "1그룹 ない형 + れる / 2그룹 어간 + られる / する → される",
+      "example": {
+        "sentence_ja": "{満員電車|まんいんでんしゃ}で{足|あし}を{踏|ふ}まれた。",
+        "translation_ko": "만원 전철에서 발을 밟혔다.",
+        "highlights": [
+          "踏まれた"
+        ]
+      }
+    },
+    {
+      "no": 207,
+      "expression": "〜(よ)う",
+      "reading": null,
+      "category": "의지형",
+      "meaning_ko": "~(하)자, ~(해)야지 (의지·권유)",
+      "connection": "1그룹 お단 + う / 2그룹 어간 + よう",
+      "example": {
+        "sentence_ja": "もう{遅|おそ}いから、そろそろ{帰|かえ}ろう。",
+        "translation_ko": "이제 늦었으니까 슬슬 돌아가자.",
+        "highlights": [
+          "帰ろう"
+        ]
+      }
+    },
+    {
+      "no": 221,
+      "expression": "だから",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "그러니까, 그래서",
+      "connection": "문장。だから、문장",
+      "example": {
+        "sentence_ja": "{雨|あめ}が{降|ふ}っている。だから、{今日|きょう}は{家|いえ}にいる。",
+        "translation_ko": "비가 오고 있다. 그래서 오늘은 집에 있는다.",
+        "highlights": [
+          "だから"
+        ]
+      }
+    },
+    {
+      "no": 224,
+      "expression": "それで",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "그래서 (원인 → 결과)",
+      "connection": "문장。それで、문장",
+      "example": {
+        "sentence_ja": "{寝坊|ねぼう}しました。それで、{会議|かいぎ}に{遅|おく}れました。",
+        "translation_ko": "늦잠을 잤습니다. 그래서 회의에 늦었습니다.",
+        "highlights": [
+          "それで"
+        ]
+      }
+    },
+    {
+      "no": 227,
+      "expression": "すると",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "그러자, 그랬더니",
+      "connection": "문장。すると、문장",
+      "example": {
+        "sentence_ja": "ボタンを{押|お}した。すると、{音楽|おんがく}が{流|なが}れてきた。",
+        "translation_ko": "버튼을 눌렀다. 그러자 음악이 흘러나왔다.",
+        "highlights": [
+          "すると"
+        ]
+      }
+    },
+    {
+      "no": 228,
+      "expression": "しかし",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "그러나, 하지만",
+      "connection": "문장。しかし、문장",
+      "example": {
+        "sentence_ja": "{一生懸命|いっしょうけんめい}{勉強|べんきょう}した。しかし、{試験|しけん}に{落|お}ちた。",
+        "translation_ko": "열심히 공부했다. 하지만 시험에 떨어졌다.",
+        "highlights": [
+          "しかし"
+        ]
+      }
+    },
+    {
+      "no": 229,
+      "expression": "けれども",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "하지만, 그렇지만",
+      "connection": "문장。けれども、문장",
+      "example": {
+        "sentence_ja": "{値段|ねだん}は{高|たか}い。けれども、{品質|ひんしつ}はとてもいい。",
+        "translation_ko": "가격은 비싸다. 하지만 품질은 아주 좋다.",
+        "highlights": [
+          "けれども"
+        ]
+      }
+    },
+    {
+      "no": 235,
+      "expression": "それに",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "게다가",
+      "connection": "문장。それに、문장",
+      "example": {
+        "sentence_ja": "この{部屋|へや}は{広|ひろ}い。それに、{駅|えき}からも{近|ちか}い。",
+        "translation_ko": "이 방은 넓다. 게다가 역에서도 가깝다.",
+        "highlights": [
+          "それに"
+        ]
+      }
+    },
+    {
+      "no": 238,
+      "expression": "そして",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "그리고",
+      "connection": "문장。そして、문장",
+      "example": {
+        "sentence_ja": "{京都|きょうと}へ{行|い}きました。そして、{古|ふる}いお{寺|てら}を{見|み}ました。",
+        "translation_ko": "교토에 갔습니다. 그리고 오래된 절을 봤습니다.",
+        "highlights": [
+          "そして"
+        ]
+      }
+    },
+    {
+      "no": 239,
+      "expression": "それから",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "그러고 나서, 그다음에",
+      "connection": "문장。それから、문장",
+      "example": {
+        "sentence_ja": "{宿題|しゅくだい}をしました。それから、テレビを{見|み}ました。",
+        "translation_ko": "숙제를 했습니다. 그러고 나서 TV를 봤습니다.",
+        "highlights": [
+          "それから"
+        ]
+      }
+    },
+    {
+      "no": 252,
+      "expression": "それでは",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "그럼, 그러면 (화제 전환)",
+      "connection": "それでは、문장",
+      "example": {
+        "sentence_ja": "それでは、{会議|かいぎ}を{始|はじ}めます。",
+        "translation_ko": "그럼 회의를 시작하겠습니다.",
+        "highlights": [
+          "それでは"
+        ]
+      }
+    },
+    {
+      "no": 255,
+      "expression": "または",
+      "reading": null,
+      "category": "접속사",
+      "meaning_ko": "또는, 혹은",
+      "connection": "명사 + または + 명사",
+      "example": {
+        "sentence_ja": "お{申|もう}し{込|こ}みは{電話|でんわ}またはメールでお{願|ねが}いします。",
+        "translation_ko": "신청은 전화 또는 메일로 부탁드립니다.",
+        "highlights": [
+          "または"
+        ]
+      }
+    },
+    {
+      "no": 261,
+      "expression": "〜によると",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~에 의하면, ~에 따르면",
+      "connection": "명사 + によると",
+      "example": {
+        "sentence_ja": "ニュースによると、{犯人|はんにん}はまだ{捕|つか}まっていないそうです。",
+        "translation_ko": "뉴스에 따르면 범인은 아직 잡히지 않았다고 합니다.",
+        "highlights": [
+          "によると"
+        ]
+      }
+    },
+    {
+      "no": 334,
+      "expression": "〜という",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~(이)라는, ~(이)라고 하는",
+      "connection": "명사 + という + 명사",
+      "example": {
+        "sentence_ja": "「さくら」という{名前|なまえ}の{店|みせ}を{知|し}っていますか。",
+        "translation_ko": "'사쿠라'라는 이름의 가게를 아세요?",
+        "highlights": [
+          "という"
+        ]
+      }
+    },
+    {
+      "no": 376,
+      "expression": "〜までに",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~까지 (기한)",
+      "connection": "명사 / 동사 사전형 + までに",
+      "example": {
+        "sentence_ja": "{金曜日|きんようび}までにこの{本|ほん}を{返|かえ}してください。",
+        "translation_ko": "금요일까지 이 책을 돌려주세요.",
+        "highlights": [
+          "までに"
+        ]
+      }
+    },
+    {
+      "no": 384,
+      "expression": "〜しか",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~밖에 (+ 부정)",
+      "connection": "명사 + しか + 부정",
+      "example": {
+        "sentence_ja": "{冷蔵庫|れいぞうこ}には{卵|たまご}しかない。",
+        "translation_ko": "냉장고에는 달걀밖에 없다.",
+        "highlights": [
+          "しか"
+        ]
+      }
+    },
+    {
+      "no": 387,
+      "expression": "〜ばかり",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~만, ~뿐 (그것만 잔뜩)",
+      "connection": "명사 + ばかり",
+      "example": {
+        "sentence_ja": "{弟|おとうと}はお{菓子|かし}ばかり{食|た}べている。",
+        "translation_ko": "남동생은 과자만 먹고 있다.",
+        "highlights": [
+          "ばかり"
+        ]
+      }
+    },
+    {
+      "no": 388,
+      "expression": "〜たばかりだ",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "막 ~(한) 참이다, ~(한) 지 얼마 안 됐다",
+      "connection": "동사 た형 + ばかりだ",
+      "example": {
+        "sentence_ja": "この{靴|くつ}は{先週|せんしゅう}{買|か}ったばかりだ。",
+        "translation_ko": "이 신발은 지난주에 막 샀다.",
+        "highlights": [
+          "買ったばかりだ"
+        ]
+      }
+    },
+    {
+      "no": 389,
+      "expression": "〜てばかり",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~(하)기만 하다",
+      "connection": "동사 て형 + ばかり",
+      "example": {
+        "sentence_ja": "{兄|あに}は{休|やす}みの{日|ひ}、{寝|ね}てばかりいる。",
+        "translation_ko": "형은 쉬는 날 잠만 잔다.",
+        "highlights": [
+          "寝てばかり"
+        ]
+      }
+    },
+    {
+      "no": 400,
+      "expression": "〜ずつ",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~씩",
+      "connection": "수량 + ずつ",
+      "example": {
+        "sentence_ja": "{毎日|まいにち}{単語|たんご}を{十個|じゅっこ}ずつ{覚|おぼ}えています。",
+        "translation_ko": "매일 단어를 10개씩 외우고 있습니다.",
+        "highlights": [
+          "ずつ"
+        ]
+      }
+    },
+    {
+      "no": 408,
+      "expression": "〜ば",
+      "reading": null,
+      "category": "조건",
+      "meaning_ko": "~(하)면 (가정)",
+      "connection": "1그룹 え단 + ば / 2그룹 어간 + れば / い형 어간 + ければ",
+      "example": {
+        "sentence_ja": "{安|やす}ければ、{買|か}います。",
+        "translation_ko": "싸면 사겠습니다.",
+        "highlights": [
+          "安ければ"
+        ]
+      }
+    },
+    {
+      "no": 410,
+      "expression": "〜ので",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)기 때문에, ~(해)서 (객관적 이유)",
+      "connection": "보통형 (な형·명사는 な) + ので",
+      "example": {
+        "sentence_ja": "{道|みち}が{混|こ}んでいたので、{遅|おく}れてしまいました。",
+        "translation_ko": "길이 막혀서 늦어 버렸습니다.",
+        "highlights": [
+          "ので"
+        ]
+      }
+    },
+    {
+      "no": 411,
+      "expression": "〜し",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)고 (이유를 나열)",
+      "connection": "보통형 + し",
+      "example": {
+        "sentence_ja": "この{店|みせ}は{安|やす}いし、おいしいし、よく{来|き}ます。",
+        "translation_ko": "이 가게는 싸고 맛있어서 자주 옵니다.",
+        "highlights": [
+          "安いし",
+          "おいしいし"
+        ]
+      }
+    },
+    {
+      "no": 413,
+      "expression": "〜けれども",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)지만",
+      "connection": "보통형 / 정중형 + けれども",
+      "example": {
+        "sentence_ja": "{何度|なんど}も{電話|でんわ}したけれども、{誰|だれ}も{出|で}なかった。",
+        "translation_ko": "몇 번이나 전화했지만 아무도 받지 않았다.",
+        "highlights": [
+          "けれども"
+        ]
+      }
+    },
+    {
+      "no": 415,
+      "expression": "〜のに",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(한)데도, ~인데 (불만·의외)",
+      "connection": "보통형 (な형·명사는 な) + のに",
+      "example": {
+        "sentence_ja": "{約束|やくそく}したのに、{彼|かれ}は{来|こ}なかった。",
+        "translation_ko": "약속했는데도 그는 오지 않았다.",
+        "highlights": [
+          "のに"
+        ]
+      }
+    },
+    {
+      "no": 416,
+      "expression": "〜たり",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)거나 ~(하)거나",
+      "connection": "동사 た형 + り、〜たりする",
+      "example": {
+        "sentence_ja": "{日曜日|にちようび}は{掃除|そうじ}をしたり、{洗濯|せんたく}をしたりします。",
+        "translation_ko": "일요일에는 청소를 하거나 빨래를 하거나 합니다.",
+        "highlights": [
+          "したり",
+          "したり"
+        ]
+      }
+    },
+    {
+      "no": 426,
+      "expression": "〜の",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~니? / ~거야 (부드러운 질문·설명)",
+      "connection": "문장 끝 + の",
+      "example": {
+        "sentence_ja": "どうしたの？{元気|げんき}がないね。",
+        "translation_ko": "무슨 일이야? 기운이 없네.",
+        "highlights": [
+          "の？"
+        ]
+      }
+    },
+    {
+      "no": 427,
+      "expression": "〜な",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~(하)구나, ~(하)네 (감탄·혼잣말)",
+      "connection": "문장 끝 + な",
+      "example": {
+        "sentence_ja": "{今日|きょう}は{本当|ほんとう}に{暑|あつ}いな。",
+        "translation_ko": "오늘은 정말 덥구나.",
+        "highlights": [
+          "な。"
+        ]
+      }
+    },
+    {
+      "no": 428,
+      "expression": "〜さ",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~거야, ~지 뭐 (가볍게 단정)",
+      "connection": "문장 끝 + さ",
+      "example": {
+        "sentence_ja": "{心配|しんぱい}しないで。なんとかなるさ。",
+        "translation_ko": "걱정 마. 어떻게든 될 거야.",
+        "highlights": [
+          "さ。"
+        ]
+      }
+    },
+    {
+      "no": 429,
+      "expression": "〜ぞ",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~(하)겠어, ~(이)다 (강한 다짐·주의, 남성어)",
+      "connection": "문장 끝 + ぞ",
+      "example": {
+        "sentence_ja": "よし、{今日|きょう}こそ{勝|か}つぞ。",
+        "translation_ko": "좋아, 오늘이야말로 이기겠어.",
+        "highlights": [
+          "ぞ。"
+        ]
+      }
+    },
+    {
+      "no": 430,
+      "expression": "〜かしら",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~(일)까? (혼잣말 의문, 여성어)",
+      "connection": "문장 끝 + かしら",
+      "example": {
+        "sentence_ja": "{明日|あした}は{晴|は}れるかしら。",
+        "translation_ko": "내일은 맑을까?",
+        "highlights": [
+          "かしら"
+        ]
+      }
+    },
+    {
+      "no": 431,
+      "expression": "〜だい",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~(이)니?, ~(이)야? (의문사와 함께, 남성어)",
+      "connection": "의문사 … + だい",
+      "example": {
+        "sentence_ja": "{君|きみ}の{名前|なまえ}は{何|なん}だい？",
+        "translation_ko": "네 이름은 뭐니?",
+        "highlights": [
+          "だい"
+        ]
+      }
+    },
+    {
+      "no": 432,
+      "expression": "〜かい",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~(하)니?, ~(이)냐? (예/아니오 질문, 남성어)",
+      "connection": "문장 끝 + かい",
+      "example": {
+        "sentence_ja": "もう{宿題|しゅくだい}は{終|お}わったかい？",
+        "translation_ko": "숙제는 벌써 끝났니?",
+        "highlights": [
+          "かい"
+        ]
+      }
+    },
+    {
+      "no": 449,
+      "expression": "〜ために",
+      "reading": null,
+      "category": "명사 응용",
+      "meaning_ko": "~(하)기 위해서, ~때문에",
+      "connection": "동사 사전형 / 명사 + の + ために",
+      "example": {
+        "sentence_ja": "{留学|りゅうがく}するために、お{金|かね}を{貯|た}めている。",
+        "translation_ko": "유학하기 위해서 돈을 모으고 있다.",
+        "highlights": [
+          "ために"
+        ]
+      }
+    },
+    {
+      "no": 484,
+      "expression": "〜たことがある",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(한) 적이 있다 (경험)",
+      "connection": "동사 た형 + ことがある",
+      "example": {
+        "sentence_ja": "{私|わたし}は{一度|いちど}{富士山|ふじさん}に{登|のぼ}ったことがある。",
+        "translation_ko": "나는 후지산에 한 번 올라간 적이 있다.",
+        "highlights": [
+          "登ったことがある"
+        ]
+      }
+    },
+    {
+      "no": 485,
+      "expression": "〜ことがある",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(하)는 경우가 있다, 가끔 ~(한)다",
+      "connection": "동사 사전형 / ない형 + ことがある",
+      "example": {
+        "sentence_ja": "{忙|いそが}しいときは{昼|ひる}ご{飯|はん}を{食|た}べないことがある。",
+        "translation_ko": "바쁠 때는 점심을 안 먹을 때가 있다.",
+        "highlights": [
+          "ないことがある"
+        ]
+      }
+    },
+    {
+      "no": 486,
+      "expression": "〜ことにする",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(하)기로 하다 (스스로 결정)",
+      "connection": "동사 사전형 / ない형 + ことにする",
+      "example": {
+        "sentence_ja": "{健康|けんこう}のために、エレベーターを{使|つか}わないことにした。",
+        "translation_ko": "건강을 위해 엘리베이터를 쓰지 않기로 했다.",
+        "highlights": [
+          "ないことにした"
+        ]
+      }
+    },
+    {
+      "no": 487,
+      "expression": "〜ことになる",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(하)게 되다 (정해진 일)",
+      "connection": "동사 사전형 / ない형 + ことになる",
+      "example": {
+        "sentence_ja": "{来月|らいげつ}から{大阪|おおさか}で{働|はたら}くことになりました。",
+        "translation_ko": "다음 달부터 오사카에서 일하게 되었습니다.",
+        "highlights": [
+          "働くことになりました"
+        ]
+      }
+    },
+    {
+      "no": 488,
+      "expression": "〜ことにしている",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(하)기로 하고 있다 (습관)",
+      "connection": "동사 사전형 / ない형 + ことにしている",
+      "example": {
+        "sentence_ja": "{寝|ね}る{前|まえ}にはスマホを{見|み}ないことにしている。",
+        "translation_ko": "자기 전에는 스마트폰을 보지 않기로 하고 있다.",
+        "highlights": [
+          "ないことにしている"
+        ]
+      }
+    },
+    {
+      "no": 508,
+      "expression": "〜ところだ",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "막 ~(하)려는 참이다",
+      "connection": "동사 사전형 + ところだ",
+      "example": {
+        "sentence_ja": "ちょうど{今|いま}から{出|で}かけるところです。",
+        "translation_ko": "마침 지금 나가려던 참입니다.",
+        "highlights": [
+          "出かけるところです"
+        ]
+      }
+    },
+    {
+      "no": 509,
+      "expression": "〜ているところだ",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(하)고 있는 중이다",
+      "connection": "동사 て형 + いるところだ",
+      "example": {
+        "sentence_ja": "{今|いま}、{晩|ばん}ご{飯|はん}を{作|つく}っているところだ。",
+        "translation_ko": "지금 저녁밥을 만들고 있는 중이다.",
+        "highlights": [
+          "作っているところだ"
+        ]
+      }
+    },
+    {
+      "no": 510,
+      "expression": "〜たところだ",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "막 ~(했)다",
+      "connection": "동사 た형 + ところだ",
+      "example": {
+        "sentence_ja": "{今|いま}、{駅|えき}に{着|つ}いたところです。",
+        "translation_ko": "지금 막 역에 도착했습니다.",
+        "highlights": [
+          "着いたところです"
+        ]
+      }
+    },
+    {
+      "no": 520,
+      "expression": "〜はずだ",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "(당연히) ~(일) 것이다",
+      "connection": "보통형 (な형 + な / 명사 + の) + はずだ",
+      "example": {
+        "sentence_ja": "{鍵|かぎ}はかばんの{中|なか}に{入|い}れたはずだ。",
+        "translation_ko": "열쇠는 분명 가방 안에 넣었을 것이다.",
+        "highlights": [
+          "入れたはずだ"
+        ]
+      }
+    },
+    {
+      "no": 521,
+      "expression": "〜はずがない",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(일) 리가 없다",
+      "connection": "보통형 (な형 + な / 명사 + の) + はずがない",
+      "example": {
+        "sentence_ja": "あんなに{練習|れんしゅう}したんだから、{負|ま}けるはずがない。",
+        "translation_ko": "그렇게 연습했으니 질 리가 없다.",
+        "highlights": [
+          "負けるはずがない"
+        ]
+      }
+    },
+    {
+      "no": 524,
+      "expression": "大 (おお / だい)",
+      "reading": "おお・だい",
+      "category": "접두어",
+      "meaning_ko": "큰~, 대~, 많은~",
+      "connection": "大 + 명사 (おお / だい)",
+      "example": {
+        "sentence_ja": "{昨夜|さくや}は{大雨|おおあめ}で{電車|でんしゃ}が{止|と}まった。",
+        "translation_ko": "어젯밤에는 큰비로 전철이 멈췄다.",
+        "highlights": [
+          "大雨"
+        ]
+      }
+    },
+    {
+      "no": 525,
+      "expression": "真",
+      "reading": "ま",
+      "category": "접두어",
+      "meaning_ko": "한~, 새~, 바로~ (강조)",
+      "connection": "真 + 명사",
+      "example": {
+        "sentence_ja": "{真夜中|まよなか}に{電話|でんわ}が{鳴|な}った。",
+        "translation_ko": "한밤중에 전화가 울렸다.",
+        "highlights": [
+          "真夜中"
+        ]
+      }
+    },
+    {
+      "no": 536,
+      "expression": "〜がる",
+      "reading": null,
+      "category": "접미어",
+      "meaning_ko": "(남이) ~(해) 하다 (감정·감각)",
+      "connection": "い형·な형 어간 + がる",
+      "example": {
+        "sentence_ja": "{妹|いもうと}は{暗|くら}いところを{怖|こわ}がる。",
+        "translation_ko": "여동생은 어두운 곳을 무서워한다.",
+        "highlights": [
+          "怖がる"
+        ]
+      }
+    },
+    {
+      "no": 537,
+      "expression": "〜さ",
+      "reading": null,
+      "category": "접미어",
+      "meaning_ko": "~함, ~기 (형용사의 명사화)",
+      "connection": "い형·な형 어간 + さ",
+      "example": {
+        "sentence_ja": "この{箱|はこ}の{重|おも}さを{量|はか}ってください。",
+        "translation_ko": "이 상자의 무게를 재 주세요.",
+        "highlights": [
+          "重さ"
+        ]
+      }
+    },
+    {
+      "no": 538,
+      "expression": "〜方",
+      "reading": "がた",
+      "category": "접미어",
+      "meaning_ko": "~분들 (사람 복수의 존칭)",
+      "connection": "사람 명사 + 方",
+      "example": {
+        "sentence_ja": "{先生方|せんせいがた}に{卒業|そつぎょう}のご{挨拶|あいさつ}をした。",
+        "translation_ko": "선생님들께 졸업 인사를 드렸다.",
+        "highlights": [
+          "方"
+        ]
+      }
+    },
+    {
+      "no": 539,
+      "expression": "中",
+      "reading": "じゅう・ちゅう",
+      "category": "접미어",
+      "meaning_ko": "온~, ~ 내내 / ~ 중",
+      "connection": "명사 + 中 (じゅう / ちゅう)",
+      "example": {
+        "sentence_ja": "{昨日|きのう}は{一日中|いちにちじゅう}{雨|あめ}が{降|ふ}っていた。",
+        "translation_ko": "어제는 하루 종일 비가 내렸다.",
+        "highlights": [
+          "中"
+        ]
+      }
+    },
+    {
+      "no": 540,
+      "expression": "目",
+      "reading": "め",
+      "category": "접미어",
+      "meaning_ko": "~째 (순서)",
+      "connection": "수량 + 目",
+      "example": {
+        "sentence_ja": "{右|みぎ}から{三番目|さんばんめ}の{人|ひと}が{私|わたし}の{兄|あに}です。",
+        "translation_ko": "오른쪽에서 세 번째 사람이 제 형입니다.",
+        "highlights": [
+          "目"
+        ]
+      }
+    },
+    {
+      "no": 541,
+      "expression": "〜ぶり",
+      "reading": null,
+      "category": "접미어",
+      "meaning_ko": "~만에, ~(하)는 모양",
+      "connection": "기간 + ぶり / 명사·동사 ます형 + ぶり",
+      "example": {
+        "sentence_ja": "{高校|こうこう}の{友|とも}だちに{五年|ごねん}ぶりに{会|あ}った。",
+        "translation_ko": "고등학교 친구를 5년 만에 만났다.",
+        "highlights": [
+          "ぶり"
+        ]
+      }
+    },
+    {
+      "no": 542,
+      "expression": "〜らしい",
+      "reading": null,
+      "category": "접미어",
+      "meaning_ko": "~답다",
+      "connection": "명사 + らしい",
+      "example": {
+        "sentence_ja": "{今日|きょう}は{春|はる}らしい{暖|あたた}かい{日|ひ}だ。",
+        "translation_ko": "오늘은 봄다운 따뜻한 날이다.",
+        "highlights": [
+          "春らしい"
+        ]
+      }
+    },
+    {
+      "no": 571,
+      "expression": "〜合う",
+      "reading": "あう",
+      "category": "복합 동사",
+      "meaning_ko": "서로 ~(하)다",
+      "connection": "동사 ます형 + 合う",
+      "example": {
+        "sentence_ja": "{困|こま}ったときは{助|たす}け{合|あ}いましょう。",
+        "translation_ko": "어려울 때는 서로 도웁시다.",
+        "highlights": [
+          "合い"
+        ]
+      }
+    },
+    {
+      "no": 572,
+      "expression": "〜直す",
+      "reading": "なおす",
+      "category": "복합 동사",
+      "meaning_ko": "다시 ~(하)다 (고쳐서)",
+      "connection": "동사 ます형 + 直す",
+      "example": {
+        "sentence_ja": "{間違|まちが}えたので、{最初|さいしょ}から{書|か}き{直|なお}した。",
+        "translation_ko": "틀려서 처음부터 다시 썼다.",
+        "highlights": [
+          "直した"
+        ]
+      }
+    },
+    {
+      "no": 1003,
+      "expression": "〜(さ)せられる (사역수동)",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "(억지로) ~(하)게 되다 (사역수동)",
+      "connection": "1그룹 ない형 + せられる・される / 2그룹 어간 + させられる / する → させられる",
+      "example": {
+        "sentence_ja": "{子|こ}どものころ、{母|はは}にピアノを{習|なら}わされた。",
+        "translation_ko": "어릴 때 엄마 때문에 억지로 피아노를 배웠다.",
+        "highlights": [
+          "習わされた"
+        ]
+      }
+    },
+    {
+      "no": 1005,
+      "expression": "〜たら (가정)",
+      "reading": null,
+      "category": "조건",
+      "meaning_ko": "~(하)면, ~(했)더니",
+      "connection": "동사·형용사 た형 + ら",
+      "example": {
+        "sentence_ja": "{駅|えき}に{着|つ}いたら、{電話|でんわ}してください。",
+        "translation_ko": "역에 도착하면 전화해 주세요.",
+        "highlights": [
+          "着いたら"
+        ]
+      }
+    },
+    {
+      "no": 1006,
+      "expression": "〜なら (가정)",
+      "reading": null,
+      "category": "조건",
+      "meaning_ko": "~(라)면 (상대 말을 받아 조언)",
+      "connection": "보통형 (な형·명사는 だ 없이) + なら",
+      "example": {
+        "sentence_ja": "{京都|きょうと}に{行|い}くなら、{秋|あき}がいいですよ。",
+        "translation_ko": "교토에 갈 거면 가을이 좋아요.",
+        "highlights": [
+          "行くなら"
+        ]
+      }
+    },
+    {
+      "no": 1007,
+      "expression": "가능형 (〜える / 〜られる)",
+      "reading": null,
+      "category": "가능",
+      "meaning_ko": "~(할) 수 있다 (가능형)",
+      "connection": "1그룹 え단 + る / 2그룹 어간 + られる / 来る → 来られる / する → できる",
+      "example": {
+        "sentence_ja": "{私|わたし}は{漢字|かんじ}が{少|すこ}し{読|よ}めます。",
+        "translation_ko": "저는 한자를 조금 읽을 수 있습니다.",
+        "highlights": [
+          "読めます"
+        ]
+      }
+    },
+    {
+      "no": 1013,
+      "expression": "〜ほど",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~정도, ~만큼 (+ 부정 비교: ~만큼 ~(하)지 않다)",
+      "connection": "명사·보통형 + ほど",
+      "example": {
+        "sentence_ja": "{今年|ことし}の{冬|ふゆ}は{去年|きょねん}ほど{寒|さむ}くない。",
+        "translation_ko": "올겨울은 작년만큼 춥지 않다.",
+        "highlights": [
+          "ほど"
+        ]
+      }
+    },
+    {
+      "no": 1015,
+      "expression": "〜でも",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~(이)라도",
+      "connection": "명사 + でも",
+      "example": {
+        "sentence_ja": "{時間|じかん}があるなら、お{茶|ちゃ}でも{飲|の}みませんか。",
+        "translation_ko": "시간 있으면 차라도 마실래요?",
+        "highlights": [
+          "でも"
+        ]
+      }
+    },
+    {
+      "no": 1016,
+      "expression": "〜まま",
+      "reading": null,
+      "category": "형식명사",
+      "meaning_ko": "~(한) 채, ~(한) 그대로",
+      "connection": "동사 た형 / 명사 + の + まま",
+      "example": {
+        "sentence_ja": "{窓|まど}を{開|あ}けたまま{寝|ね}てしまった。",
+        "translation_ko": "창문을 열어 둔 채 자 버렸다.",
+        "highlights": [
+          "たまま"
+        ]
+      }
+    }
+  ]
 }

@@ -4714,5 +4714,149 @@
   "book_chapter": "복합 동사",
   "book_num": 17,
   "book_page": 485
+ },
+ {
+  "no": 1001,
+  "expression": "명령형 (〜え / 〜ろ)",
+  "level": "N5",
+  "book_chapter": "명령형과 금지명령형",
+  "book_num": null,
+  "book_page": 153,
+  "from_topic": true
+ },
+ {
+  "no": 1002,
+  "expression": "〜な (금지명령)",
+  "level": "N5",
+  "book_chapter": "명령형과 금지명령형",
+  "book_num": null,
+  "book_page": 154,
+  "from_topic": true
+ },
+ {
+  "no": 1003,
+  "expression": "〜(さ)せられる (사역수동)",
+  "level": "N4",
+  "book_chapter": "사역수동형",
+  "book_num": null,
+  "book_page": 183,
+  "from_topic": true
+ },
+ {
+  "no": 1005,
+  "expression": "〜たら (가정)",
+  "level": "N4",
+  "book_chapter": "たら",
+  "book_num": null,
+  "book_page": 195,
+  "from_topic": true
+ },
+ {
+  "no": 1006,
+  "expression": "〜なら (가정)",
+  "level": "N4",
+  "book_chapter": "なら",
+  "book_num": null,
+  "book_page": 198,
+  "from_topic": true
+ },
+ {
+  "no": 1007,
+  "expression": "가능형 (〜える / 〜られる)",
+  "level": "N4",
+  "book_chapter": "가능형",
+  "book_num": null,
+  "book_page": 204,
+  "from_topic": true
+ },
+ {
+  "no": 1008,
+  "expression": "〜へ",
+  "level": "N5",
+  "book_chapter": "조사 へ",
+  "book_num": null,
+  "book_page": 347,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1009,
+  "expression": "〜より",
+  "level": "N5",
+  "book_chapter": "조사 より",
+  "book_num": null,
+  "book_page": 352,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1010,
+  "expression": "〜など",
+  "level": "N5",
+  "book_chapter": "조사 など",
+  "book_num": null,
+  "book_page": 362,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1011,
+  "expression": "〜くらい・〜ぐらい",
+  "level": "N5",
+  "book_chapter": "조사 くらい・ぐらい",
+  "book_num": null,
+  "book_page": 363,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1012,
+  "expression": "〜なんか",
+  "level": "N3",
+  "book_chapter": "조사 なんか",
+  "book_num": null,
+  "book_page": 377,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1013,
+  "expression": "〜ほど",
+  "level": "N4",
+  "book_chapter": "조사 ほど",
+  "book_num": null,
+  "book_page": 378,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1014,
+  "expression": "〜こそ",
+  "level": "N3",
+  "book_chapter": "조사 こそ",
+  "book_num": null,
+  "book_page": 379,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1015,
+  "expression": "〜でも",
+  "level": "N4",
+  "book_chapter": "조사 でも",
+  "book_num": null,
+  "book_page": 380,
+  "from_topic": true,
+  "level_assigned": true
+ },
+ {
+  "no": 1016,
+  "expression": "〜まま",
+  "level": "N4",
+  "book_chapter": "まま",
+  "book_num": null,
+  "book_page": 446,
+  "from_topic": true,
+  "level_assigned": true
  }
 ]
