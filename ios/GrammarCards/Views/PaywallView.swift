@@ -1,3 +1,4 @@
+import StoreKit
 import SwiftUI
 
 /// 평생 이용권으로 쓸 수 있는 기능 목록 (구매 화면·이용 중 화면 공통)
@@ -61,6 +62,7 @@ struct PaywallView: View {
 struct PaywallContent: View {
     @Environment(Store.self) private var store
     var trialEnded = false
+    @State private var showRedeem = false
 
     var body: some View {
         ScrollView {
@@ -76,6 +78,7 @@ struct PaywallContent: View {
         }
         .safeAreaInset(edge: .bottom) { purchaseBar }
         .background(Color(.systemGroupedBackground))
+        .redeemOfferCode(isPresented: $showRedeem, store: store)
         .alert("알림", isPresented: Binding(get: { store.message != nil }, set: { if !$0 { store.message = nil } })) {
             Button("확인", role: .cancel) {}
         } message: {
@@ -128,9 +131,12 @@ struct PaywallContent: View {
             HStack(spacing: 16) {
                 Button("구매 복원") { Task { await store.restore() } }
                 Text("·").foregroundStyle(.tertiary)
-                Text("1회 결제 · 자동 갱신 없음").foregroundStyle(.secondary)
+                Button("코드 입력") { showRedeem = true }
             }
             .font(.footnote)
+            Text("1회 결제 · 자동 갱신 없음")
+                .font(.caption2)
+                .foregroundStyle(.secondary)
         }
         .padding()
         .background(.bar)
@@ -190,6 +196,15 @@ private struct ActiveLicenseView: View {
             .padding(24)
         }
         .background(Color(.systemGroupedBackground))
+    }
+}
+
+extension View {
+    /// Apple 오퍼 코드 입력 창. 코드를 쓰면 평생 이용권이 0원 구매로 처리되고 Store 가 잠금 해제한다.
+    func redeemOfferCode(isPresented: Binding<Bool>, store: Store) -> some View {
+        offerCodeRedemption(isPresented: isPresented) { _ in
+            Task { await store.refresh() }
+        }
     }
 }
 

@@ -9,6 +9,7 @@ struct SettingsView: View {
     @AppStorage(SettingsKey.speechRate) private var speechRate = SpeechRate.normal.rawValue
     @Environment(Store.self) private var store
     @State private var restoreMessage: String?
+    @State private var showRedeem = false
 
     var body: some View {
         Form {
@@ -24,6 +25,7 @@ struct SettingsView: View {
                     }
                 }
                 if !store.isUnlocked {
+                    Button("코드 입력") { showRedeem = true }
                     Button("구매 복원") {
                         Task {
                             await store.restore()
@@ -74,6 +76,7 @@ struct SettingsView: View {
             }
         }
         .navigationTitle("설정")
+        .redeemOfferCode(isPresented: $showRedeem, store: store)
         .alert("알림", isPresented: Binding(get: { restoreMessage != nil },
                                           set: { if !$0 { restoreMessage = nil } })) {
             Button("확인", role: .cancel) {}
