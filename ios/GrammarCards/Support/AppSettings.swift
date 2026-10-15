@@ -8,6 +8,8 @@ enum SettingsKey {
     static let showFurigana = "showFurigana"
     static let autoPlaySpeech = "autoPlaySpeech"
     static let speechRate = "speechRate"
+    static let unlocked = "unlocked"
+    static let freeCycleUsed = "freeCycleUsed"
 }
 
 extension StudySettings {

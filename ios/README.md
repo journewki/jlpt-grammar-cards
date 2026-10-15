@@ -19,6 +19,17 @@ Xcode가 열리면:
 2. 내 아이폰에 설치하려면: 왼쪽에서 GrammarCards 프로젝트 → Signing & Capabilities → Team 에 본인 Apple ID 선택 → 아이폰을 연결하고 기기 선택 후 ▶
 3. 테스트 실행: Cmd+U (카드 데이터 읽기, 후리가나 처리, 사이클 구성 확인)
 
+## 결제(평생 이용권) 테스트
+- 무료 사용자는 1사이클만 학습할 수 있고, 첫 카드에 답하는 순간 무료 사이클을 쓴 것으로 처리된다.
+- 시뮬레이터에서는 `Products.storekit`(로컬 테스트용 상품, ₩9,900)이 자동으로 쓰여서 App Store Connect 없이 결제 흐름을 테스트할 수 있다.
+- 결제 기록 지우기: Xcode 메뉴 Debug → StoreKit → Manage Transactions 에서 삭제
+- 무료 사이클 다시 쓰기: 시뮬레이터에서 앱 삭제 후 재설치
+
+### 실제 출시 때 (App Store Connect)
+1. 앱 등록 후 **유료 앱 계약**(비즈니스 → 계약, 세금 및 은행 정보) 완료
+2. 앱 내 구입 → **비소모성** 상품 추가, 제품 ID `com.journewki.grammarcards.lifetime`, 가격 ₩9,900
+3. 심사용 스크린숏·설명 입력 후 앱 버전과 함께 심사 제출
+
 `project.yml` 이나 파일 구성이 바뀌면 `xcodegen generate` 를 다시 실행하면 된다.
 `GrammarCards.xcodeproj` 는 생성물이라 git에 올리지 않는다.
 
@@ -26,6 +37,7 @@ Xcode가 열리면:
 ```
 ios/
 ├── project.yml                 XcodeGen 설정 (데이터는 ../data/n1~n5.json 을 번들에 포함)
+├── Products.storekit           로컬 결제 테스트용 상품 정보
 ├── GrammarCards/
 │   ├── GrammarCardsApp.swift   앱 시작점 (SwiftData 컨테이너)
 │   ├── Model/
@@ -40,9 +52,12 @@ ios/
 │   │   ├── StudyView.swift     카드 학습 (스와이프, 뜻 보기) + 결과
 │   │   ├── CardFaceView.swift  카드 한 장
 │   │   ├── RubyText.swift      후리가나 예문 표시
-│   │   └── SettingsView.swift  카드 수, 모름 비율, 표시 설정
+│   │   ├── PaywallView.swift   평생 이용권 구매 화면
+│   │   └── SettingsView.swift  카드 수, 모름 비율, 표시 설정, 이용권
 │   └── Support/
 │       ├── AppSettings.swift   설정 키
-│       └── Speaker.swift       일본어 TTS (예문 읽기)
+│       ├── Speaker.swift       일본어 TTS (예문 읽기)
+│       ├── Store.swift         평생 이용권 결제 (StoreKit 2)
+│       └── RelativeTime.swift  "3일 전" 표시
 └── GrammarCardsTests/
 ```

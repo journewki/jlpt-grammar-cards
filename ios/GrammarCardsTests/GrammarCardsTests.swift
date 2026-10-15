@@ -39,6 +39,16 @@ final class RubyTests: XCTestCase {
     }
 }
 
+final class RelativeTimeTests: XCTestCase {
+    func testKoreanRelativeTime() {
+        let now = Date(timeIntervalSince1970: 1_000_000)
+        XCTAssertEqual(RelativeTime.korean(since: now.addingTimeInterval(-30), now: now), "방금 전")
+        XCTAssertEqual(RelativeTime.korean(since: now.addingTimeInterval(-5 * 60), now: now), "5분 전")
+        XCTAssertEqual(RelativeTime.korean(since: now.addingTimeInterval(-3 * 3600), now: now), "3시간 전")
+        XCTAssertEqual(RelativeTime.korean(since: now.addingTimeInterval(-2 * 86400), now: now), "2일 전")
+    }
+}
+
 final class SessionBuilderTests: XCTestCase {
     private func card(_ no: Int) -> Grammar {
         Grammar(no: no, expression: "〜\(no)", reading: nil, category: "테스트", meaningKo: "뜻",

@@ -7,9 +7,22 @@ struct SettingsView: View {
     @AppStorage(SettingsKey.showFurigana) private var showFurigana = true
     @AppStorage(SettingsKey.autoPlaySpeech) private var autoPlaySpeech = false
     @AppStorage(SettingsKey.speechRate) private var speechRate = SpeechRate.normal.rawValue
+    @AppStorage(SettingsKey.freeCycleUsed) private var freeCycleUsed = false
+    @Environment(Store.self) private var store
+    @State private var showPaywall = false
 
     var body: some View {
         Form {
+            Section("이용권") {
+                if store.isUnlocked {
+                    Label("평생 이용권 사용 중", systemImage: "checkmark.seal.fill")
+                        .foregroundStyle(.green)
+                } else {
+                    Button("평생 이용권 구매") { showPaywall = true }
+                    Button("구매 복원") { Task { await store.restore() } }
+                }
+            }
+
             Section {
                 Picker("한 번에 학습할 카드", selection: $cardsPerSession) {
                     ForEach(StudySettings.sessionSizeOptions, id: \.self) { Text("\($0)장").tag($0) }
@@ -50,5 +63,12 @@ struct SettingsView: View {
             }
         }
         .navigationTitle("설정")
+        .sheet(isPresented: $showPaywall) { PaywallView(trialEnded: freeCycleUsed) }
+        .alert("알림", isPresented: Binding(get: { store.message != nil && !showPaywall },
+                                          set: { if !$0 { store.message = nil } })) {
+            Button("확인", role: .cancel) {}
+        } message: {
+            Text(store.message ?? "")
+        }
     }
 }

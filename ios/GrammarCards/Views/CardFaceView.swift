@@ -6,6 +6,10 @@ struct CardFaceView: View {
     let level: JLPTLevel
     var showMeaning: Bool
     var showFurigana = true
+    /// 이 카드를 이전에 본 기록 (nil 이면 처음 보는 카드)
+    var history: ProgressSnapshot?
+    /// false 면 기록 배지를 숨긴다 (목록에서 열어 본 카드 등)
+    var showHistory = true
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
@@ -13,6 +17,7 @@ struct CardFaceView: View {
                 Tag(text: level.rawValue, color: .accentColor)
                 Tag(text: grammar.category, color: .secondary)
                 Spacer()
+                if showHistory { HistoryBadge(history: history) }
                 Button {
                     Speaker.shared.speak(markup: grammar.example.sentenceJa)
                 } label: {
@@ -70,6 +75,22 @@ struct CardFaceView: View {
                 .fill(Color(.secondarySystemGroupedBackground))
                 .shadow(color: .black.opacity(0.08), radius: 12, y: 4)
         )
+    }
+}
+
+/// "NEW" / "모름 2회 · 3일 전" / "알고 있음 · 5분 전"
+private struct HistoryBadge: View {
+    let history: ProgressSnapshot?
+
+    var body: some View {
+        if let history, history.status != .new {
+            let color: Color = history.status == .unknown ? .red : .green
+            let label = history.status == .unknown ? "모름 \(max(history.unknownCount, 1))회" : "알고 있음"
+            let when = history.lastReviewedAt.map { " · " + RelativeTime.korean(since: $0) } ?? ""
+            Tag(text: label + when, color: color)
+        } else {
+            Tag(text: "NEW", color: .blue)
+        }
     }
 }
 

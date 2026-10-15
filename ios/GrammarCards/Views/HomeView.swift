@@ -18,10 +18,30 @@ struct LevelStats {
 
 struct HomeView: View {
     @Query private var progress: [CardProgress]
+    @Environment(Store.self) private var store
+    @AppStorage(SettingsKey.freeCycleUsed) private var freeCycleUsed = false
+    @State private var showPaywall = false
 
     var body: some View {
         NavigationStack {
             List {
+                if !store.isUnlocked {
+                    Section {
+                        Button { showPaywall = true } label: {
+                            HStack(spacing: 12) {
+                                Image(systemName: "crown.fill").foregroundStyle(.yellow).font(.title2)
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(freeCycleUsed ? "평생 이용권으로 계속 학습하기" : "무료 체험: 1사이클 학습 가능")
+                                        .font(.headline)
+                                    Text("밥 한 끼 값으로 580개 문법 평생 무제한")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                }
+                            }
+                        }
+                        .tint(.primary)
+                    }
+                }
                 Section {
                     ForEach(JLPTLevel.allCases) { level in
                         NavigationLink(value: level) {
@@ -34,6 +54,7 @@ struct HomeView: View {
             }
             .navigationTitle("JLPT 문법 카드")
             .navigationDestination(for: JLPTLevel.self) { LevelView(level: $0) }
+            .sheet(isPresented: $showPaywall) { PaywallView(trialEnded: freeCycleUsed) }
             .toolbar {
                 NavigationLink {
                     SettingsView()

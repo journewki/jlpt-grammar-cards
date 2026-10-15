@@ -18,6 +18,12 @@ struct StudyView: View {
     @AppStorage(SettingsKey.showMeaning) private var showMeaning = false
     @AppStorage(SettingsKey.showFurigana) private var showFurigana = true
     @AppStorage(SettingsKey.autoPlaySpeech) private var autoPlaySpeech = false
+    @AppStorage(SettingsKey.freeCycleUsed) private var freeCycleUsed = false
+    @Environment(Store.self) private var store
+
+    /// 사이클 시작 시점의 학습 기록 (카드에 "NEW / n일 전" 표시용)
+    @State private var history: [Int: ProgressSnapshot] = [:]
+    @State private var showPaywall = false
 
     @State private var session: StudySession?
     @State private var revealed = false
@@ -32,7 +38,9 @@ struct StudyView: View {
                     studyBody(session: session, card: card)
                 } else if let session {
                     SessionResultView(session: session,
-                                      onRestart: start,
+                                      onRestart: {
+                                          if store.canStartCycle(freeCycleUsed: freeCycleUsed) { start() } else { showPaywall = true }
+                                      },
                                       onClose: { dismiss() })
                 } else {
                     ProgressView()
@@ -60,6 +68,7 @@ struct StudyView: View {
         }
         .onAppear { if session == nil { start() } }
         .onDisappear { Speaker.shared.stop() }
+        .sheet(isPresented: $showPaywall) { PaywallView() }
     }
 
     @ViewBuilder
@@ -69,7 +78,8 @@ struct StudyView: View {
 
             CardFaceView(grammar: card, level: level,
                          showMeaning: showMeaning || revealed,
-                         showFurigana: showFurigana)
+                         showFurigana: showFurigana,
+                         history: history[card.no])
                 .overlay(alignment: .top) { swipeStamp }
                 .offset(x: drag.width, y: drag.height * 0.2)
                 .rotationEffect(.degrees(Double(drag.width / 25)))
@@ -143,12 +153,15 @@ struct StudyView: View {
         }
         revealed = false
         drag = .zero
+        history = progress
         session = StudySession(level: level, cards: SessionBuilder.build(grammar: pool, progress: progress, settings: effective))
     }
 
     private func answer(known: Bool) {
         guard let card = session?.current else { return }
         ProgressRepository.record(card, level: level, known: known, in: context)
+        // 무료 사용자는 첫 카드에 답하는 순간 무료 1사이클을 쓴 것으로 본다
+        if !store.isUnlocked { freeCycleUsed = true }
         withAnimation(.easeOut(duration: 0.2)) {
             session?.answer(known: known)
             revealed = false

@@ -8,6 +8,9 @@ struct LevelView: View {
     @Environment(\.modelContext) private var context
     @Query private var progress: [CardProgress]
     @AppStorage(SettingsKey.cardsPerSession) private var cardsPerSession = StudySettings().cardsPerSession
+    @AppStorage(SettingsKey.freeCycleUsed) private var freeCycleUsed = false
+    @Environment(Store.self) private var store
+    @State private var showPaywall = false
 
     @State private var studyMode: StudyMode?
     @State private var filter: Filter = .all
@@ -32,6 +35,8 @@ struct LevelView: View {
     var body: some View {
         let stats = LevelStats(level: level, progress: progress)
         let statuses = statusByNo
+        let lastSeen = Dictionary(progress.compactMap { p in p.lastReviewedAt.map { (p.grammarNo, $0) } },
+                                  uniquingKeysWith: { a, _ in a })
         List {
             Section {
                 VStack(alignment: .leading, spacing: 12) {
@@ -45,13 +50,13 @@ struct LevelView: View {
                 .padding(.vertical, 6)
 
                 Button {
-                    studyMode = StudyMode(mode: .mixed)
+                    open(.mixed)
                 } label: {
                     Label("학습 시작 (\(min(cardsPerSession, stats.total))장)", systemImage: "play.fill")
                         .font(.headline)
                 }
                 Button {
-                    studyMode = StudyMode(mode: .unknownOnly)
+                    open(.unknownOnly)
                 } label: {
                     Label("모름 카드만 복습 (\(min(cardsPerSession, stats.unknown))장)", systemImage: "arrow.counterclockwise")
                 }
@@ -68,7 +73,7 @@ struct LevelView: View {
 
                 ForEach(filtered(statuses)) { g in
                     Button { selected = g } label: {
-                        CardRow(grammar: g, status: statuses[g.no] ?? .new)
+                        CardRow(grammar: g, status: statuses[g.no] ?? .new, lastSeen: lastSeen[g.no])
                     }
                     .tint(.primary)
                 }
@@ -87,10 +92,20 @@ struct LevelView: View {
             Button("초기화", role: .destructive) { ProgressRepository.reset(level, in: context) }
         }
         .fullScreenCover(item: $studyMode) { StudyView(level: level, mode: $0.mode) }
+        .sheet(isPresented: $showPaywall) { PaywallView() }
         .sheet(item: $selected) { g in
-            CardFaceView(grammar: g, level: level, showMeaning: true)
+            CardFaceView(grammar: g, level: level, showMeaning: true, showHistory: false)
                 .padding()
                 .presentationDetents([.medium, .large])
+        }
+    }
+
+    /// 무료 1사이클을 다 썼으면 결제 화면, 아니면 학습 시작
+    private func open(_ mode: StudyView.Mode) {
+        if store.canStartCycle(freeCycleUsed: freeCycleUsed) {
+            studyMode = StudyMode(mode: mode)
+        } else {
+            showPaywall = true
         }
     }
 
@@ -116,6 +131,7 @@ struct LevelView: View {
 private struct CardRow: View {
     let grammar: Grammar
     let status: CardStatus
+    let lastSeen: Date?
 
     var body: some View {
         HStack {
@@ -124,6 +140,9 @@ private struct CardRow: View {
                 Text(grammar.meaningKo).font(.caption).foregroundStyle(.secondary).lineLimit(1)
             }
             Spacer()
+            if let lastSeen {
+                Text(RelativeTime.korean(since: lastSeen)).font(.caption2).foregroundStyle(.tertiary)
+            }
             switch status {
             case .known: Image(systemName: "checkmark.circle.fill").foregroundStyle(.green)
             case .unknown: Image(systemName: "xmark.circle.fill").foregroundStyle(.red)

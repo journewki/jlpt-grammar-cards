@@ -50,6 +50,9 @@ schemes:
     build:
       targets:
         GrammarCards: all
+    run:
+      # 시뮬레이터에서 App Store Connect 없이 결제 테스트
+      storeKitConfiguration: Products.storekit
     test:
       targets:
         - GrammarCardsTests
