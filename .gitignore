@@ -4,3 +4,4 @@ __pycache__/
 ios/*.xcodeproj
 xcuserdata/
 DerivedData/
+ios/Info.plist
