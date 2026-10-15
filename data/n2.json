@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "level": "N2",
+  "grammar": [
+    {
+      "no": 1,
+      "expression": "〜ばかりに",
+      "reading": null,
+      "meaning_ko": "~한 탓에, ~하는 바람에",
+      "connection": "동사 た형 / い형용사 / な형용사+な・である / 명사+である + ばかりに",
+      "nuance": "그것 하나 때문에 나쁜 결과가 생겼다는 후회·유감의 뉘앙스",
+      "source_page": null,
+      "example": {
+        "sentence_ja": "{一言|ひとこと}{余計|よけい}なことを{言|い}ったばかりに、{友達|ともだち}と{気|き}まずくなってしまった。",
+        "translation_ko": "괜한 말 한마디를 한 탓에 친구와 서먹해지고 말았다.",
+        "highlight": "ばかりに"
+      }
+    }
+  ]
+}
