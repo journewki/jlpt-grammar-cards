@@ -94,7 +94,7 @@ struct PaywallView: View {
                     if store.isPurchasing {
                         ProgressView().tint(.white)
                     } else {
-                        Text("\(store.product?.displayPrice ?? "₩9,900") · 평생 이용권 구매")
+                        Text("\(store.product?.displayPrice ?? "₩15,900") · 평생 이용권 구매")
                             .font(.headline)
                     }
                 }

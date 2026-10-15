@@ -49,6 +49,32 @@ final class RelativeTimeTests: XCTestCase {
     }
 }
 
+final class FreeTrialTests: XCTestCase {
+    func testResumeAndFinish() {
+        let defaults = UserDefaults(suiteName: "FreeTrialTests")!
+        defaults.removePersistentDomain(forName: "FreeTrialTests")
+        var trial = FreeTrial(level: .n4, cardNos: [1, 2, 3])
+        trial.save(defaults)
+        trial.knownNos = [1]
+        trial.save(defaults)
+        XCTAssertEqual(FreeTrial.load(defaults)?.knownNos, [1])
+        XCTAssertFalse(trial.isFinished)
+        trial.unknownNos = [2, 3]
+        XCTAssertTrue(trial.isFinished)
+        FreeTrial.clear(defaults)
+        XCTAssertNil(FreeTrial.load(defaults))
+    }
+
+    func testSessionResumesAtSavedIndex() {
+        let cards = (1...3).map {
+            Grammar(no: $0, expression: "", reading: nil, category: "", meaningKo: "", connection: "",
+                    example: Example(sentenceJa: "", translationKo: "", highlights: []))
+        }
+        let s = StudySession(level: .n5, cards: cards, knownNos: [1], unknownNos: [2])
+        XCTAssertEqual(s.current?.no, 3)
+    }
+}
+
 final class SessionBuilderTests: XCTestCase {
     private func card(_ no: Int) -> Grammar {
         Grammar(no: no, expression: "〜\(no)", reading: nil, category: "테스트", meaningKo: "뜻",

@@ -11,6 +11,7 @@ struct LevelView: View {
     @AppStorage(SettingsKey.freeCycleUsed) private var freeCycleUsed = false
     @Environment(Store.self) private var store
     @State private var showPaywall = false
+    @State private var trialElsewhere: JLPTLevel?
 
     @State private var studyMode: StudyMode?
     @State private var filter: Filter = .all
@@ -52,7 +53,7 @@ struct LevelView: View {
                 Button {
                     open(.mixed)
                 } label: {
-                    Label("학습 시작 (\(min(cardsPerSession, stats.total))장)", systemImage: "play.fill")
+                    Label(resumeLabel ?? "학습 시작 (\(min(cardsPerSession, stats.total))장)", systemImage: "play.fill")
                         .font(.headline)
                 }
                 Button {
@@ -93,6 +94,12 @@ struct LevelView: View {
         }
         .fullScreenCover(item: $studyMode) { StudyView(level: level, mode: $0.mode) }
         .sheet(isPresented: $showPaywall) { PaywallView() }
+        .alert("무료 체험 진행 중",
+               isPresented: Binding(get: { trialElsewhere != nil }, set: { if !$0 { trialElsewhere = nil } })) {
+            Button("확인", role: .cancel) {}
+        } message: {
+            Text("\(trialElsewhere?.rawValue ?? "")에서 시작한 무료 체험 사이클을 먼저 끝내 주세요. 평생 이용권이 있으면 모든 급수를 자유롭게 학습할 수 있어요.")
+        }
         .sheet(item: $selected) { g in
             CardFaceView(grammar: g, level: level, showMeaning: true, showHistory: false)
                 .padding()
@@ -100,12 +107,18 @@ struct LevelView: View {
         }
     }
 
+    /// 이 급수에서 무료 체험이 진행 중이면 "무료 체험 이어하기 (7 / 20)"
+    private var resumeLabel: String? {
+        guard !store.isUnlocked, let trial = FreeTrial.load(), trial.level == level, !trial.isFinished else { return nil }
+        return "무료 체험 이어하기 (\(trial.knownNos.count + trial.unknownNos.count) / \(trial.cardNos.count))"
+    }
+
     /// 무료 1사이클을 다 썼으면 결제 화면, 아니면 학습 시작
     private func open(_ mode: StudyView.Mode) {
-        if store.canStartCycle(freeCycleUsed: freeCycleUsed) {
-            studyMode = StudyMode(mode: mode)
-        } else {
-            showPaywall = true
+        switch store.studyAccess(level: level, freeCycleUsed: freeCycleUsed) {
+        case .allowed: studyMode = StudyMode(mode: mode)
+        case .trialInProgress(let other): trialElsewhere = other
+        case .locked: showPaywall = true
         }
     }
 

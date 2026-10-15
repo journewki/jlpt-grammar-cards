@@ -39,7 +39,11 @@ struct StudyView: View {
                 } else if let session {
                     SessionResultView(session: session,
                                       onRestart: {
-                                          if store.canStartCycle(freeCycleUsed: freeCycleUsed) { start() } else { showPaywall = true }
+                                          if store.studyAccess(level: level, freeCycleUsed: freeCycleUsed) == .allowed {
+                                              start()
+                                          } else {
+                                              showPaywall = true
+                                          }
                                       },
                                       onClose: { dismiss() })
                 } else {
@@ -142,6 +146,18 @@ struct StudyView: View {
         let settings = StudySettings.current()
         let all = ContentStore.cards(level)
         let progress = ProgressRepository.snapshots(in: context)
+        revealed = false
+        drag = .zero
+        history = progress
+
+        // 무료 체험 중이면 저장해 둔 사이클을 이어서 한다
+        if !store.isUnlocked, let trial = FreeTrial.load(), trial.level == level, !trial.isFinished {
+            let byNo = Dictionary(uniqueKeysWithValues: all.map { ($0.no, $0) })
+            let cards = trial.cardNos.compactMap { byNo[$0] }
+            session = StudySession(level: level, cards: cards, knownNos: trial.knownNos, unknownNos: trial.unknownNos)
+            return
+        }
+
         let pool: [Grammar]
         var effective = settings
         switch mode {
@@ -151,21 +167,31 @@ struct StudyView: View {
             pool = all.filter { progress[$0.no]?.status == .unknown }
             effective.reviewRatio = 1
         }
-        revealed = false
-        drag = .zero
-        history = progress
-        session = StudySession(level: level, cards: SessionBuilder.build(grammar: pool, progress: progress, settings: effective))
+        let cards = SessionBuilder.build(grammar: pool, progress: progress, settings: effective)
+        session = StudySession(level: level, cards: cards)
+        if !store.isUnlocked, !cards.isEmpty {
+            FreeTrial(level: level, cardNos: cards.map(\.no)).save()
+        }
     }
 
     private func answer(known: Bool) {
         guard let card = session?.current else { return }
         ProgressRepository.record(card, level: level, known: known, in: context)
-        // 무료 사용자는 첫 카드에 답하는 순간 무료 1사이클을 쓴 것으로 본다
-        if !store.isUnlocked { freeCycleUsed = true }
         withAnimation(.easeOut(duration: 0.2)) {
             session?.answer(known: known)
             revealed = false
             drag = .zero
+        }
+        // 무료 체험: 진행 상황 저장, 마지막 카드까지 답하면 무료 사이클 소진
+        if !store.isUnlocked, let session, var trial = FreeTrial.load(), trial.level == level {
+            trial.knownNos = session.knownNos
+            trial.unknownNos = session.unknownNos
+            if session.isFinished {
+                FreeTrial.clear()
+                freeCycleUsed = true
+            } else {
+                trial.save()
+            }
         }
     }
 }

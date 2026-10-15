@@ -27,9 +27,13 @@ final class Store {
         Task { await refresh() }
     }
 
-    /// 무료 1사이클을 이미 썼는지 확인해서 새 사이클을 시작할 수 있는지
-    func canStartCycle(freeCycleUsed: Bool) -> Bool {
-        isUnlocked || !freeCycleUsed
+    /// 이 급수에서 학습을 시작(또는 무료 체험을 이어서)할 수 있는지
+    func studyAccess(level: JLPTLevel, freeCycleUsed: Bool) -> StudyAccess {
+        if isUnlocked { return .allowed }
+        if let trial = FreeTrial.load(), !trial.isFinished {
+            return trial.level == level ? .allowed : .trialInProgress(trial.level)
+        }
+        return freeCycleUsed ? .locked : .allowed
     }
 
     /// 상품 정보와 구매 상태 새로고침
@@ -87,6 +91,7 @@ final class Store {
     }
 
     private func setUnlocked(_ value: Bool) {
+        if value { FreeTrial.clear() }
         isUnlocked = value
         UserDefaults.standard.set(value, forKey: SettingsKey.unlocked)
     }

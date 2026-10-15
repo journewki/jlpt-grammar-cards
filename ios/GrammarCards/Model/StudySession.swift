@@ -83,9 +83,12 @@ struct StudySession {
     private(set) var knownNos: [Int] = []
     private(set) var unknownNos: [Int] = []
 
-    init(level: JLPTLevel, cards: [Grammar]) {
+    init(level: JLPTLevel, cards: [Grammar], knownNos: [Int] = [], unknownNos: [Int] = []) {
         self.level = level
         self.cards = cards
+        self.knownNos = knownNos
+        self.unknownNos = unknownNos
+        self.index = min(knownNos.count + unknownNos.count, cards.count)
     }
 
     var current: Grammar? { cards.indices.contains(index) ? cards[index] : nil }

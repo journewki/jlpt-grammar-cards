@@ -10,6 +10,7 @@ enum SettingsKey {
     static let speechRate = "speechRate"
     static let unlocked = "unlocked"
     static let freeCycleUsed = "freeCycleUsed"
+    static let freeTrial = "freeTrial"
 }
 
 extension StudySettings {
