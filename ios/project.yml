@@ -42,7 +42,7 @@ targets:
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
         TARGETED_DEVICE_FAMILY: "1"
-        DEVELOPMENT_TEAM: ""
+        DEVELOPMENT_TEAM: "V3WF6CVKJ9"
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         # 서명: 자동 서명을 끄고 실기기 빌드는 배포용(App Store) 프로파일로 수동 서명.
