@@ -1,5 +1,1645 @@
 {
   "version": 1,
   "level": "N5",
-  "grammar": []
+  "grammar": [
+    {
+      "no": 1,
+      "expression": "〜だ",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~(이)다 (반말 단정)",
+      "connection": "명사 + だ",
+      "example": {
+        "sentence_ja": "{兄|あに}は{医者|いしゃ}だ。",
+        "translation_ko": "형은 의사다.",
+        "highlights": [
+          "だ"
+        ]
+      }
+    },
+    {
+      "no": 2,
+      "expression": "〜ではない",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이/가 아니다",
+      "connection": "명사 + ではない",
+      "example": {
+        "sentence_ja": "あの{人|ひと}は{先生|せんせい}ではない。",
+        "translation_ko": "저 사람은 선생님이 아니다.",
+        "highlights": [
+          "ではない"
+        ]
+      }
+    },
+    {
+      "no": 3,
+      "expression": "〜だった",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이었다",
+      "connection": "명사 + だった",
+      "example": {
+        "sentence_ja": "{昨日|きのう}は{一日中|いちにちじゅう}{雨|あめ}だった。",
+        "translation_ko": "어제는 하루 종일 비였다.",
+        "highlights": [
+          "だった"
+        ]
+      }
+    },
+    {
+      "no": 4,
+      "expression": "〜ではなかった",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이/가 아니었다",
+      "connection": "명사 + ではなかった",
+      "example": {
+        "sentence_ja": "{去年|きょねん}まで、{父|ちち}は{会社員|かいしゃいん}ではなかった。",
+        "translation_ko": "작년까지 아버지는 회사원이 아니었다.",
+        "highlights": [
+          "ではなかった"
+        ]
+      }
+    },
+    {
+      "no": 5,
+      "expression": "〜です",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~입니다",
+      "connection": "명사 + です",
+      "example": {
+        "sentence_ja": "こちらは{私|わたし}の{妹|いもうと}です。",
+        "translation_ko": "이쪽은 제 여동생입니다.",
+        "highlights": [
+          "です"
+        ]
+      }
+    },
+    {
+      "no": 6,
+      "expression": "〜ではありません",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이/가 아닙니다",
+      "connection": "명사 + ではありません",
+      "example": {
+        "sentence_ja": "これは{私|わたし}の{傘|かさ}ではありません。",
+        "translation_ko": "이건 제 우산이 아닙니다.",
+        "highlights": [
+          "ではありません"
+        ]
+      }
+    },
+    {
+      "no": 7,
+      "expression": "〜でした",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이었습니다",
+      "connection": "명사 + でした",
+      "example": {
+        "sentence_ja": "{先月|せんげつ}の{旅行先|りょこうさき}は{京都|きょうと}でした。",
+        "translation_ko": "지난달 여행지는 교토였습니다.",
+        "highlights": [
+          "でした"
+        ]
+      }
+    },
+    {
+      "no": 8,
+      "expression": "〜ではありませんでした",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이/가 아니었습니다",
+      "connection": "명사 + ではありませんでした",
+      "example": {
+        "sentence_ja": "{試験|しけん}は{月曜日|げつようび}ではありませんでした。",
+        "translation_ko": "시험은 월요일이 아니었습니다.",
+        "highlights": [
+          "ではありませんでした"
+        ]
+      }
+    },
+    {
+      "no": 9,
+      "expression": "〜ですか",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~입니까?",
+      "connection": "명사 + ですか",
+      "example": {
+        "sentence_ja": "あの{建物|たてもの}は{図書館|としょかん}ですか。",
+        "translation_ko": "저 건물은 도서관입니까?",
+        "highlights": [
+          "ですか"
+        ]
+      }
+    },
+    {
+      "no": 10,
+      "expression": "〜ではありませんか",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이/가 아닙니까?",
+      "connection": "명사 + ではありませんか",
+      "example": {
+        "sentence_ja": "あれは{山田|やまだ}さんの{車|くるま}ではありませんか。",
+        "translation_ko": "저건 야마다 씨 차가 아닙니까?",
+        "highlights": [
+          "ではありませんか"
+        ]
+      }
+    },
+    {
+      "no": 11,
+      "expression": "〜でしたか",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이었습니까?",
+      "connection": "명사 + でしたか",
+      "example": {
+        "sentence_ja": "{昨日|きのう}の{晩|ばん}ご{飯|はん}はカレーでしたか。",
+        "translation_ko": "어제 저녁밥은 카레였습니까?",
+        "highlights": [
+          "でしたか"
+        ]
+      }
+    },
+    {
+      "no": 12,
+      "expression": "〜ではありませんでしたか",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이/가 아니었습니까?",
+      "connection": "명사 + ではありませんでしたか",
+      "example": {
+        "sentence_ja": "{約束|やくそく}は{三時|さんじ}ではありませんでしたか。",
+        "translation_ko": "약속은 세 시가 아니었습니까?",
+        "highlights": [
+          "ではありませんでしたか"
+        ]
+      }
+    },
+    {
+      "no": 13,
+      "expression": "〜の〜",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~의 ~ (소유·소속·내용)",
+      "connection": "명사 + の + 명사",
+      "example": {
+        "sentence_ja": "{友|とも}だちの{家|いえ}は{駅|えき}の{近|ちか}くです。",
+        "translation_ko": "친구 집은 역 근처입니다.",
+        "highlights": [
+          "の"
+        ]
+      }
+    },
+    {
+      "no": 14,
+      "expression": "〜で",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~이고 (명사문 잇기)",
+      "connection": "명사 + で",
+      "example": {
+        "sentence_ja": "{兄|あに}は{大学生|だいがくせい}で、{弟|おとうと}は{高校生|こうこうせい}です。",
+        "translation_ko": "형은 대학생이고 남동생은 고등학생입니다.",
+        "highlights": [
+          "で、"
+        ]
+      }
+    },
+    {
+      "no": 15,
+      "expression": "〜の",
+      "reading": null,
+      "category": "명사",
+      "meaning_ko": "~의 것",
+      "connection": "명사 + の",
+      "example": {
+        "sentence_ja": "{赤|あか}い{傘|かさ}は{母|はは}のです。",
+        "translation_ko": "빨간 우산은 엄마 것입니다.",
+        "highlights": [
+          "母の"
+        ]
+      }
+    },
+    {
+      "no": 16,
+      "expression": "ある",
+      "reading": null,
+      "category": "존재 동사",
+      "meaning_ko": "(사물·식물이) 있다",
+      "connection": "명사 + が + ある",
+      "example": {
+        "sentence_ja": "{今日|きょう}は{宿題|しゅくだい}がたくさんある。",
+        "translation_ko": "오늘은 숙제가 많이 있다.",
+        "highlights": [
+          "ある"
+        ]
+      }
+    },
+    {
+      "no": 17,
+      "expression": "いる",
+      "reading": null,
+      "category": "존재 동사",
+      "meaning_ko": "(사람·동물이) 있다",
+      "connection": "명사 + が + いる",
+      "example": {
+        "sentence_ja": "{私|わたし}には{弟|おとうと}が{二人|ふたり}いる。",
+        "translation_ko": "나에게는 남동생이 두 명 있다.",
+        "highlights": [
+          "いる"
+        ]
+      }
+    },
+    {
+      "no": 18,
+      "expression": "〜に〜がある",
+      "reading": null,
+      "category": "존재 동사",
+      "meaning_ko": "~에 ~이/가 있다 (사물)",
+      "connection": "장소 + に + 명사 + が + ある",
+      "example": {
+        "sentence_ja": "{駅|えき}の{前|まえ}に{銀行|ぎんこう}があります。",
+        "translation_ko": "역 앞에 은행이 있습니다.",
+        "highlights": [
+          "に",
+          "があります"
+        ]
+      }
+    },
+    {
+      "no": 19,
+      "expression": "〜に〜がいる",
+      "reading": null,
+      "category": "존재 동사",
+      "meaning_ko": "~에 ~이/가 있다 (사람·동물)",
+      "connection": "장소 + に + 명사 + が + いる",
+      "example": {
+        "sentence_ja": "{公園|こうえん}に{子|こ}どもがたくさんいます。",
+        "translation_ko": "공원에 아이들이 많이 있습니다.",
+        "highlights": [
+          "に",
+          "がたくさんいます"
+        ]
+      }
+    },
+    {
+      "no": 20,
+      "expression": "何",
+      "reading": "なに・なん",
+      "category": "의문사",
+      "meaning_ko": "무엇",
+      "connection": "何 + が/を/です 등",
+      "example": {
+        "sentence_ja": "{誕生日|たんじょうび}に{何|なに}がほしいですか。",
+        "translation_ko": "생일에 뭘 갖고 싶어요?",
+        "highlights": [
+          "何"
+        ]
+      }
+    },
+    {
+      "no": 21,
+      "expression": "いつ",
+      "reading": null,
+      "category": "의문사",
+      "meaning_ko": "언제",
+      "connection": "いつ",
+      "example": {
+        "sentence_ja": "{夏休|なつやす}みはいつからですか。",
+        "translation_ko": "여름방학은 언제부터예요?",
+        "highlights": [
+          "いつ"
+        ]
+      }
+    },
+    {
+      "no": 22,
+      "expression": "だれ・どなた",
+      "reading": null,
+      "category": "의문사",
+      "meaning_ko": "누구・어느 분",
+      "connection": "だれ / どなた(정중)",
+      "example": {
+        "sentence_ja": "あの{方|かた}はどなたですか。",
+        "translation_ko": "저분은 누구십니까?",
+        "highlights": [
+          "どなた"
+        ]
+      }
+    },
+    {
+      "no": 23,
+      "expression": "なぜ / どうして",
+      "reading": null,
+      "category": "의문사",
+      "meaning_ko": "왜, 어째서",
+      "connection": "なぜ / どうして",
+      "example": {
+        "sentence_ja": "どうして{昨日|きのう}{来|こ}なかったんですか。",
+        "translation_ko": "어제 왜 안 왔어요?",
+        "highlights": [
+          "どうして"
+        ]
+      }
+    },
+    {
+      "no": 24,
+      "expression": "いくつ",
+      "reading": null,
+      "category": "의문사",
+      "meaning_ko": "몇 개, 몇 살",
+      "connection": "いくつ",
+      "example": {
+        "sentence_ja": "りんごをいくつ{買|か}いましたか。",
+        "translation_ko": "사과를 몇 개 샀어요?",
+        "highlights": [
+          "いくつ"
+        ]
+      }
+    },
+    {
+      "no": 25,
+      "expression": "いくら",
+      "reading": null,
+      "category": "의문사",
+      "meaning_ko": "얼마 (값)",
+      "connection": "いくら",
+      "example": {
+        "sentence_ja": "このシャツはいくらですか。",
+        "translation_ko": "이 셔츠는 얼마예요?",
+        "highlights": [
+          "いくら"
+        ]
+      }
+    },
+    {
+      "no": 26,
+      "expression": "どのぐらい / どれぐらい",
+      "reading": null,
+      "category": "의문사",
+      "meaning_ko": "어느 정도, 얼마나",
+      "connection": "どのぐらい / どれぐらい",
+      "example": {
+        "sentence_ja": "{家|いえ}から{会社|かいしゃ}までどのぐらいかかりますか。",
+        "translation_ko": "집에서 회사까지 얼마나 걸려요?",
+        "highlights": [
+          "どのぐらい"
+        ]
+      }
+    },
+    {
+      "no": 27,
+      "expression": "これ それ あれ どれ",
+      "reading": null,
+      "category": "지시어",
+      "meaning_ko": "이것・그것・저것・어느 것",
+      "connection": "これ / それ / あれ / どれ",
+      "example": {
+        "sentence_ja": "あなたの{傘|かさ}はどれですか。",
+        "translation_ko": "당신 우산은 어느 거예요?",
+        "highlights": [
+          "どれ"
+        ]
+      }
+    },
+    {
+      "no": 28,
+      "expression": "ここ そこ あそこ どこ",
+      "reading": null,
+      "category": "지시어",
+      "meaning_ko": "여기・거기・저기・어디",
+      "connection": "ここ / そこ / あそこ / どこ",
+      "example": {
+        "sentence_ja": "{財布|さいふ}ならあそこにありますよ。",
+        "translation_ko": "지갑이라면 저기에 있어요.",
+        "highlights": [
+          "あそこ"
+        ]
+      }
+    },
+    {
+      "no": 29,
+      "expression": "この その あの どの",
+      "reading": null,
+      "category": "지시어",
+      "meaning_ko": "이・그・저・어느 (+명사)",
+      "connection": "この / その / あの / どの + 명사",
+      "example": {
+        "sentence_ja": "そのかばんはだれのですか。",
+        "translation_ko": "그 가방은 누구 거예요?",
+        "highlights": [
+          "その"
+        ]
+      }
+    },
+    {
+      "no": 30,
+      "expression": "こんな そんな あんな どんな",
+      "reading": null,
+      "category": "지시어",
+      "meaning_ko": "이런・그런・저런・어떤 (+명사)",
+      "connection": "こんな / そんな / あんな / どんな + 명사",
+      "example": {
+        "sentence_ja": "どんな{音楽|おんがく}が{好|す}きですか。",
+        "translation_ko": "어떤 음악을 좋아해요?",
+        "highlights": [
+          "どんな"
+        ]
+      }
+    },
+    {
+      "no": 31,
+      "expression": "こちら そちら あちら どちら",
+      "reading": null,
+      "category": "지시어",
+      "meaning_ko": "이쪽・그쪽・저쪽・어느 쪽 (정중)",
+      "connection": "こちら / そちら / あちら / どちら",
+      "example": {
+        "sentence_ja": "{駅|えき}はどちらですか。",
+        "translation_ko": "역은 어느 쪽입니까?",
+        "highlights": [
+          "どちら"
+        ]
+      }
+    },
+    {
+      "no": 32,
+      "expression": "こう そう ああ どう",
+      "reading": null,
+      "category": "지시어",
+      "meaning_ko": "이렇게・그렇게・저렇게・어떻게",
+      "connection": "こう / そう / ああ / どう + 동사",
+      "example": {
+        "sentence_ja": "この{漢字|かんじ}はどう{読|よ}みますか。",
+        "translation_ko": "이 한자는 어떻게 읽어요?",
+        "highlights": [
+          "どう"
+        ]
+      }
+    },
+    {
+      "no": 33,
+      "expression": "〜い",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)다 (기본형)",
+      "connection": "い형용사 기본형",
+      "example": {
+        "sentence_ja": "この{部屋|へや}は{広|ひろ}い。",
+        "translation_ko": "이 방은 넓다.",
+        "highlights": [
+          "広い"
+        ]
+      }
+    },
+    {
+      "no": 34,
+      "expression": "〜くない",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)지 않다",
+      "connection": "い형용사 어간 + くない",
+      "example": {
+        "sentence_ja": "{今日|きょう}はあまり{寒|さむ}くない。",
+        "translation_ko": "오늘은 별로 춥지 않다.",
+        "highlights": [
+          "寒くない"
+        ]
+      }
+    },
+    {
+      "no": 35,
+      "expression": "〜かった",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~었다",
+      "connection": "い형용사 어간 + かった",
+      "example": {
+        "sentence_ja": "{昨日|きのう}{見|み}た{映画|えいが}はおもしろかった。",
+        "translation_ko": "어제 본 영화는 재미있었다.",
+        "highlights": [
+          "おもしろかった"
+        ]
+      }
+    },
+    {
+      "no": 36,
+      "expression": "〜くなかった",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)지 않았다",
+      "connection": "い형용사 어간 + くなかった",
+      "example": {
+        "sentence_ja": "{先週|せんしゅう}のテストは{難|むずか}しくなかった。",
+        "translation_ko": "지난주 시험은 어렵지 않았다.",
+        "highlights": [
+          "難しくなかった"
+        ]
+      }
+    },
+    {
+      "no": 37,
+      "expression": "〜いです",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~습니다",
+      "connection": "い형용사 기본형 + です",
+      "example": {
+        "sentence_ja": "この{店|みせ}のラーメンはおいしいです。",
+        "translation_ko": "이 가게 라멘은 맛있습니다.",
+        "highlights": [
+          "おいしいです"
+        ]
+      }
+    },
+    {
+      "no": 38,
+      "expression": "〜くないです / 〜くありません",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)지 않습니다",
+      "connection": "い형용사 어간 + くないです / くありません",
+      "example": {
+        "sentence_ja": "{駅|えき}はここから{遠|とお}くありません。",
+        "translation_ko": "역은 여기서 멀지 않습니다.",
+        "highlights": [
+          "遠くありません"
+        ]
+      }
+    },
+    {
+      "no": 39,
+      "expression": "〜かったです",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~었습니다",
+      "connection": "い형용사 어간 + かったです",
+      "example": {
+        "sentence_ja": "{旅行|りょこう}はとても{楽|たの}しかったです。",
+        "translation_ko": "여행은 정말 즐거웠습니다.",
+        "highlights": [
+          "楽しかったです"
+        ]
+      }
+    },
+    {
+      "no": 40,
+      "expression": "〜くなかったです / 〜くありませんでした",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)지 않았습니다",
+      "connection": "い형용사 어간 + くなかったです / くありませんでした",
+      "example": {
+        "sentence_ja": "{昨日|きのう}はあまり{暑|あつ}くなかったです。",
+        "translation_ko": "어제는 별로 덥지 않았습니다.",
+        "highlights": [
+          "暑くなかったです"
+        ]
+      }
+    },
+    {
+      "no": 41,
+      "expression": "〜いですか",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~습니까?",
+      "connection": "い형용사 기본형 + ですか",
+      "example": {
+        "sentence_ja": "{日本語|にほんご}の{勉強|べんきょう}は{難|むずか}しいですか。",
+        "translation_ko": "일본어 공부는 어렵습니까?",
+        "highlights": [
+          "難しいですか"
+        ]
+      }
+    },
+    {
+      "no": 42,
+      "expression": "〜くないですか / 〜くありませんか",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)지 않습니까?",
+      "connection": "い형용사 어간 + くないですか / くありませんか",
+      "example": {
+        "sentence_ja": "その{靴|くつ}、ちょっと{小|ちい}さくないですか。",
+        "translation_ko": "그 신발, 좀 작지 않아요?",
+        "highlights": [
+          "小さくないですか"
+        ]
+      }
+    },
+    {
+      "no": 43,
+      "expression": "〜かったですか",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~었습니까?",
+      "connection": "い형용사 어간 + かったですか",
+      "example": {
+        "sentence_ja": "{北海道|ほっかいどう}は{寒|さむ}かったですか。",
+        "translation_ko": "홋카이도는 추웠습니까?",
+        "highlights": [
+          "寒かったですか"
+        ]
+      }
+    },
+    {
+      "no": 44,
+      "expression": "〜くなかったですか / 〜くありませんでしたか",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)지 않았습니까?",
+      "connection": "い형용사 어간 + くなかったですか / くありませんでしたか",
+      "example": {
+        "sentence_ja": "{一人暮|ひとりぐ}らしは{寂|さび}しくなかったですか。",
+        "translation_ko": "혼자 사는 건 외롭지 않았어요?",
+        "highlights": [
+          "寂しくなかったですか"
+        ]
+      }
+    },
+    {
+      "no": 45,
+      "expression": "〜い〜",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~한 (명사 수식)",
+      "connection": "い형용사 기본형 + 명사",
+      "example": {
+        "sentence_ja": "{新|あたら}しい{靴|くつ}を{買|か}いました。",
+        "translation_ko": "새 신발을 샀습니다.",
+        "highlights": [
+          "新しい"
+        ]
+      }
+    },
+    {
+      "no": 46,
+      "expression": "〜くて",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)고, ~(해)서",
+      "connection": "い형용사 어간 + くて",
+      "example": {
+        "sentence_ja": "この{部屋|へや}は{明|あか}るくて{静|しず}かです。",
+        "translation_ko": "이 방은 밝고 조용합니다.",
+        "highlights": [
+          "明るくて"
+        ]
+      }
+    },
+    {
+      "no": 47,
+      "expression": "〜く",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)고 (문장체 나열)",
+      "connection": "い형용사 어간 + く、",
+      "example": {
+        "sentence_ja": "{彼女|かのじょ}は{優|やさ}しく、{頭|あたま}もいい。",
+        "translation_ko": "그녀는 상냥하고 머리도 좋다.",
+        "highlights": [
+          "優しく"
+        ]
+      }
+    },
+    {
+      "no": 48,
+      "expression": "〜の",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~한 것",
+      "connection": "い형용사 기본형 + の",
+      "example": {
+        "sentence_ja": "もっと{大|おお}きいのはありますか。",
+        "translation_ko": "더 큰 것은 있나요?",
+        "highlights": [
+          "大きいの"
+        ]
+      }
+    },
+    {
+      "no": 49,
+      "expression": "〜く",
+      "reading": null,
+      "category": "い형용사",
+      "meaning_ko": "~(하)게 (부사적 용법)",
+      "connection": "い형용사 어간 + く + 동사",
+      "example": {
+        "sentence_ja": "{字|じ}をもう{少|すこ}し{大|おお}きく{書|か}いてください。",
+        "translation_ko": "글씨를 좀 더 크게 써 주세요.",
+        "highlights": [
+          "大きく"
+        ]
+      }
+    },
+    {
+      "no": 50,
+      "expression": "〜だ",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)다 (반말)",
+      "connection": "な형용사 어간 + だ",
+      "example": {
+        "sentence_ja": "この{町|まち}は{夜|よる}になると{静|しず}かだ。",
+        "translation_ko": "이 동네는 밤이 되면 조용하다.",
+        "highlights": [
+          "静かだ"
+        ]
+      }
+    },
+    {
+      "no": 51,
+      "expression": "〜ではない",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)지 않다",
+      "connection": "な형용사 어간 + ではない",
+      "example": {
+        "sentence_ja": "{私|わたし}は{料理|りょうり}が{上手|じょうず}ではない。",
+        "translation_ko": "나는 요리를 잘하지 못한다.",
+        "highlights": [
+          "上手ではない"
+        ]
+      }
+    },
+    {
+      "no": 52,
+      "expression": "〜だった",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~했다",
+      "connection": "な형용사 어간 + だった",
+      "example": {
+        "sentence_ja": "{子|こ}どものころ、{野菜|やさい}が{嫌|きら}いだった。",
+        "translation_ko": "어릴 때 채소를 싫어했다.",
+        "highlights": [
+          "嫌いだった"
+        ]
+      }
+    },
+    {
+      "no": 53,
+      "expression": "〜ではなかった",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)지 않았다",
+      "connection": "な형용사 어간 + ではなかった",
+      "example": {
+        "sentence_ja": "{昨日|きのう}の{試験|しけん}は{簡単|かんたん}ではなかった。",
+        "translation_ko": "어제 시험은 쉽지 않았다.",
+        "highlights": [
+          "簡単ではなかった"
+        ]
+      }
+    },
+    {
+      "no": 54,
+      "expression": "〜です",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~합니다",
+      "connection": "な형용사 어간 + です",
+      "example": {
+        "sentence_ja": "{山田|やまだ}さんはテニスが{上手|じょうず}です。",
+        "translation_ko": "야마다 씨는 테니스를 잘합니다.",
+        "highlights": [
+          "上手です"
+        ]
+      }
+    },
+    {
+      "no": 55,
+      "expression": "〜ではありません / 〜ではないです",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)지 않습니다",
+      "connection": "な형용사 어간 + ではありません / ではないです",
+      "example": {
+        "sentence_ja": "この{仕事|しごと}は{楽|らく}ではありません。",
+        "translation_ko": "이 일은 편하지 않습니다.",
+        "highlights": [
+          "楽ではありません"
+        ]
+      }
+    },
+    {
+      "no": 56,
+      "expression": "〜でした",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~했습니다",
+      "connection": "な형용사 어간 + でした",
+      "example": {
+        "sentence_ja": "{週末|しゅうまつ}の{公園|こうえん}はにぎやかでした。",
+        "translation_ko": "주말 공원은 북적였습니다.",
+        "highlights": [
+          "にぎやかでした"
+        ]
+      }
+    },
+    {
+      "no": 57,
+      "expression": "〜ではありませんでした / 〜ではなかったです",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)지 않았습니다",
+      "connection": "な형용사 어간 + ではありませんでした / ではなかったです",
+      "example": {
+        "sentence_ja": "{前|まえ}のアパートは{便利|べんり}ではありませんでした。",
+        "translation_ko": "전에 살던 아파트는 편리하지 않았습니다.",
+        "highlights": [
+          "便利ではありませんでした"
+        ]
+      }
+    },
+    {
+      "no": 58,
+      "expression": "〜ですか",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~합니까?",
+      "connection": "な형용사 어간 + ですか",
+      "example": {
+        "sentence_ja": "{日曜日|にちようび}は{暇|ひま}ですか。",
+        "translation_ko": "일요일은 한가합니까?",
+        "highlights": [
+          "暇ですか"
+        ]
+      }
+    },
+    {
+      "no": 59,
+      "expression": "〜ではありませんか / 〜ではないですか",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)지 않습니까?",
+      "connection": "な형용사 어간 + ではありませんか / ではないですか",
+      "example": {
+        "sentence_ja": "その{荷物|にもつ}、{大変|たいへん}ではありませんか。",
+        "translation_ko": "그 짐, 힘들지 않습니까?",
+        "highlights": [
+          "大変ではありませんか"
+        ]
+      }
+    },
+    {
+      "no": 60,
+      "expression": "〜でしたか",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~했습니까?",
+      "connection": "な형용사 어간 + でしたか",
+      "example": {
+        "sentence_ja": "{怪我|けが}は{大丈夫|だいじょうぶ}でしたか。",
+        "translation_ko": "다친 데는 괜찮았습니까?",
+        "highlights": [
+          "大丈夫でしたか"
+        ]
+      }
+    },
+    {
+      "no": 61,
+      "expression": "〜ではありませんでしたか / 〜ではなかったですか",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)지 않았습니까?",
+      "connection": "な형용사 어간 + ではありませんでしたか / ではなかったですか",
+      "example": {
+        "sentence_ja": "{初|はじ}めての{一人旅|ひとりたび}は{不安|ふあん}ではありませんでしたか。",
+        "translation_ko": "첫 혼자 여행은 불안하지 않았습니까?",
+        "highlights": [
+          "不安ではありませんでしたか"
+        ]
+      }
+    },
+    {
+      "no": 62,
+      "expression": "〜な〜",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~한 (명사 수식)",
+      "connection": "な형용사 어간 + な + 명사",
+      "example": {
+        "sentence_ja": "{空港|くうこう}で{有名|ゆうめい}な{歌手|かしゅ}を{見|み}ました。",
+        "translation_ko": "공항에서 유명한 가수를 봤습니다.",
+        "highlights": [
+          "有名な"
+        ]
+      }
+    },
+    {
+      "no": 63,
+      "expression": "〜で",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)고, ~(해)서",
+      "connection": "な형용사 어간 + で",
+      "example": {
+        "sentence_ja": "この{公園|こうえん}はきれいで{広|ひろ}いです。",
+        "translation_ko": "이 공원은 깨끗하고 넓습니다.",
+        "highlights": [
+          "きれいで"
+        ]
+      }
+    },
+    {
+      "no": 64,
+      "expression": "〜に",
+      "reading": null,
+      "category": "な형용사",
+      "meaning_ko": "~(하)게 (부사적 용법)",
+      "connection": "な형용사 어간 + に + 동사",
+      "example": {
+        "sentence_ja": "{週末|しゅうまつ}に{部屋|へや}をきれいに{掃除|そうじ}しました。",
+        "translation_ko": "주말에 방을 깨끗하게 청소했습니다.",
+        "highlights": [
+          "きれいに"
+        ]
+      }
+    },
+    {
+      "no": 65,
+      "expression": "〜ます",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(합)니다",
+      "connection": "동사 ます형 + ます",
+      "example": {
+        "sentence_ja": "{毎朝|まいあさ}{七時|しちじ}に{起|お}きます。",
+        "translation_ko": "매일 아침 7시에 일어납니다.",
+        "highlights": [
+          "起きます"
+        ]
+      }
+    },
+    {
+      "no": 66,
+      "expression": "〜ません",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(하)지 않습니다",
+      "connection": "동사 ます형 + ません",
+      "example": {
+        "sentence_ja": "{私|わたし}はお{酒|さけ}を{飲|の}みません。",
+        "translation_ko": "저는 술을 마시지 않습니다.",
+        "highlights": [
+          "飲みません"
+        ]
+      }
+    },
+    {
+      "no": 67,
+      "expression": "〜ました",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(했)습니다",
+      "connection": "동사 ます형 + ました",
+      "example": {
+        "sentence_ja": "{昨日|きのう}、{祖母|そぼ}に{手紙|てがみ}を{書|か}きました。",
+        "translation_ko": "어제 할머니께 편지를 썼습니다.",
+        "highlights": [
+          "書きました"
+        ]
+      }
+    },
+    {
+      "no": 68,
+      "expression": "〜ませんでした",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(하)지 않았습니다",
+      "connection": "동사 ます형 + ませんでした",
+      "example": {
+        "sentence_ja": "{今朝|けさ}は{何|なに}も{食|た}べませんでした。",
+        "translation_ko": "오늘 아침은 아무것도 먹지 않았습니다.",
+        "highlights": [
+          "食べませんでした"
+        ]
+      }
+    },
+    {
+      "no": 69,
+      "expression": "〜ましょう",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(합)시다",
+      "connection": "동사 ます형 + ましょう",
+      "example": {
+        "sentence_ja": "{暗|くら}くなったから、そろそろ{帰|かえ}りましょう。",
+        "translation_ko": "어두워졌으니 슬슬 돌아갑시다.",
+        "highlights": [
+          "帰りましょう"
+        ]
+      }
+    },
+    {
+      "no": 70,
+      "expression": "〜ませんか",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(하)지 않겠습니까? (권유)",
+      "connection": "동사 ます형 + ませんか",
+      "example": {
+        "sentence_ja": "{今度|こんど}いっしょに{映画|えいが}を{見|み}ませんか。",
+        "translation_ko": "다음에 같이 영화 보지 않을래요?",
+        "highlights": [
+          "見ませんか"
+        ]
+      }
+    },
+    {
+      "no": 71,
+      "expression": "〜ながら",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(하)면서",
+      "connection": "동사 ます형 + ながら",
+      "example": {
+        "sentence_ja": "{音楽|おんがく}を{聞|き}きながら{勉強|べんきょう}します。",
+        "translation_ko": "음악을 들으면서 공부합니다.",
+        "highlights": [
+          "聞きながら"
+        ]
+      }
+    },
+    {
+      "no": 72,
+      "expression": "〜に + 이동 동사",
+      "reading": null,
+      "category": "동사 ます형",
+      "meaning_ko": "~(하)러 가다/오다",
+      "connection": "동사 ます형 + に + 行く/来る/帰る",
+      "example": {
+        "sentence_ja": "{図書館|としょかん}へ{本|ほん}を{借|か}りに{行|い}きます。",
+        "translation_ko": "도서관에 책을 빌리러 갑니다.",
+        "highlights": [
+          "借りに",
+          "行きます"
+        ]
+      }
+    },
+    {
+      "no": 79,
+      "expression": "〜たい",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(하)고 싶다",
+      "connection": "동사 ます형 + たい",
+      "example": {
+        "sentence_ja": "{夏休|なつやす}みに{沖縄|おきなわ}へ{行|い}きたい。",
+        "translation_ko": "여름방학에 오키나와에 가고 싶다.",
+        "highlights": [
+          "行きたい"
+        ]
+      }
+    },
+    {
+      "no": 82,
+      "expression": "〜方",
+      "reading": "かた",
+      "category": "동사 활용",
+      "meaning_ko": "~하는 방법",
+      "connection": "동사 ます형 + 方",
+      "example": {
+        "sentence_ja": "この{機械|きかい}の{使|つか}い{方|かた}を{教|おし}えてください。",
+        "translation_ko": "이 기계 사용법을 알려 주세요.",
+        "highlights": [
+          "使い方"
+        ]
+      }
+    },
+    {
+      "no": 83,
+      "expression": "〜てください",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해) 주세요",
+      "connection": "동사 て형 + ください",
+      "example": {
+        "sentence_ja": "ここに{名前|なまえ}と{住所|じゅうしょ}を{書|か}いてください。",
+        "translation_ko": "여기에 이름과 주소를 써 주세요.",
+        "highlights": [
+          "書いてください"
+        ]
+      }
+    },
+    {
+      "no": 84,
+      "expression": "〜てくださいませんか",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(해) 주시지 않겠습니까?",
+      "connection": "동사 て형 + くださいませんか",
+      "example": {
+        "sentence_ja": "もう{少|すこ}しゆっくり{話|はな}してくださいませんか。",
+        "translation_ko": "조금 더 천천히 말씀해 주시지 않겠습니까?",
+        "highlights": [
+          "話してくださいませんか"
+        ]
+      }
+    },
+    {
+      "no": 85,
+      "expression": "〜てから",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(하)고 나서",
+      "connection": "동사 て형 + から",
+      "example": {
+        "sentence_ja": "{手|て}を{洗|あら}ってからご{飯|はん}を{食|た}べます。",
+        "translation_ko": "손을 씻고 나서 밥을 먹습니다.",
+        "highlights": [
+          "洗ってから"
+        ]
+      }
+    },
+    {
+      "no": 91,
+      "expression": "〜ている",
+      "reading": null,
+      "category": "동사 て형",
+      "meaning_ko": "~(하)고 있다",
+      "connection": "동사 て형 + いる",
+      "example": {
+        "sentence_ja": "{弟|おとうと}は{今|いま}、{部屋|へや}で{寝|ね}ている。",
+        "translation_ko": "남동생은 지금 방에서 자고 있다.",
+        "highlights": [
+          "寝ている"
+        ]
+      }
+    },
+    {
+      "no": 107,
+      "expression": "〜た後で",
+      "reading": "たあとで",
+      "category": "동사 た형",
+      "meaning_ko": "~(한) 후에",
+      "connection": "동사 た형 + 後で",
+      "example": {
+        "sentence_ja": "{授業|じゅぎょう}が{終|お}わった{後|あと}で、{図書館|としょかん}に{行|い}きます。",
+        "translation_ko": "수업이 끝난 후에 도서관에 갑니다.",
+        "highlights": [
+          "終わった後で"
+        ]
+      }
+    },
+    {
+      "no": 114,
+      "expression": "〜ない",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않다",
+      "connection": "동사 ない형 + ない",
+      "example": {
+        "sentence_ja": "{明日|あした}は{学校|がっこう}に{行|い}かない。",
+        "translation_ko": "내일은 학교에 가지 않는다.",
+        "highlights": [
+          "行かない"
+        ]
+      }
+    },
+    {
+      "no": 115,
+      "expression": "〜なかった",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않았다",
+      "connection": "동사 ない형 + なかった",
+      "example": {
+        "sentence_ja": "{昨日|きのう}はテレビを{見|み}なかった。",
+        "translation_ko": "어제는 TV를 보지 않았다.",
+        "highlights": [
+          "見なかった"
+        ]
+      }
+    },
+    {
+      "no": 116,
+      "expression": "〜ないで",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 않고",
+      "connection": "동사 ない형 + ないで",
+      "example": {
+        "sentence_ja": "{朝|あさ}ご{飯|はん}を{食|た}べないで{家|いえ}を{出|で}ました。",
+        "translation_ko": "아침밥을 먹지 않고 집을 나왔습니다.",
+        "highlights": [
+          "食べないで"
+        ]
+      }
+    },
+    {
+      "no": 117,
+      "expression": "〜ないでください",
+      "reading": null,
+      "category": "동사 ない형",
+      "meaning_ko": "~(하)지 마세요",
+      "connection": "동사 ない형 + ないでください",
+      "example": {
+        "sentence_ja": "{美術館|びじゅつかん}の{中|なか}で{写真|しゃしん}を{撮|と}らないでください。",
+        "translation_ko": "미술관 안에서 사진을 찍지 마세요.",
+        "highlights": [
+          "撮らないでください"
+        ]
+      }
+    },
+    {
+      "no": 148,
+      "expression": "〜つもりだ",
+      "reading": null,
+      "category": "동사 활용",
+      "meaning_ko": "~(할) 생각이다, ~(할) 예정이다",
+      "connection": "동사 사전형 / ない형 + つもりだ",
+      "example": {
+        "sentence_ja": "{来年|らいねん}、{日本|にほん}へ{留学|りゅうがく}するつもりだ。",
+        "translation_ko": "내년에 일본으로 유학 갈 생각이다.",
+        "highlights": [
+          "するつもりだ"
+        ]
+      }
+    },
+    {
+      "no": 150,
+      "expression": "あげる",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "(내가 남에게) 주다",
+      "connection": "(사람)に + 물건 + を + あげる",
+      "example": {
+        "sentence_ja": "{私|わたし}は{妹|いもうと}に{本|ほん}をあげた。",
+        "translation_ko": "나는 여동생에게 책을 주었다.",
+        "highlights": [
+          "あげた"
+        ]
+      }
+    },
+    {
+      "no": 151,
+      "expression": "くれる",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "(남이 나에게) 주다",
+      "connection": "(사람)が + 私に + 물건 + を + くれる",
+      "example": {
+        "sentence_ja": "{友|とも}だちが{私|わたし}にケーキをくれた。",
+        "translation_ko": "친구가 나에게 케이크를 주었다.",
+        "highlights": [
+          "くれた"
+        ]
+      }
+    },
+    {
+      "no": 152,
+      "expression": "もらう",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "받다",
+      "connection": "(사람)に/から + 물건 + を + もらう",
+      "example": {
+        "sentence_ja": "{先輩|せんぱい}にお{土産|みやげ}をもらった。",
+        "translation_ko": "선배에게 기념품을 받았다.",
+        "highlights": [
+          "もらった"
+        ]
+      }
+    },
+    {
+      "no": 153,
+      "expression": "〜てあげる",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "(내가 남에게) ~(해) 주다",
+      "connection": "동사 て형 + あげる",
+      "example": {
+        "sentence_ja": "{弟|おとうと}に{数学|すうがく}の{宿題|しゅくだい}を{教|おし}えてあげた。",
+        "translation_ko": "남동생에게 수학 숙제를 가르쳐 주었다.",
+        "highlights": [
+          "教えてあげた"
+        ]
+      }
+    },
+    {
+      "no": 154,
+      "expression": "〜てくれる",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "(남이 나에게) ~(해) 주다",
+      "connection": "동사 て형 + くれる",
+      "example": {
+        "sentence_ja": "{母|はは}がお{弁当|べんとう}を{作|つく}ってくれた。",
+        "translation_ko": "엄마가 도시락을 싸 주었다.",
+        "highlights": [
+          "作ってくれた"
+        ]
+      }
+    },
+    {
+      "no": 155,
+      "expression": "〜てもらう",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "(남에게) ~(해) 받다",
+      "connection": "동사 て형 + もらう",
+      "example": {
+        "sentence_ja": "{友|とも}だちに{駅|えき}まで{送|おく}ってもらった。",
+        "translation_ko": "친구가 역까지 바래다주었다.",
+        "highlights": [
+          "送ってもらった"
+        ]
+      }
+    },
+    {
+      "no": 159,
+      "expression": "〜てさしあげる",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "~(해) 드리다",
+      "connection": "동사 て형 + さしあげる",
+      "example": {
+        "sentence_ja": "{先生|せんせい}の{重|おも}い{荷物|にもつ}を{持|も}ってさしあげた。",
+        "translation_ko": "선생님의 무거운 짐을 들어 드렸다.",
+        "highlights": [
+          "持ってさしあげた"
+        ]
+      }
+    },
+    {
+      "no": 160,
+      "expression": "〜てくださる",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "~(해) 주시다",
+      "connection": "동사 て형 + くださる",
+      "example": {
+        "sentence_ja": "{部長|ぶちょう}が{駅|えき}まで{車|くるま}で{送|おく}ってくださった。",
+        "translation_ko": "부장님이 역까지 차로 데려다주셨다.",
+        "highlights": [
+          "送ってくださった"
+        ]
+      }
+    },
+    {
+      "no": 161,
+      "expression": "〜ていただく",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "(윗사람이) ~(해) 주시다",
+      "connection": "동사 て형 + いただく",
+      "example": {
+        "sentence_ja": "{先生|せんせい}に{作文|さくぶん}を{直|なお}していただきました。",
+        "translation_ko": "선생님이 작문을 고쳐 주셨습니다.",
+        "highlights": [
+          "直していただきました"
+        ]
+      }
+    },
+    {
+      "no": 162,
+      "expression": "〜ください",
+      "reading": null,
+      "category": "수수 표현",
+      "meaning_ko": "~ 주세요 (물건 요청)",
+      "connection": "명사 + (を) + ください",
+      "example": {
+        "sentence_ja": "すみません、コーヒーを{二|ふた}つください。",
+        "translation_ko": "저기요, 커피 두 잔 주세요.",
+        "highlights": [
+          "ください"
+        ]
+      }
+    },
+    {
+      "no": 187,
+      "expression": "お / ご",
+      "reading": null,
+      "category": "경어",
+      "meaning_ko": "お~ / ご~ (공손·존경 접두어)",
+      "connection": "お + 고유어 / ご + 한자어",
+      "example": {
+        "sentence_ja": "ご{家族|かぞく}はお{元気|げんき}ですか。",
+        "translation_ko": "가족분들은 잘 지내세요?",
+        "highlights": [
+          "ご",
+          "お"
+        ]
+      }
+    },
+    {
+      "no": 354,
+      "expression": "〜や",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~랑, ~나 (예시 나열)",
+      "connection": "명사 + や + 명사",
+      "example": {
+        "sentence_ja": "{机|つくえ}の{上|うえ}に{本|ほん}やノートがあります。",
+        "translation_ko": "책상 위에 책이랑 노트가 있습니다.",
+        "highlights": [
+          "や"
+        ]
+      }
+    },
+    {
+      "no": 355,
+      "expression": "〜から",
+      "reading": null,
+      "category": "조사",
+      "meaning_ko": "~부터, ~에서 (출발점)",
+      "connection": "명사 + から",
+      "example": {
+        "sentence_ja": "{授業|じゅぎょう}は{九時|くじ}から{始|はじ}まります。",
+        "translation_ko": "수업은 9시부터 시작합니다.",
+        "highlights": [
+          "から"
+        ]
+      }
+    },
+    {
+      "no": 406,
+      "expression": "〜て",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)고, ~(해)서",
+      "connection": "동사·형용사 て형",
+      "example": {
+        "sentence_ja": "{朝|あさ}{起|お}きて、{顔|かお}を{洗|あら}います。",
+        "translation_ko": "아침에 일어나서 세수를 합니다.",
+        "highlights": [
+          "起きて"
+        ]
+      }
+    },
+    {
+      "no": 407,
+      "expression": "〜と",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)면 (당연한 결과)",
+      "connection": "동사 사전형 + と",
+      "example": {
+        "sentence_ja": "このボタンを{押|お}すと、ドアが{開|あ}きます。",
+        "translation_ko": "이 버튼을 누르면 문이 열립니다.",
+        "highlights": [
+          "押すと"
+        ]
+      }
+    },
+    {
+      "no": 409,
+      "expression": "〜から",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~때문에, ~(하)니까",
+      "connection": "보통형 / 정중형 + から",
+      "example": {
+        "sentence_ja": "{雨|あめ}が{降|ふ}っているから、{出|で}かけません。",
+        "translation_ko": "비가 오고 있으니까 외출하지 않겠습니다.",
+        "highlights": [
+          "から"
+        ]
+      }
+    },
+    {
+      "no": 412,
+      "expression": "〜が",
+      "reading": null,
+      "category": "접속조사",
+      "meaning_ko": "~(하)지만",
+      "connection": "보통형 / 정중형 + が",
+      "example": {
+        "sentence_ja": "この{店|みせ}は{高|たか}いが、とてもおいしい。",
+        "translation_ko": "이 가게는 비싸지만 아주 맛있다.",
+        "highlights": [
+          "が、"
+        ]
+      }
+    },
+    {
+      "no": 422,
+      "expression": "〜か",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~까? (질문)",
+      "connection": "문장 끝 + か",
+      "example": {
+        "sentence_ja": "{明日|あした}のパーティーに{行|い}きますか。",
+        "translation_ko": "내일 파티에 가요?",
+        "highlights": [
+          "か。"
+        ]
+      }
+    },
+    {
+      "no": 423,
+      "expression": "〜ね",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~네요, ~군요 (공감·확인)",
+      "connection": "문장 끝 + ね",
+      "example": {
+        "sentence_ja": "{今日|きょう}はいい{天気|てんき}ですね。",
+        "translation_ko": "오늘은 날씨가 좋네요.",
+        "highlights": [
+          "ね。"
+        ]
+      }
+    },
+    {
+      "no": 424,
+      "expression": "〜よ",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~요, ~야 (알려 줌·강조)",
+      "connection": "문장 끝 + よ",
+      "example": {
+        "sentence_ja": "この{店|みせ}のケーキ、おいしいですよ。",
+        "translation_ko": "이 가게 케이크 맛있어요.",
+        "highlights": [
+          "よ。"
+        ]
+      }
+    },
+    {
+      "no": 425,
+      "expression": "〜わ",
+      "reading": null,
+      "category": "종조사",
+      "meaning_ko": "~네, ~어 (부드러운 여성 말투)",
+      "connection": "문장 끝 + わ",
+      "example": {
+        "sentence_ja": "あら、もうこんな{時間|じかん}だわ。",
+        "translation_ko": "어머, 벌써 시간이 이렇게 됐네.",
+        "highlights": [
+          "わ。"
+        ]
+      }
+    },
+    {
+      "no": 447,
+      "expression": "〜後で",
+      "reading": "あとで",
+      "category": "명사 응용",
+      "meaning_ko": "~ 후에",
+      "connection": "명사 + の + 後で",
+      "example": {
+        "sentence_ja": "{食事|しょくじ}の{後|あと}で、{少|すこ}し{散歩|さんぽ}しましょう。",
+        "translation_ko": "식사 후에 잠깐 산책합시다.",
+        "highlights": [
+          "の後で"
+        ]
+      }
+    },
+    {
+      "no": 448,
+      "expression": "〜前に",
+      "reading": "まえに",
+      "category": "명사 응용",
+      "meaning_ko": "~ 전에",
+      "connection": "동사 사전형 / 명사 + の + 前に",
+      "example": {
+        "sentence_ja": "{寝|ね}る{前|まえ}に{歯|は}を{磨|みが}きます。",
+        "translation_ko": "자기 전에 이를 닦습니다.",
+        "highlights": [
+          "前に"
+        ]
+      }
+    },
+    {
+      "no": 533,
+      "expression": "〜ごろ",
+      "reading": null,
+      "category": "접미어",
+      "meaning_ko": "~쯤, ~경 (시간)",
+      "connection": "시각·날짜 + ごろ",
+      "example": {
+        "sentence_ja": "{毎晩|まいばん}{十一時|じゅういちじ}ごろ{寝|ね}ます。",
+        "translation_ko": "매일 밤 11시쯤 잡니다.",
+        "highlights": [
+          "ごろ"
+        ]
+      }
+    },
+    {
+      "no": 534,
+      "expression": "〜たち",
+      "reading": null,
+      "category": "접미어",
+      "meaning_ko": "~들 (사람의 복수)",
+      "connection": "사람 명사 + たち",
+      "example": {
+        "sentence_ja": "{子|こ}どもたちが{公園|こうえん}で{遊|あそ}んでいます。",
+        "translation_ko": "아이들이 공원에서 놀고 있습니다.",
+        "highlights": [
+          "たち"
+        ]
+      }
+    }
+  ]
 }

@@ -1,20 +1,5 @@
 {
   "version": 1,
   "level": "N3",
-  "grammar": [
-    {
-      "no": 2,
-      "expression": "〜おかげで",
-      "reading": null,
-      "meaning_ko": "~덕분에",
-      "connection": "동사·い형용사 보통형 / な형용사+な / 명사+の + おかげで",
-      "nuance": "좋은 결과에 대한 감사. 비꼬는 의미로 나쁜 결과에 쓰기도 함",
-      "source_page": null,
-      "example": {
-        "sentence_ja": "{先輩|せんぱい}がノートを{貸|か}してくれたおかげで、{試験|しけん}に{合格|ごうかく}できた。",
-        "translation_ko": "선배가 노트를 빌려준 덕분에 시험에 합격할 수 있었다.",
-        "highlight": "おかげで"
-      }
-    }
-  ]
+  "grammar": []
 }

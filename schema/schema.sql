@@ -13,20 +13,20 @@
 CREATE TABLE grammar (
     no            INTEGER PRIMARY KEY,    -- 책에 매겨진 문법 번호 (안정적 ID)
     expression    TEXT NOT NULL,          -- 카드 앞면: 〜ばかりに
-    reading       TEXT,                   -- 한자 포함 표현일 때 읽기: 〜にもかかわらず 등
-    meaning_ko    TEXT NOT NULL,          -- 뜻: ~탓에, ~바람에
-    connection    TEXT,                   -- 접속: 동사 た형 / い형 / な형+な / 명사+である + ばかりに
-    nuance        TEXT,                   -- 뉘앙스·주의점 (부정적 결과에 주로 사용 등)
-    jlpt_level    TEXT NOT NULL CHECK (jlpt_level IN ('N5','N4','N3','N2','N1')),  -- 급수별 덱 분리 기준
-    source_page   INTEGER                 -- 책 페이지 (검수용)
+    reading       TEXT,                   -- 한자 포함 표현일 때 읽기: 〜方 → かた
+    category      TEXT NOT NULL,          -- 같은 모양 구분용 분류: 명사 / な형용사 / 동사 て형 …
+    meaning_ko    TEXT NOT NULL,          -- 뜻 (직접 작성)
+    connection    TEXT NOT NULL,          -- 접속 (직접 작성)
+    jlpt_level    TEXT NOT NULL CHECK (jlpt_level IN ('N5','N4','N3','N2','N1'))  -- 급수별 덱 분리 기준
 );
+-- 표현·급수의 출처(책 쪽수/단원)는 data/source/book_index.json 에 따로 보관 (검수용, 앱에는 안 들어감)
 
 CREATE TABLE example (
     id            INTEGER PRIMARY KEY,
     grammar_no    INTEGER NOT NULL REFERENCES grammar(no),
     sentence_ja   TEXT NOT NULL,          -- 루비 마크업: {油断|ゆだん}した
     translation_ko TEXT NOT NULL,
-    highlight     TEXT NOT NULL,          -- 문장 안에서 강조할 문법 부분 (예: "ばかりに")
+    highlights    TEXT NOT NULL,          -- 강조할 문법 부분 JSON 배열 (예: ["に","があります"])
     is_primary    INTEGER NOT NULL DEFAULT 1,  -- 카드에 쓰는 대표 예문 (지금은 문법당 1개)
     UNIQUE (grammar_no, is_primary)
 );

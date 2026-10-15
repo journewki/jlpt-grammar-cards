@@ -33,10 +33,10 @@ struct Grammar: Decodable, Identifiable, Hashable {
     let no: Int
     let expression: String
     let reading: String?
+    /// 같은 모양의 표현을 구분하는 분류: 명사 / な형용사 / 동사 て형 …
+    let category: String
     let meaningKo: String
-    let connection: String?
-    let nuance: String?
-    let sourcePage: Int?
+    let connection: String
     let example: Example
 
     var id: Int { no }
@@ -46,7 +46,8 @@ struct Example: Decodable, Hashable {
     /// 루비 마크업: {漢字|かんじ}
     let sentenceJa: String
     let translationKo: String
-    let highlight: String
+    /// 강조할 문법 부분. 루비를 뺀 문장에서 앞에서부터 차례로 찾는다 (〜に〜がある → ["に", "があります"])
+    let highlights: [String]
 }
 
 // MARK: - 사용자 학습 기록 (SwiftData, iCloud 동기화 가능)

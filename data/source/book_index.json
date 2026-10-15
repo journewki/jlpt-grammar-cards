@@ -1,0 +1,4698 @@
+[
+ {
+  "no": 1,
+  "expression": "〜だ",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 1,
+  "book_page": 21
+ },
+ {
+  "no": 2,
+  "expression": "〜ではない",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 2,
+  "book_page": 21
+ },
+ {
+  "no": 3,
+  "expression": "〜だった",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 3,
+  "book_page": 22
+ },
+ {
+  "no": 4,
+  "expression": "〜ではなかった",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 4,
+  "book_page": 22
+ },
+ {
+  "no": 5,
+  "expression": "〜です",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 5,
+  "book_page": 22
+ },
+ {
+  "no": 6,
+  "expression": "〜ではありません",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 6,
+  "book_page": 23
+ },
+ {
+  "no": 7,
+  "expression": "〜でした",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 7,
+  "book_page": 23
+ },
+ {
+  "no": 8,
+  "expression": "〜ではありませんでした",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 8,
+  "book_page": 24
+ },
+ {
+  "no": 9,
+  "expression": "〜ですか",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 9,
+  "book_page": 24
+ },
+ {
+  "no": 10,
+  "expression": "〜ではありませんか",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 10,
+  "book_page": 24
+ },
+ {
+  "no": 11,
+  "expression": "〜でしたか",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 11,
+  "book_page": 25
+ },
+ {
+  "no": 12,
+  "expression": "〜ではありませんでしたか",
+  "level": "N5",
+  "book_chapter": "명사의 기본 표현",
+  "book_num": 12,
+  "book_page": 25
+ },
+ {
+  "no": 13,
+  "expression": "〜の〜",
+  "level": "N5",
+  "book_chapter": "명사의 기타 표현",
+  "book_num": 1,
+  "book_page": 26
+ },
+ {
+  "no": 14,
+  "expression": "〜で",
+  "level": "N5",
+  "book_chapter": "명사의 기타 표현",
+  "book_num": 2,
+  "book_page": 27
+ },
+ {
+  "no": 15,
+  "expression": "〜の",
+  "level": "N5",
+  "book_chapter": "명사의 기타 표현",
+  "book_num": 3,
+  "book_page": 27
+ },
+ {
+  "no": 16,
+  "expression": "ある",
+  "level": "N5",
+  "book_chapter": "존재 동사",
+  "book_num": 1,
+  "book_page": 39
+ },
+ {
+  "no": 17,
+  "expression": "いる",
+  "level": "N5",
+  "book_chapter": "존재 동사",
+  "book_num": 2,
+  "book_page": 39
+ },
+ {
+  "no": 18,
+  "expression": "〜に〜がある",
+  "level": "N5",
+  "book_chapter": "존재 동사",
+  "book_num": 3,
+  "book_page": 40
+ },
+ {
+  "no": 19,
+  "expression": "〜に〜がいる",
+  "level": "N5",
+  "book_chapter": "존재 동사",
+  "book_num": 4,
+  "book_page": 41
+ },
+ {
+  "no": 20,
+  "expression": "何",
+  "level": "N5",
+  "book_chapter": "의문사",
+  "book_num": 1,
+  "book_page": 47
+ },
+ {
+  "no": 21,
+  "expression": "いつ",
+  "level": "N5",
+  "book_chapter": "의문사",
+  "book_num": 2,
+  "book_page": 48
+ },
+ {
+  "no": 22,
+  "expression": "だれ・どなた",
+  "level": "N5",
+  "book_chapter": "의문사",
+  "book_num": 3,
+  "book_page": 48
+ },
+ {
+  "no": 23,
+  "expression": "なぜ / どうして",
+  "level": "N5",
+  "book_chapter": "의문사",
+  "book_num": 4,
+  "book_page": 48
+ },
+ {
+  "no": 24,
+  "expression": "いくつ",
+  "level": "N5",
+  "book_chapter": "의문사",
+  "book_num": 5,
+  "book_page": 49
+ },
+ {
+  "no": 25,
+  "expression": "いくら",
+  "level": "N5",
+  "book_chapter": "의문사",
+  "book_num": 6,
+  "book_page": 49
+ },
+ {
+  "no": 26,
+  "expression": "どのぐらい / どれぐらい",
+  "level": "N5",
+  "book_chapter": "의문사",
+  "book_num": 7,
+  "book_page": 49
+ },
+ {
+  "no": 27,
+  "expression": "これ それ あれ どれ",
+  "level": "N5",
+  "book_chapter": "지시어",
+  "book_num": 1,
+  "book_page": 54
+ },
+ {
+  "no": 28,
+  "expression": "ここ そこ あそこ どこ",
+  "level": "N5",
+  "book_chapter": "지시어",
+  "book_num": 2,
+  "book_page": 54
+ },
+ {
+  "no": 29,
+  "expression": "この その あの どの",
+  "level": "N5",
+  "book_chapter": "지시어",
+  "book_num": 3,
+  "book_page": 54
+ },
+ {
+  "no": 30,
+  "expression": "こんな そんな あんな どんな",
+  "level": "N5",
+  "book_chapter": "지시어",
+  "book_num": 4,
+  "book_page": 55
+ },
+ {
+  "no": 31,
+  "expression": "こちら そちら あちら どちら",
+  "level": "N5",
+  "book_chapter": "지시어",
+  "book_num": 5,
+  "book_page": 55
+ },
+ {
+  "no": 32,
+  "expression": "こう そう ああ どう",
+  "level": "N5",
+  "book_chapter": "지시어",
+  "book_num": 6,
+  "book_page": 55
+ },
+ {
+  "no": 33,
+  "expression": "〜い",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 1,
+  "book_page": 62
+ },
+ {
+  "no": 34,
+  "expression": "〜くない",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 2,
+  "book_page": 62
+ },
+ {
+  "no": 35,
+  "expression": "〜かった",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 3,
+  "book_page": 62
+ },
+ {
+  "no": 36,
+  "expression": "〜くなかった",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 4,
+  "book_page": 63
+ },
+ {
+  "no": 37,
+  "expression": "〜いです",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 5,
+  "book_page": 63
+ },
+ {
+  "no": 38,
+  "expression": "〜くないです / 〜くありません",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 6,
+  "book_page": 63
+ },
+ {
+  "no": 39,
+  "expression": "〜かったです",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 7,
+  "book_page": 64
+ },
+ {
+  "no": 40,
+  "expression": "〜くなかったです / 〜くありませんでした",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 8,
+  "book_page": 64
+ },
+ {
+  "no": 41,
+  "expression": "〜いですか",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 9,
+  "book_page": 64
+ },
+ {
+  "no": 42,
+  "expression": "〜くないですか / 〜くありませんか",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 10,
+  "book_page": 65
+ },
+ {
+  "no": 43,
+  "expression": "〜かったですか",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 11,
+  "book_page": 65
+ },
+ {
+  "no": 44,
+  "expression": "〜くなかったですか / 〜くありませんでしたか",
+  "level": "N5",
+  "book_chapter": "い형용사의 기본 표현",
+  "book_num": 12,
+  "book_page": 66
+ },
+ {
+  "no": 45,
+  "expression": "〜い〜",
+  "level": "N5",
+  "book_chapter": "い형용사의 응용 표현",
+  "book_num": 1,
+  "book_page": 67
+ },
+ {
+  "no": 46,
+  "expression": "〜くて",
+  "level": "N5",
+  "book_chapter": "い형용사의 응용 표현",
+  "book_num": 2,
+  "book_page": 67
+ },
+ {
+  "no": 47,
+  "expression": "〜く",
+  "level": "N5",
+  "book_chapter": "い형용사의 응용 표현",
+  "book_num": 3,
+  "book_page": 68
+ },
+ {
+  "no": 48,
+  "expression": "〜の",
+  "level": "N5",
+  "book_chapter": "い형용사의 응용 표현",
+  "book_num": 4,
+  "book_page": 68
+ },
+ {
+  "no": 49,
+  "expression": "〜く",
+  "level": "N5",
+  "book_chapter": "い형용사의 응용 표현",
+  "book_num": 5,
+  "book_page": 68
+ },
+ {
+  "no": 50,
+  "expression": "〜だ",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 1,
+  "book_page": 76
+ },
+ {
+  "no": 51,
+  "expression": "〜ではない",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 2,
+  "book_page": 76
+ },
+ {
+  "no": 52,
+  "expression": "〜だった",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 3,
+  "book_page": 77
+ },
+ {
+  "no": 53,
+  "expression": "〜ではなかった",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 4,
+  "book_page": 77
+ },
+ {
+  "no": 54,
+  "expression": "〜です",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 5,
+  "book_page": 77
+ },
+ {
+  "no": 55,
+  "expression": "〜ではありません / 〜ではないです",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 6,
+  "book_page": 78
+ },
+ {
+  "no": 56,
+  "expression": "〜でした",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 7,
+  "book_page": 78
+ },
+ {
+  "no": 57,
+  "expression": "〜ではありませんでした / 〜ではなかったです",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 8,
+  "book_page": 78
+ },
+ {
+  "no": 58,
+  "expression": "〜ですか",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 9,
+  "book_page": 79
+ },
+ {
+  "no": 59,
+  "expression": "〜ではありませんか / 〜ではないですか",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 10,
+  "book_page": 79
+ },
+ {
+  "no": 60,
+  "expression": "〜でしたか",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 11,
+  "book_page": 80
+ },
+ {
+  "no": 61,
+  "expression": "〜ではありませんでしたか / 〜ではなかったですか",
+  "level": "N5",
+  "book_chapter": "な형용사의 기본 표현",
+  "book_num": 12,
+  "book_page": 80
+ },
+ {
+  "no": 62,
+  "expression": "〜な〜",
+  "level": "N5",
+  "book_chapter": "な형용사의 응용 표현",
+  "book_num": 1,
+  "book_page": 81
+ },
+ {
+  "no": 63,
+  "expression": "〜で",
+  "level": "N5",
+  "book_chapter": "な형용사의 응용 표현",
+  "book_num": 2,
+  "book_page": 81
+ },
+ {
+  "no": 64,
+  "expression": "〜に",
+  "level": "N5",
+  "book_chapter": "な형용사의 응용 표현",
+  "book_num": 3,
+  "book_page": 81
+ },
+ {
+  "no": 65,
+  "expression": "〜ます",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 기본 표현",
+  "book_num": 1,
+  "book_page": 96
+ },
+ {
+  "no": 66,
+  "expression": "〜ません",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 기본 표현",
+  "book_num": 2,
+  "book_page": 96
+ },
+ {
+  "no": 67,
+  "expression": "〜ました",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 기본 표현",
+  "book_num": 3,
+  "book_page": 97
+ },
+ {
+  "no": 68,
+  "expression": "〜ませんでした",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 기본 표현",
+  "book_num": 4,
+  "book_page": 97
+ },
+ {
+  "no": 69,
+  "expression": "〜ましょう",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 기본 표현",
+  "book_num": 5,
+  "book_page": 97
+ },
+ {
+  "no": 70,
+  "expression": "〜ませんか",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 기본 표현",
+  "book_num": 6,
+  "book_page": 98
+ },
+ {
+  "no": 71,
+  "expression": "〜ながら",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 1,
+  "book_page": 99
+ },
+ {
+  "no": 72,
+  "expression": "〜に + 이동 동사",
+  "level": "N5",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 2,
+  "book_page": 99
+ },
+ {
+  "no": 73,
+  "expression": "〜はじめる",
+  "level": "N4",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 3,
+  "book_page": 100
+ },
+ {
+  "no": 74,
+  "expression": "〜つづける",
+  "level": "N4",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 4,
+  "book_page": 100
+ },
+ {
+  "no": 75,
+  "expression": "〜おわる",
+  "level": "N4",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 5,
+  "book_page": 100
+ },
+ {
+  "no": 76,
+  "expression": "〜だす",
+  "level": "N4",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 6,
+  "book_page": 101
+ },
+ {
+  "no": 77,
+  "expression": "〜すぎる",
+  "level": "N4",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 7,
+  "book_page": 101
+ },
+ {
+  "no": 78,
+  "expression": "〜たがる",
+  "level": "N4",
+  "book_chapter": "동사 ます형의 응용 표현",
+  "book_num": 8,
+  "book_page": 102
+ },
+ {
+  "no": 79,
+  "expression": "〜たい",
+  "level": "N5",
+  "book_chapter": "동사의 い형용사화",
+  "book_num": 1,
+  "book_page": 103
+ },
+ {
+  "no": 80,
+  "expression": "〜やすい",
+  "level": "N4",
+  "book_chapter": "동사의 い형용사화",
+  "book_num": 2,
+  "book_page": 104
+ },
+ {
+  "no": 81,
+  "expression": "〜にくい",
+  "level": "N4",
+  "book_chapter": "동사의 い형용사화",
+  "book_num": 3,
+  "book_page": 104
+ },
+ {
+  "no": 82,
+  "expression": "〜方",
+  "level": "N5",
+  "book_chapter": "동사의 명사화",
+  "book_num": 2,
+  "book_page": 106
+ },
+ {
+  "no": 83,
+  "expression": "〜てください",
+  "level": "N5",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 1,
+  "book_page": 111
+ },
+ {
+  "no": 84,
+  "expression": "〜てくださいませんか",
+  "level": "N5",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 2,
+  "book_page": 111
+ },
+ {
+  "no": 85,
+  "expression": "〜てから",
+  "level": "N5",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 3,
+  "book_page": 112
+ },
+ {
+  "no": 86,
+  "expression": "〜ても",
+  "level": "N4",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 4,
+  "book_page": 112
+ },
+ {
+  "no": 87,
+  "expression": "〜てもいい",
+  "level": "N4",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 5,
+  "book_page": 112
+ },
+ {
+  "no": 88,
+  "expression": "〜てもかまわない",
+  "level": "N4",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 6,
+  "book_page": 113
+ },
+ {
+  "no": 89,
+  "expression": "〜てはいけない",
+  "level": "N4",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 7,
+  "book_page": 113
+ },
+ {
+  "no": 90,
+  "expression": "〜てはならない",
+  "level": "N4",
+  "book_chapter": "동사 て형의 기본 표현",
+  "book_num": 8,
+  "book_page": 113
+ },
+ {
+  "no": 91,
+  "expression": "〜ている",
+  "level": "N5",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 1,
+  "book_page": 114
+ },
+ {
+  "no": 92,
+  "expression": "〜てある",
+  "level": "N4",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 2,
+  "book_page": 115
+ },
+ {
+  "no": 93,
+  "expression": "〜ておく",
+  "level": "N4",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 3,
+  "book_page": 116
+ },
+ {
+  "no": 94,
+  "expression": "〜てみる",
+  "level": "N4",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 4,
+  "book_page": 116
+ },
+ {
+  "no": 95,
+  "expression": "〜てしまう",
+  "level": "N4",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 5,
+  "book_page": 117
+ },
+ {
+  "no": 96,
+  "expression": "〜てくる",
+  "level": "N4",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 6,
+  "book_page": 117
+ },
+ {
+  "no": 97,
+  "expression": "〜ていく",
+  "level": "N4",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 7,
+  "book_page": 118
+ },
+ {
+  "no": 98,
+  "expression": "〜てたまらない",
+  "level": "N3",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 8,
+  "book_page": 118
+ },
+ {
+  "no": 99,
+  "expression": "〜て以来",
+  "level": "N2",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 9,
+  "book_page": 119
+ },
+ {
+  "no": 100,
+  "expression": "〜てからでないと",
+  "level": "N2",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 10,
+  "book_page": 119
+ },
+ {
+  "no": 101,
+  "expression": "〜てしょうがない",
+  "level": "N2",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 11,
+  "book_page": 119
+ },
+ {
+  "no": 102,
+  "expression": "〜てならない",
+  "level": "N2",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 12,
+  "book_page": 120
+ },
+ {
+  "no": 103,
+  "expression": "〜てはじめて",
+  "level": "N2",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 13,
+  "book_page": 120
+ },
+ {
+  "no": 104,
+  "expression": "〜てからというもの",
+  "level": "N1",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 14,
+  "book_page": 121
+ },
+ {
+  "no": 105,
+  "expression": "〜てもさしつかえない",
+  "level": "N1",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 15,
+  "book_page": 121
+ },
+ {
+  "no": 106,
+  "expression": "〜てやまない",
+  "level": "N1",
+  "book_chapter": "동사 て형의 응용 표현",
+  "book_num": 16,
+  "book_page": 121
+ },
+ {
+  "no": 107,
+  "expression": "〜た後で",
+  "level": "N5",
+  "book_chapter": "동사 た형의 응용 표현",
+  "book_num": 1,
+  "book_page": 124
+ },
+ {
+  "no": 108,
+  "expression": "〜た方がいい",
+  "level": "N4",
+  "book_chapter": "동사 た형의 응용 표현",
+  "book_num": 2,
+  "book_page": 124
+ },
+ {
+  "no": 109,
+  "expression": "〜たあげく",
+  "level": "N2",
+  "book_chapter": "동사 た형의 응용 표현",
+  "book_num": 3,
+  "book_page": 125
+ },
+ {
+  "no": 110,
+  "expression": "〜た末に",
+  "level": "N2",
+  "book_chapter": "동사 た형의 응용 표현",
+  "book_num": 4,
+  "book_page": 125
+ },
+ {
+  "no": 111,
+  "expression": "〜たとたん",
+  "level": "N2",
+  "book_chapter": "동사 た형의 응용 표현",
+  "book_num": 5,
+  "book_page": 125
+ },
+ {
+  "no": 112,
+  "expression": "〜たが最後",
+  "level": "N1",
+  "book_chapter": "동사 た형의 응용 표현",
+  "book_num": 6,
+  "book_page": 126
+ },
+ {
+  "no": 113,
+  "expression": "〜た矢先に",
+  "level": "N1",
+  "book_chapter": "동사 た형의 응용 표현",
+  "book_num": 7,
+  "book_page": 126
+ },
+ {
+  "no": 114,
+  "expression": "〜ない",
+  "level": "N5",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 1,
+  "book_page": 130
+ },
+ {
+  "no": 115,
+  "expression": "〜なかった",
+  "level": "N5",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 2,
+  "book_page": 130
+ },
+ {
+  "no": 116,
+  "expression": "〜ないで",
+  "level": "N5",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 3,
+  "book_page": 130
+ },
+ {
+  "no": 117,
+  "expression": "〜ないでください",
+  "level": "N5",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 4,
+  "book_page": 131
+ },
+ {
+  "no": 118,
+  "expression": "〜なくて",
+  "level": "N4",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 5,
+  "book_page": 131
+ },
+ {
+  "no": 119,
+  "expression": "〜ない方がいい",
+  "level": "N4",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 6,
+  "book_page": 131
+ },
+ {
+  "no": 120,
+  "expression": "〜ず(に)",
+  "level": "N4",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 7,
+  "book_page": 132
+ },
+ {
+  "no": 121,
+  "expression": "〜なければならない",
+  "level": "N4",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 8,
+  "book_page": 133
+ },
+ {
+  "no": 122,
+  "expression": "〜なくてはいけない",
+  "level": "N4",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 9,
+  "book_page": 133
+ },
+ {
+  "no": 123,
+  "expression": "〜なくてもいい",
+  "level": "N4",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 10,
+  "book_page": 133
+ },
+ {
+  "no": 124,
+  "expression": "〜なくてもかまわない",
+  "level": "N4",
+  "book_chapter": "동사 ない형의 기본 표현",
+  "book_num": 11,
+  "book_page": 134
+ },
+ {
+  "no": 125,
+  "expression": "〜ないように",
+  "level": "N3",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 1,
+  "book_page": 135
+ },
+ {
+  "no": 126,
+  "expression": "〜ないことには",
+  "level": "N2",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 2,
+  "book_page": 135
+ },
+ {
+  "no": 127,
+  "expression": "〜ないことはない・〜ないこともない",
+  "level": "N2",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 3,
+  "book_page": 136
+ },
+ {
+  "no": 128,
+  "expression": "〜ないではいられない / 〜ずにはいられない",
+  "level": "N2",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 4,
+  "book_page": 136
+ },
+ {
+  "no": 129,
+  "expression": "〜ないではおかない / 〜ずにはおかない",
+  "level": "N1",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 5,
+  "book_page": 137
+ },
+ {
+  "no": 130,
+  "expression": "〜ないではすまない / 〜ずにはすまない",
+  "level": "N1",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 6,
+  "book_page": 137
+ },
+ {
+  "no": 131,
+  "expression": "〜ずじまい",
+  "level": "N1",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 7,
+  "book_page": 138
+ },
+ {
+  "no": 132,
+  "expression": "〜ないものでもない",
+  "level": "N1",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 8,
+  "book_page": 138
+ },
+ {
+  "no": 133,
+  "expression": "〜なくして",
+  "level": "N1",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 9,
+  "book_page": 138
+ },
+ {
+  "no": 134,
+  "expression": "〜なしに",
+  "level": "N1",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 10,
+  "book_page": 139
+ },
+ {
+  "no": 135,
+  "expression": "〜ないですむ / 〜ずにすむ",
+  "level": "N1",
+  "book_chapter": "동사 ない형의 응용 표현",
+  "book_num": 11,
+  "book_page": 139
+ },
+ {
+  "no": 136,
+  "expression": "〜てある",
+  "level": "N4",
+  "book_chapter": "타동사 응용 표현",
+  "book_num": 1,
+  "book_page": 148
+ },
+ {
+  "no": 137,
+  "expression": "〜ておく",
+  "level": "N4",
+  "book_chapter": "타동사 응용 표현",
+  "book_num": 2,
+  "book_page": 148
+ },
+ {
+  "no": 138,
+  "expression": "〜(よ)うと思う",
+  "level": "N4",
+  "book_chapter": "의지형의 기본 표현",
+  "book_num": 1,
+  "book_page": 152
+ },
+ {
+  "no": 139,
+  "expression": "〜(よ)うと思っている",
+  "level": "N4",
+  "book_chapter": "의지형의 기본 표현",
+  "book_num": 2,
+  "book_page": 152
+ },
+ {
+  "no": 140,
+  "expression": "〜(よ)うとする",
+  "level": "N4",
+  "book_chapter": "의지형의 기본 표현",
+  "book_num": 3,
+  "book_page": 153
+ },
+ {
+  "no": 141,
+  "expression": "〜(よ)うか",
+  "level": "N4",
+  "book_chapter": "의지형의 기본 표현",
+  "book_num": 4,
+  "book_page": 153
+ },
+ {
+  "no": 142,
+  "expression": "〜(よ)うではないか",
+  "level": "N2",
+  "book_chapter": "의지형의 응용 표현",
+  "book_num": 1,
+  "book_page": 154
+ },
+ {
+  "no": 143,
+  "expression": "〜(よ)うものなら",
+  "level": "N1",
+  "book_chapter": "의지형의 응용 표현",
+  "book_num": 2,
+  "book_page": 154
+ },
+ {
+  "no": 144,
+  "expression": "〜(よ)うが / 〜(よ)うと",
+  "level": "N1",
+  "book_chapter": "의지형의 응용 표현",
+  "book_num": 3,
+  "book_page": 155
+ },
+ {
+  "no": 145,
+  "expression": "〜(よ)うか〜まいか",
+  "level": "N1",
+  "book_chapter": "의지형의 응용 표현",
+  "book_num": 4,
+  "book_page": 155
+ },
+ {
+  "no": 146,
+  "expression": "〜(よ)うが〜まいが / 〜(よ)うと〜まいと",
+  "level": "N1",
+  "book_chapter": "의지형의 응용 표현",
+  "book_num": 5,
+  "book_page": 155
+ },
+ {
+  "no": 147,
+  "expression": "〜(よ)うにもできない",
+  "level": "N1",
+  "book_chapter": "의지형의 응용 표현",
+  "book_num": 6,
+  "book_page": 156
+ },
+ {
+  "no": 148,
+  "expression": "〜つもりだ",
+  "level": "N5",
+  "book_chapter": "의지형의 응용 표현",
+  "book_num": 7,
+  "book_page": 156
+ },
+ {
+  "no": 149,
+  "expression": "〜なさい",
+  "level": "N4",
+  "book_chapter": "기타 표현",
+  "book_num": 1,
+  "book_page": 159
+ },
+ {
+  "no": 150,
+  "expression": "あげる",
+  "level": "N5",
+  "book_chapter": "수급 표현",
+  "book_num": 1,
+  "book_page": 162
+ },
+ {
+  "no": 151,
+  "expression": "くれる",
+  "level": "N5",
+  "book_chapter": "수급 표현",
+  "book_num": 2,
+  "book_page": 163
+ },
+ {
+  "no": 152,
+  "expression": "もらう",
+  "level": "N5",
+  "book_chapter": "수급 표현",
+  "book_num": 3,
+  "book_page": 163
+ },
+ {
+  "no": 153,
+  "expression": "〜てあげる",
+  "level": "N5",
+  "book_chapter": "수익 표현",
+  "book_num": 1,
+  "book_page": 165
+ },
+ {
+  "no": 154,
+  "expression": "〜てくれる",
+  "level": "N5",
+  "book_chapter": "수익 표현",
+  "book_num": 2,
+  "book_page": 166
+ },
+ {
+  "no": 155,
+  "expression": "〜てもらう",
+  "level": "N5",
+  "book_chapter": "수익 표현",
+  "book_num": 3,
+  "book_page": 166
+ },
+ {
+  "no": 156,
+  "expression": "さしあげる",
+  "level": null,
+  "book_chapter": "수급 표현의 경어 표현",
+  "book_num": 1,
+  "book_page": 167
+ },
+ {
+  "no": 157,
+  "expression": "くださる",
+  "level": null,
+  "book_chapter": "수급 표현의 경어 표현",
+  "book_num": 2,
+  "book_page": 168
+ },
+ {
+  "no": 158,
+  "expression": "いただく",
+  "level": null,
+  "book_chapter": "수급 표현의 경어 표현",
+  "book_num": 3,
+  "book_page": 168
+ },
+ {
+  "no": 159,
+  "expression": "〜てさしあげる",
+  "level": "N5",
+  "book_chapter": "수익 표현의 경어 표현",
+  "book_num": 1,
+  "book_page": 169
+ },
+ {
+  "no": 160,
+  "expression": "〜てくださる",
+  "level": "N5",
+  "book_chapter": "수익 표현의 경어 표현",
+  "book_num": 2,
+  "book_page": 169
+ },
+ {
+  "no": 161,
+  "expression": "〜ていただく",
+  "level": "N5",
+  "book_chapter": "수익 표현의 경어 표현",
+  "book_num": 3,
+  "book_page": 170
+ },
+ {
+  "no": 162,
+  "expression": "〜ください",
+  "level": "N5",
+  "book_chapter": "수수 표현의 응용 표현",
+  "book_num": 1,
+  "book_page": 171
+ },
+ {
+  "no": 163,
+  "expression": "〜てください",
+  "level": "N5",
+  "book_chapter": "수수 표현의 응용 표현",
+  "book_num": 2,
+  "book_page": 171
+ },
+ {
+  "no": 164,
+  "expression": "〜ないでください",
+  "level": "N5",
+  "book_chapter": "수수 표현의 응용 표현",
+  "book_num": 3,
+  "book_page": 171
+ },
+ {
+  "no": 165,
+  "expression": "〜させてください",
+  "level": "N4",
+  "book_chapter": "수수 표현의 응용 표현",
+  "book_num": 4,
+  "book_page": 172
+ },
+ {
+  "no": 166,
+  "expression": "〜させていただく",
+  "level": "N3",
+  "book_chapter": "수수 표현의 응용 표현",
+  "book_num": 5,
+  "book_page": 172
+ },
+ {
+  "no": 167,
+  "expression": "〜ば〜ほど",
+  "level": "N3",
+  "book_chapter": "ば",
+  "book_num": 3,
+  "book_page": 197
+ },
+ {
+  "no": 168,
+  "expression": "〜も〜ば〜も",
+  "level": "N3",
+  "book_chapter": "ば",
+  "book_num": 4,
+  "book_page": 197
+ },
+ {
+  "no": 169,
+  "expression": "〜さえ〜ば",
+  "level": "N2",
+  "book_chapter": "ば",
+  "book_num": 5,
+  "book_page": 197
+ },
+ {
+  "no": 170,
+  "expression": "〜ばこそ",
+  "level": "N1",
+  "book_chapter": "ば",
+  "book_num": 6,
+  "book_page": 198
+ },
+ {
+  "no": 171,
+  "expression": "〜ばそれまでだ",
+  "level": "N1",
+  "book_chapter": "ば",
+  "book_num": 7,
+  "book_page": 198
+ },
+ {
+  "no": 172,
+  "expression": "〜たらどうですか",
+  "level": "N4",
+  "book_chapter": "たら",
+  "book_num": 3,
+  "book_page": 201
+ },
+ {
+  "no": 173,
+  "expression": "〜ならいざしらず",
+  "level": "N1",
+  "book_chapter": "なら",
+  "book_num": 3,
+  "book_page": 204
+ },
+ {
+  "no": 174,
+  "expression": "〜ならまだしも",
+  "level": "N1",
+  "book_chapter": "なら",
+  "book_num": 4,
+  "book_page": 205
+ },
+ {
+  "no": 175,
+  "expression": "〜ことができる",
+  "level": "N4",
+  "book_chapter": "가능형의 응용 표현",
+  "book_num": 1,
+  "book_page": 211
+ },
+ {
+  "no": 176,
+  "expression": "가능형 + ようになる",
+  "level": "N4",
+  "book_chapter": "가능형의 응용 표현",
+  "book_num": 2,
+  "book_page": 211
+ },
+ {
+  "no": 177,
+  "expression": "가능형 + ものなら",
+  "level": "N2",
+  "book_chapter": "가능형의 응용 표현",
+  "book_num": 3,
+  "book_page": 212
+ },
+ {
+  "no": 178,
+  "expression": "〜ように",
+  "level": "N3",
+  "book_chapter": "ようだ",
+  "book_num": 4,
+  "book_page": 220
+ },
+ {
+  "no": 179,
+  "expression": "〜ようになる",
+  "level": "N4",
+  "book_chapter": "ようだ",
+  "book_num": 5,
+  "book_page": 221
+ },
+ {
+  "no": 180,
+  "expression": "〜ようにする",
+  "level": "N4",
+  "book_chapter": "ようだ",
+  "book_num": 6,
+  "book_page": 221
+ },
+ {
+  "no": 181,
+  "expression": "〜だろう",
+  "level": "N4",
+  "book_chapter": "だろう・でしょう・かもしれない・みたいだ",
+  "book_num": 1,
+  "book_page": 224
+ },
+ {
+  "no": 182,
+  "expression": "〜でしょう",
+  "level": "N4",
+  "book_chapter": "だろう・でしょう・かもしれない・みたいだ",
+  "book_num": 2,
+  "book_page": 225
+ },
+ {
+  "no": 183,
+  "expression": "〜だろうと思う",
+  "level": "N4",
+  "book_chapter": "だろう・でしょう・かもしれない・みたいだ",
+  "book_num": 3,
+  "book_page": 225
+ },
+ {
+  "no": 184,
+  "expression": "〜かもしれない",
+  "level": "N4",
+  "book_chapter": "だろう・でしょう・かもしれない・みたいだ",
+  "book_num": 4,
+  "book_page": 226
+ },
+ {
+  "no": 185,
+  "expression": "〜みたいだ",
+  "level": "N4",
+  "book_chapter": "だろう・でしょう・かもしれない・みたいだ",
+  "book_num": 5,
+  "book_page": 227
+ },
+ {
+  "no": 186,
+  "expression": "〜です / 〜ます",
+  "level": "N5",
+  "book_chapter": "정중어",
+  "book_num": 1,
+  "book_page": 231
+ },
+ {
+  "no": 187,
+  "expression": "お / ご",
+  "level": "N5",
+  "book_chapter": "정중어",
+  "book_num": 2,
+  "book_page": 231
+ },
+ {
+  "no": 188,
+  "expression": "ござる",
+  "level": "N3",
+  "book_chapter": "정중어",
+  "book_num": 3,
+  "book_page": 232
+ },
+ {
+  "no": 189,
+  "expression": "お+동사 ます형+になる / ご+한자어+になる",
+  "level": "N4",
+  "book_chapter": "존경어",
+  "book_num": 1,
+  "book_page": 233
+ },
+ {
+  "no": 190,
+  "expression": "〜(ら)れる",
+  "level": "N4",
+  "book_chapter": "존경어",
+  "book_num": 2,
+  "book_page": 234
+ },
+ {
+  "no": 191,
+  "expression": "お+동사 ます형+ください / ご+한자어+ください",
+  "level": "N4",
+  "book_chapter": "존경어",
+  "book_num": 3,
+  "book_page": 234
+ },
+ {
+  "no": 192,
+  "expression": "お+동사 ます형+する / ご+한자어+する",
+  "level": "N4",
+  "book_chapter": "겸양어",
+  "book_num": 1,
+  "book_page": 238
+ },
+ {
+  "no": 193,
+  "expression": "〜させていただく",
+  "level": "N2",
+  "book_chapter": "겸양어",
+  "book_num": 2,
+  "book_page": 239
+ },
+ {
+  "no": 194,
+  "expression": "〜だ",
+  "level": "N5",
+  "book_chapter": "조동사의 활용",
+  "book_num": 1,
+  "book_page": 247
+ },
+ {
+  "no": 195,
+  "expression": "〜ない",
+  "level": "N5",
+  "book_chapter": "조동사의 활용",
+  "book_num": 2,
+  "book_page": 248
+ },
+ {
+  "no": 196,
+  "expression": "〜です",
+  "level": "N5",
+  "book_chapter": "조동사의 활용",
+  "book_num": 3,
+  "book_page": 248
+ },
+ {
+  "no": 197,
+  "expression": "〜ます",
+  "level": "N5",
+  "book_chapter": "조동사의 활용",
+  "book_num": 4,
+  "book_page": 249
+ },
+ {
+  "no": 198,
+  "expression": "〜た",
+  "level": "N5",
+  "book_chapter": "조동사의 활용",
+  "book_num": 5,
+  "book_page": 250
+ },
+ {
+  "no": 199,
+  "expression": "〜たい",
+  "level": "N5",
+  "book_chapter": "조동사의 활용",
+  "book_num": 6,
+  "book_page": 250
+ },
+ {
+  "no": 200,
+  "expression": "〜たがる",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 7,
+  "book_page": 251
+ },
+ {
+  "no": 201,
+  "expression": "〜そうだ (양태)",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 8,
+  "book_page": 252
+ },
+ {
+  "no": 202,
+  "expression": "〜そうだ (전문)",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 9,
+  "book_page": 252
+ },
+ {
+  "no": 203,
+  "expression": "〜ようだ",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 10,
+  "book_page": 253
+ },
+ {
+  "no": 204,
+  "expression": "〜らしい",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 11,
+  "book_page": 253
+ },
+ {
+  "no": 205,
+  "expression": "〜(さ)せる",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 12,
+  "book_page": 254
+ },
+ {
+  "no": 206,
+  "expression": "〜(ら)れる",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 13,
+  "book_page": 254
+ },
+ {
+  "no": 207,
+  "expression": "〜(よ)う",
+  "level": "N4",
+  "book_chapter": "조동사의 활용",
+  "book_num": 14,
+  "book_page": 255
+ },
+ {
+  "no": 208,
+  "expression": "〜まい",
+  "level": "N3",
+  "book_chapter": "조동사의 활용",
+  "book_num": 15,
+  "book_page": 256
+ },
+ {
+  "no": 209,
+  "expression": "〜ぬ",
+  "level": "N2",
+  "book_chapter": "조동사의 활용",
+  "book_num": 16,
+  "book_page": 257
+ },
+ {
+  "no": 210,
+  "expression": "〜べし",
+  "level": "N2",
+  "book_chapter": "조동사의 활용",
+  "book_num": 17,
+  "book_page": 258
+ },
+ {
+  "no": 211,
+  "expression": "〜べきだ・〜べきではない",
+  "level": "N2",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 1,
+  "book_page": 259
+ },
+ {
+  "no": 212,
+  "expression": "〜べからず",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 2,
+  "book_page": 259
+ },
+ {
+  "no": 213,
+  "expression": "〜べからざる",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 3,
+  "book_page": 260
+ },
+ {
+  "no": 214,
+  "expression": "〜べく",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 4,
+  "book_page": 260
+ },
+ {
+  "no": 215,
+  "expression": "〜べくもない",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 5,
+  "book_page": 260
+ },
+ {
+  "no": 216,
+  "expression": "〜ぬ / 〜ん",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 6,
+  "book_page": 261
+ },
+ {
+  "no": 217,
+  "expression": "〜ねば",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 7,
+  "book_page": 261
+ },
+ {
+  "no": 218,
+  "expression": "〜ではあるまいし",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 8,
+  "book_page": 261
+ },
+ {
+  "no": 219,
+  "expression": "〜(よ)うが〜まいが / 〜(よ)うと〜まいと",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 9,
+  "book_page": 262
+ },
+ {
+  "no": 220,
+  "expression": "〜(よ)うか〜まいか",
+  "level": "N1",
+  "book_chapter": "고어체 조동사의 응용 표현",
+  "book_num": 10,
+  "book_page": 262
+ },
+ {
+  "no": 221,
+  "expression": "だから",
+  "level": "N4",
+  "book_chapter": "순접 접속사",
+  "book_num": 1,
+  "book_page": 282
+ },
+ {
+  "no": 222,
+  "expression": "したがって",
+  "level": "N2",
+  "book_chapter": "순접 접속사",
+  "book_num": 2,
+  "book_page": 282
+ },
+ {
+  "no": 223,
+  "expression": "そのため",
+  "level": "N3",
+  "book_chapter": "순접 접속사",
+  "book_num": 3,
+  "book_page": 283
+ },
+ {
+  "no": 224,
+  "expression": "それで",
+  "level": "N4",
+  "book_chapter": "순접 접속사",
+  "book_num": 4,
+  "book_page": 283
+ },
+ {
+  "no": 225,
+  "expression": "そこで",
+  "level": "N2",
+  "book_chapter": "순접 접속사",
+  "book_num": 5,
+  "book_page": 283
+ },
+ {
+  "no": 226,
+  "expression": "それゆえ",
+  "level": "N1",
+  "book_chapter": "순접 접속사",
+  "book_num": 6,
+  "book_page": 284
+ },
+ {
+  "no": 227,
+  "expression": "すると",
+  "level": "N4",
+  "book_chapter": "순접 접속사",
+  "book_num": 7,
+  "book_page": 284
+ },
+ {
+  "no": 228,
+  "expression": "しかし",
+  "level": "N4",
+  "book_chapter": "역접 접속사",
+  "book_num": 1,
+  "book_page": 285
+ },
+ {
+  "no": 229,
+  "expression": "けれども",
+  "level": "N4",
+  "book_chapter": "역접 접속사",
+  "book_num": 2,
+  "book_page": 285
+ },
+ {
+  "no": 230,
+  "expression": "だが",
+  "level": "N3",
+  "book_chapter": "역접 접속사",
+  "book_num": 3,
+  "book_page": 286
+ },
+ {
+  "no": 231,
+  "expression": "それなのに",
+  "level": "N2",
+  "book_chapter": "역접 접속사",
+  "book_num": 4,
+  "book_page": 286
+ },
+ {
+  "no": 232,
+  "expression": "それでも",
+  "level": "N2",
+  "book_chapter": "역접 접속사",
+  "book_num": 5,
+  "book_page": 286
+ },
+ {
+  "no": 233,
+  "expression": "ところが",
+  "level": "N2",
+  "book_chapter": "역접 접속사",
+  "book_num": 6,
+  "book_page": 287
+ },
+ {
+  "no": 234,
+  "expression": "それが",
+  "level": "N2",
+  "book_chapter": "역접 접속사",
+  "book_num": 7,
+  "book_page": 287
+ },
+ {
+  "no": 235,
+  "expression": "それに",
+  "level": "N4",
+  "book_chapter": "첨가 접속사",
+  "book_num": 1,
+  "book_page": 288
+ },
+ {
+  "no": 236,
+  "expression": "そのうえ",
+  "level": "N3",
+  "book_chapter": "첨가 접속사",
+  "book_num": 2,
+  "book_page": 288
+ },
+ {
+  "no": 237,
+  "expression": "しかも",
+  "level": "N2",
+  "book_chapter": "첨가 접속사",
+  "book_num": 3,
+  "book_page": 289
+ },
+ {
+  "no": 238,
+  "expression": "そして",
+  "level": "N4",
+  "book_chapter": "첨가 접속사",
+  "book_num": 4,
+  "book_page": 289
+ },
+ {
+  "no": 239,
+  "expression": "それから",
+  "level": "N4",
+  "book_chapter": "첨가 접속사",
+  "book_num": 5,
+  "book_page": 289
+ },
+ {
+  "no": 240,
+  "expression": "また",
+  "level": "N3",
+  "book_chapter": "병립(나열) 접속사",
+  "book_num": 1,
+  "book_page": 290
+ },
+ {
+  "no": 241,
+  "expression": "及び",
+  "level": "N1",
+  "book_chapter": "병립(나열) 접속사",
+  "book_num": 2,
+  "book_page": 290
+ },
+ {
+  "no": 242,
+  "expression": "並びに",
+  "level": "N1",
+  "book_chapter": "병립(나열) 접속사",
+  "book_num": 3,
+  "book_page": 291
+ },
+ {
+  "no": 243,
+  "expression": "かつ",
+  "level": "N1",
+  "book_chapter": "병립(나열) 접속사",
+  "book_num": 4,
+  "book_page": 291
+ },
+ {
+  "no": 244,
+  "expression": "すなわち",
+  "level": "N2",
+  "book_chapter": "설명 접속사",
+  "book_num": 1,
+  "book_page": 292
+ },
+ {
+  "no": 245,
+  "expression": "つまり",
+  "level": "N2",
+  "book_chapter": "설명 접속사",
+  "book_num": 2,
+  "book_page": 293
+ },
+ {
+  "no": 246,
+  "expression": "要するに",
+  "level": "N2",
+  "book_chapter": "설명 접속사",
+  "book_num": 3,
+  "book_page": 293
+ },
+ {
+  "no": 247,
+  "expression": "なぜなら",
+  "level": "N3",
+  "book_chapter": "설명 접속사",
+  "book_num": 4,
+  "book_page": 294
+ },
+ {
+  "no": 248,
+  "expression": "なお",
+  "level": "N2",
+  "book_chapter": "설명 접속사",
+  "book_num": 5,
+  "book_page": 294
+ },
+ {
+  "no": 249,
+  "expression": "ただし",
+  "level": "N2",
+  "book_chapter": "설명 접속사",
+  "book_num": 6,
+  "book_page": 294
+ },
+ {
+  "no": 250,
+  "expression": "ちなみに",
+  "level": "N1",
+  "book_chapter": "설명 접속사",
+  "book_num": 7,
+  "book_page": 295
+ },
+ {
+  "no": 251,
+  "expression": "もっとも",
+  "level": "N1",
+  "book_chapter": "설명 접속사",
+  "book_num": 8,
+  "book_page": 295
+ },
+ {
+  "no": 252,
+  "expression": "それでは",
+  "level": "N4",
+  "book_chapter": "전환 접속사",
+  "book_num": 1,
+  "book_page": 296
+ },
+ {
+  "no": 253,
+  "expression": "ところで",
+  "level": "N2",
+  "book_chapter": "전환 접속사",
+  "book_num": 2,
+  "book_page": 296
+ },
+ {
+  "no": 254,
+  "expression": "さて",
+  "level": "N2",
+  "book_chapter": "전환 접속사",
+  "book_num": 3,
+  "book_page": 297
+ },
+ {
+  "no": 255,
+  "expression": "または",
+  "level": "N4",
+  "book_chapter": "선택 접속사",
+  "book_num": 1,
+  "book_page": 298
+ },
+ {
+  "no": 256,
+  "expression": "それとも",
+  "level": "N3",
+  "book_chapter": "선택 접속사",
+  "book_num": 2,
+  "book_page": 298
+ },
+ {
+  "no": 257,
+  "expression": "あるいは",
+  "level": "N2",
+  "book_chapter": "선택 접속사",
+  "book_num": 3,
+  "book_page": 299
+ },
+ {
+  "no": 258,
+  "expression": "もしくは",
+  "level": "N1",
+  "book_chapter": "선택 접속사",
+  "book_num": 4,
+  "book_page": 299
+ },
+ {
+  "no": 259,
+  "expression": "ないし",
+  "level": "N1",
+  "book_chapter": "선택 접속사",
+  "book_num": 5,
+  "book_page": 300
+ },
+ {
+  "no": 260,
+  "expression": "〜に",
+  "level": null,
+  "book_chapter": "조사 に",
+  "book_num": 1,
+  "book_page": 308
+ },
+ {
+  "no": 261,
+  "expression": "〜によると",
+  "level": "N4",
+  "book_chapter": "조사 に",
+  "book_num": 2,
+  "book_page": 309
+ },
+ {
+  "no": 262,
+  "expression": "〜にかかわらず",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 3,
+  "book_page": 309
+ },
+ {
+  "no": 263,
+  "expression": "〜にかわって",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 4,
+  "book_page": 310
+ },
+ {
+  "no": 264,
+  "expression": "〜にかけては",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 5,
+  "book_page": 310
+ },
+ {
+  "no": 265,
+  "expression": "〜に関して",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 6,
+  "book_page": 310
+ },
+ {
+  "no": 266,
+  "expression": "〜に比べて",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 7,
+  "book_page": 311
+ },
+ {
+  "no": 267,
+  "expression": "〜に加えて",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 8,
+  "book_page": 311
+ },
+ {
+  "no": 268,
+  "expression": "〜にしたがって",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 9,
+  "book_page": 311
+ },
+ {
+  "no": 269,
+  "expression": "〜にしては",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 10,
+  "book_page": 312
+ },
+ {
+  "no": 270,
+  "expression": "〜にすぎない",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 11,
+  "book_page": 312
+ },
+ {
+  "no": 271,
+  "expression": "〜に違いない / 〜相違ない",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 12,
+  "book_page": 312
+ },
+ {
+  "no": 272,
+  "expression": "〜に対して",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 13,
+  "book_page": 313
+ },
+ {
+  "no": 273,
+  "expression": "〜について",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 14,
+  "book_page": 313
+ },
+ {
+  "no": 274,
+  "expression": "〜にとって",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 15,
+  "book_page": 313
+ },
+ {
+  "no": 275,
+  "expression": "〜によって",
+  "level": "N3",
+  "book_chapter": "조사 に",
+  "book_num": 16,
+  "book_page": 314
+ },
+ {
+  "no": 276,
+  "expression": "〜にあたって / 〜にあたり",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 17,
+  "book_page": 314
+ },
+ {
+  "no": 277,
+  "expression": "〜において",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 18,
+  "book_page": 314
+ },
+ {
+  "no": 278,
+  "expression": "〜に応じて",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 19,
+  "book_page": 315
+ },
+ {
+  "no": 279,
+  "expression": "〜に限って",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 20,
+  "book_page": 315
+ },
+ {
+  "no": 280,
+  "expression": "〜に限らず",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 21,
+  "book_page": 316
+ },
+ {
+  "no": 281,
+  "expression": "〜に決まっている",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 22,
+  "book_page": 316
+ },
+ {
+  "no": 282,
+  "expression": "〜に越したことはない",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 23,
+  "book_page": 316
+ },
+ {
+  "no": 283,
+  "expression": "〜にこたえて",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 24,
+  "book_page": 317
+ },
+ {
+  "no": 284,
+  "expression": "〜に際して",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 25,
+  "book_page": 317
+ },
+ {
+  "no": 285,
+  "expression": "〜に先立って / 〜に先立ち",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 26,
+  "book_page": 317
+ },
+ {
+  "no": 286,
+  "expression": "〜にそって",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 27,
+  "book_page": 318
+ },
+ {
+  "no": 287,
+  "expression": "〜につき",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 28,
+  "book_page": 318
+ },
+ {
+  "no": 288,
+  "expression": "〜につれて",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 29,
+  "book_page": 319
+ },
+ {
+  "no": 289,
+  "expression": "〜に伴って",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 30,
+  "book_page": 319
+ },
+ {
+  "no": 290,
+  "expression": "〜に反して",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 31,
+  "book_page": 319
+ },
+ {
+  "no": 291,
+  "expression": "〜にほかならない",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 32,
+  "book_page": 320
+ },
+ {
+  "no": 292,
+  "expression": "〜に基づいて",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 33,
+  "book_page": 320
+ },
+ {
+  "no": 293,
+  "expression": "〜にわたって",
+  "level": "N2",
+  "book_chapter": "조사 に",
+  "book_num": 34,
+  "book_page": 320
+ },
+ {
+  "no": 294,
+  "expression": "〜にあたらない",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 35,
+  "book_page": 321
+ },
+ {
+  "no": 295,
+  "expression": "〜にあって",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 36,
+  "book_page": 321
+ },
+ {
+  "no": 296,
+  "expression": "〜にいたって",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 37,
+  "book_page": 321
+ },
+ {
+  "no": 297,
+  "expression": "〜にかかっている",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 38,
+  "book_page": 322
+ },
+ {
+  "no": 298,
+  "expression": "〜にかかわる",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 39,
+  "book_page": 322
+ },
+ {
+  "no": 299,
+  "expression": "〜に限ったことではない",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 40,
+  "book_page": 322
+ },
+ {
+  "no": 300,
+  "expression": "〜にかこつけて",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 41,
+  "book_page": 323
+ },
+ {
+  "no": 301,
+  "expression": "〜にかたくない",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 42,
+  "book_page": 323
+ },
+ {
+  "no": 302,
+  "expression": "〜にかまけて",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 43,
+  "book_page": 323
+ },
+ {
+  "no": 303,
+  "expression": "〜に即して",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 44,
+  "book_page": 324
+ },
+ {
+  "no": 304,
+  "expression": "〜にたえない",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 45,
+  "book_page": 324
+ },
+ {
+  "no": 305,
+  "expression": "〜にたえる",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 46,
+  "book_page": 324
+ },
+ {
+  "no": 306,
+  "expression": "〜にたる",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 47,
+  "book_page": 325
+ },
+ {
+  "no": 307,
+  "expression": "〜にとどまらず",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 48,
+  "book_page": 325
+ },
+ {
+  "no": 308,
+  "expression": "〜にのぼる",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 49,
+  "book_page": 325
+ },
+ {
+  "no": 309,
+  "expression": "〜には及ばない",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 50,
+  "book_page": 326
+ },
+ {
+  "no": 310,
+  "expression": "〜にひきかえ",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 51,
+  "book_page": 326
+ },
+ {
+  "no": 311,
+  "expression": "〜にもまして",
+  "level": "N1",
+  "book_chapter": "조사 に",
+  "book_num": 52,
+  "book_page": 327
+ },
+ {
+  "no": 312,
+  "expression": "〜を",
+  "level": null,
+  "book_chapter": "조사 を",
+  "book_num": 1,
+  "book_page": 328
+ },
+ {
+  "no": 313,
+  "expression": "〜を中心に",
+  "level": "N3",
+  "book_chapter": "조사 を",
+  "book_num": 2,
+  "book_page": 329
+ },
+ {
+  "no": 314,
+  "expression": "〜を通して",
+  "level": "N3",
+  "book_chapter": "조사 を",
+  "book_num": 3,
+  "book_page": 329
+ },
+ {
+  "no": 315,
+  "expression": "〜をきっかけに",
+  "level": "N2",
+  "book_chapter": "조사 を",
+  "book_num": 4,
+  "book_page": 329
+ },
+ {
+  "no": 316,
+  "expression": "〜を契機に",
+  "level": "N2",
+  "book_chapter": "조사 を",
+  "book_num": 5,
+  "book_page": 330
+ },
+ {
+  "no": 317,
+  "expression": "〜を込めて",
+  "level": "N2",
+  "book_chapter": "조사 を",
+  "book_num": 6,
+  "book_page": 330
+ },
+ {
+  "no": 318,
+  "expression": "〜を問わず",
+  "level": "N2",
+  "book_chapter": "조사 を",
+  "book_num": 7,
+  "book_page": 330
+ },
+ {
+  "no": 319,
+  "expression": "〜をはじめ",
+  "level": "N2",
+  "book_chapter": "조사 を",
+  "book_num": 8,
+  "book_page": 331
+ },
+ {
+  "no": 320,
+  "expression": "〜をめぐって",
+  "level": "N2",
+  "book_chapter": "조사 を",
+  "book_num": 9,
+  "book_page": 331
+ },
+ {
+  "no": 321,
+  "expression": "〜を基に",
+  "level": "N2",
+  "book_chapter": "조사 を",
+  "book_num": 10,
+  "book_page": 331
+ },
+ {
+  "no": 322,
+  "expression": "〜を限りに",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 11,
+  "book_page": 332
+ },
+ {
+  "no": 323,
+  "expression": "〜を皮切りに",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 12,
+  "book_page": 332
+ },
+ {
+  "no": 324,
+  "expression": "〜をおいて",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 13,
+  "book_page": 332
+ },
+ {
+  "no": 325,
+  "expression": "〜をおして",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 14,
+  "book_page": 333
+ },
+ {
+  "no": 326,
+  "expression": "〜を禁じえない",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 15,
+  "book_page": 333
+ },
+ {
+  "no": 327,
+  "expression": "〜を踏まえて",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 16,
+  "book_page": 333
+ },
+ {
+  "no": 328,
+  "expression": "〜を経て",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 17,
+  "book_page": 334
+ },
+ {
+  "no": 329,
+  "expression": "〜をもって",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 18,
+  "book_page": 334
+ },
+ {
+  "no": 330,
+  "expression": "〜をものともせず",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 19,
+  "book_page": 335
+ },
+ {
+  "no": 331,
+  "expression": "〜を余儀なくされる",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 20,
+  "book_page": 335
+ },
+ {
+  "no": 332,
+  "expression": "〜をよそに",
+  "level": "N1",
+  "book_chapter": "조사 を",
+  "book_num": 21,
+  "book_page": 335
+ },
+ {
+  "no": 333,
+  "expression": "〜と",
+  "level": null,
+  "book_chapter": "조사 と와 や",
+  "book_num": 1,
+  "book_page": 336
+ },
+ {
+  "no": 334,
+  "expression": "〜という",
+  "level": "N4",
+  "book_chapter": "조사 と와 や",
+  "book_num": 2,
+  "book_page": 337
+ },
+ {
+  "no": 335,
+  "expression": "〜というと / 〜といえば",
+  "level": "N3",
+  "book_chapter": "조사 と와 や",
+  "book_num": 3,
+  "book_page": 338
+ },
+ {
+  "no": 336,
+  "expression": "〜として",
+  "level": "N3",
+  "book_chapter": "조사 と와 や",
+  "book_num": 4,
+  "book_page": 338
+ },
+ {
+  "no": 337,
+  "expression": "〜とともに",
+  "level": "N3",
+  "book_chapter": "조사 と와 や",
+  "book_num": 5,
+  "book_page": 338
+ },
+ {
+  "no": 338,
+  "expression": "〜といっても",
+  "level": "N2",
+  "book_chapter": "조사 と와 や",
+  "book_num": 6,
+  "book_page": 339
+ },
+ {
+  "no": 339,
+  "expression": "〜というより",
+  "level": "N2",
+  "book_chapter": "조사 と와 や",
+  "book_num": 7,
+  "book_page": 339
+ },
+ {
+  "no": 340,
+  "expression": "〜としたら / 〜とすれば",
+  "level": "N2",
+  "book_chapter": "조사 と와 や",
+  "book_num": 8,
+  "book_page": 339
+ },
+ {
+  "no": 341,
+  "expression": "〜としても",
+  "level": "N2",
+  "book_chapter": "조사 と와 や",
+  "book_num": 9,
+  "book_page": 340
+ },
+ {
+  "no": 342,
+  "expression": "〜とは限らない",
+  "level": "N2",
+  "book_chapter": "조사 と와 や",
+  "book_num": 10,
+  "book_page": 340
+ },
+ {
+  "no": 343,
+  "expression": "〜とあって",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 11,
+  "book_page": 340
+ },
+ {
+  "no": 344,
+  "expression": "〜とあれば",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 12,
+  "book_page": 341
+ },
+ {
+  "no": 345,
+  "expression": "〜といえども",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 13,
+  "book_page": 341
+ },
+ {
+  "no": 346,
+  "expression": "〜といったらない",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 14,
+  "book_page": 341
+ },
+ {
+  "no": 347,
+  "expression": "〜といっても過言ではない",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 15,
+  "book_page": 342
+ },
+ {
+  "no": 348,
+  "expression": "〜と思いきや",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 16,
+  "book_page": 342
+ },
+ {
+  "no": 349,
+  "expression": "〜ときたら",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 17,
+  "book_page": 342
+ },
+ {
+  "no": 350,
+  "expression": "〜とは",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 18,
+  "book_page": 343
+ },
+ {
+  "no": 351,
+  "expression": "〜とはいえ",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 19,
+  "book_page": 343
+ },
+ {
+  "no": 352,
+  "expression": "〜ともなく / 〜ともなしに",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 20,
+  "book_page": 343
+ },
+ {
+  "no": 353,
+  "expression": "〜ともなると",
+  "level": "N1",
+  "book_chapter": "조사 と와 や",
+  "book_num": 21,
+  "book_page": 344
+ },
+ {
+  "no": 354,
+  "expression": "〜や",
+  "level": "N5",
+  "book_chapter": "조사 と와 や",
+  "book_num": 22,
+  "book_page": 344
+ },
+ {
+  "no": 355,
+  "expression": "〜から",
+  "level": "N5",
+  "book_chapter": "조사 から",
+  "book_num": 1,
+  "book_page": 348
+ },
+ {
+  "no": 356,
+  "expression": "〜から〜にかけて",
+  "level": "N3",
+  "book_chapter": "조사 から",
+  "book_num": 2,
+  "book_page": 349
+ },
+ {
+  "no": 357,
+  "expression": "〜からいうと / 〜からいえば",
+  "level": "N2",
+  "book_chapter": "조사 から",
+  "book_num": 3,
+  "book_page": 349
+ },
+ {
+  "no": 358,
+  "expression": "〜からすると / 〜からすれば",
+  "level": "N2",
+  "book_chapter": "조사 から",
+  "book_num": 4,
+  "book_page": 350
+ },
+ {
+  "no": 359,
+  "expression": "〜からみると / 〜からみれば",
+  "level": "N2",
+  "book_chapter": "조사 から",
+  "book_num": 5,
+  "book_page": 350
+ },
+ {
+  "no": 360,
+  "expression": "〜からして",
+  "level": "N2",
+  "book_chapter": "조사 から",
+  "book_num": 6,
+  "book_page": 350
+ },
+ {
+  "no": 361,
+  "expression": "〜からある",
+  "level": "N1",
+  "book_chapter": "조사 から",
+  "book_num": 7,
+  "book_page": 351
+ },
+ {
+  "no": 362,
+  "expression": "〜からなる",
+  "level": "N1",
+  "book_chapter": "조사 から",
+  "book_num": 8,
+  "book_page": 351
+ },
+ {
+  "no": 363,
+  "expression": "〜は",
+  "level": null,
+  "book_chapter": "조사 は",
+  "book_num": 1,
+  "book_page": 355
+ },
+ {
+  "no": 364,
+  "expression": "〜はもちろん",
+  "level": "N3",
+  "book_chapter": "조사 は",
+  "book_num": 2,
+  "book_page": 356
+ },
+ {
+  "no": 365,
+  "expression": "〜はもとより",
+  "level": "N2",
+  "book_chapter": "조사 は",
+  "book_num": 3,
+  "book_page": 356
+ },
+ {
+  "no": 366,
+  "expression": "〜 はともかく",
+  "level": "N2",
+  "book_chapter": "조사 は",
+  "book_num": 4,
+  "book_page": 356
+ },
+ {
+  "no": 367,
+  "expression": "〜は抜きにして",
+  "level": "N2",
+  "book_chapter": "조사 は",
+  "book_num": 5,
+  "book_page": 357
+ },
+ {
+  "no": 368,
+  "expression": "〜は言うに及ばず",
+  "level": "N1",
+  "book_chapter": "조사 は",
+  "book_num": 6,
+  "book_page": 357
+ },
+ {
+  "no": 369,
+  "expression": "〜はおろか",
+  "level": "N1",
+  "book_chapter": "조사 は",
+  "book_num": 7,
+  "book_page": 357
+ },
+ {
+  "no": 370,
+  "expression": "〜はさておき",
+  "level": "N1",
+  "book_chapter": "조사 は",
+  "book_num": 8,
+  "book_page": 358
+ },
+ {
+  "no": 371,
+  "expression": "〜も",
+  "level": null,
+  "book_chapter": "조사 も",
+  "book_num": 1,
+  "book_page": 359
+ },
+ {
+  "no": 372,
+  "expression": "〜もかまわず",
+  "level": "N2",
+  "book_chapter": "조사 も",
+  "book_num": 2,
+  "book_page": 360
+ },
+ {
+  "no": 373,
+  "expression": "〜もさることながら",
+  "level": "N1",
+  "book_chapter": "조사 も",
+  "book_num": 3,
+  "book_page": 360
+ },
+ {
+  "no": 374,
+  "expression": "〜か",
+  "level": null,
+  "book_chapter": "조사 か",
+  "book_num": 1,
+  "book_page": 361
+ },
+ {
+  "no": 375,
+  "expression": "〜まで",
+  "level": null,
+  "book_chapter": "조사 まで",
+  "book_num": 1,
+  "book_page": 364
+ },
+ {
+  "no": 376,
+  "expression": "〜までに",
+  "level": "N4",
+  "book_chapter": "조사 まで",
+  "book_num": 2,
+  "book_page": 364
+ },
+ {
+  "no": 377,
+  "expression": "〜までだ・〜までのことだ",
+  "level": "N1",
+  "book_chapter": "조사 まで",
+  "book_num": 3,
+  "book_page": 365
+ },
+ {
+  "no": 378,
+  "expression": "〜までもない",
+  "level": "N1",
+  "book_chapter": "조사 まで",
+  "book_num": 4,
+  "book_page": 366
+ },
+ {
+  "no": 379,
+  "expression": "とか",
+  "level": null,
+  "book_chapter": "조사 とか",
+  "book_num": 1,
+  "book_page": 367
+ },
+ {
+  "no": 380,
+  "expression": "〜だけ",
+  "level": null,
+  "book_chapter": "조사 だけ",
+  "book_num": 1,
+  "book_page": 368
+ },
+ {
+  "no": 381,
+  "expression": "〜だけでなく",
+  "level": "N3",
+  "book_chapter": "조사 だけ",
+  "book_num": 2,
+  "book_page": 368
+ },
+ {
+  "no": 382,
+  "expression": "〜だけあって / 〜だけに",
+  "level": "N2",
+  "book_chapter": "조사 だけ",
+  "book_num": 3,
+  "book_page": 369
+ },
+ {
+  "no": 383,
+  "expression": "〜だけましだ",
+  "level": "N1",
+  "book_chapter": "조사 だけ",
+  "book_num": 4,
+  "book_page": 369
+ },
+ {
+  "no": 384,
+  "expression": "〜しか",
+  "level": "N4",
+  "book_chapter": "조사 しか",
+  "book_num": 1,
+  "book_page": 370
+ },
+ {
+  "no": 385,
+  "expression": "〜しかない",
+  "level": "N3",
+  "book_chapter": "조사 しか",
+  "book_num": 2,
+  "book_page": 370
+ },
+ {
+  "no": 386,
+  "expression": "〜だけしか",
+  "level": "N2",
+  "book_chapter": "조사 しか",
+  "book_num": 3,
+  "book_page": 371
+ },
+ {
+  "no": 387,
+  "expression": "〜ばかり",
+  "level": "N4",
+  "book_chapter": "조사 ばかり",
+  "book_num": 1,
+  "book_page": 372
+ },
+ {
+  "no": 388,
+  "expression": "〜たばかりだ",
+  "level": "N4",
+  "book_chapter": "조사 ばかり",
+  "book_num": 2,
+  "book_page": 372
+ },
+ {
+  "no": 389,
+  "expression": "〜てばかり",
+  "level": "N4",
+  "book_chapter": "조사 ばかり",
+  "book_num": 3,
+  "book_page": 373
+ },
+ {
+  "no": 390,
+  "expression": "〜ばかりでなく",
+  "level": "N3",
+  "book_chapter": "조사 ばかり",
+  "book_num": 4,
+  "book_page": 373
+ },
+ {
+  "no": 391,
+  "expression": "〜ばかりか",
+  "level": "N2",
+  "book_chapter": "조사 ばかり",
+  "book_num": 5,
+  "book_page": 373
+ },
+ {
+  "no": 392,
+  "expression": "〜ばかりに",
+  "level": "N2",
+  "book_chapter": "조사 ばかり",
+  "book_num": 6,
+  "book_page": 374
+ },
+ {
+  "no": 393,
+  "expression": "〜ばかりだ",
+  "level": "N2",
+  "book_chapter": "조사 ばかり",
+  "book_num": 7,
+  "book_page": 374
+ },
+ {
+  "no": 394,
+  "expression": "〜ばかりになっている",
+  "level": "N1",
+  "book_chapter": "조사 ばかり",
+  "book_num": 8,
+  "book_page": 375
+ },
+ {
+  "no": 395,
+  "expression": "〜とばかりに",
+  "level": "N1",
+  "book_chapter": "조사 ばかり",
+  "book_num": 9,
+  "book_page": 375
+ },
+ {
+  "no": 396,
+  "expression": "〜んばかりだ",
+  "level": "N1",
+  "book_chapter": "조사 ばかり",
+  "book_num": 10,
+  "book_page": 376
+ },
+ {
+  "no": 397,
+  "expression": "〜さえ",
+  "level": "N3",
+  "book_chapter": "기타 조사",
+  "book_num": 1,
+  "book_page": 381
+ },
+ {
+  "no": 398,
+  "expression": "〜すら",
+  "level": "N1",
+  "book_chapter": "기타 조사",
+  "book_num": 2,
+  "book_page": 381
+ },
+ {
+  "no": 399,
+  "expression": "〜だに",
+  "level": "N1",
+  "book_chapter": "기타 조사",
+  "book_num": 3,
+  "book_page": 382
+ },
+ {
+  "no": 400,
+  "expression": "〜ずつ",
+  "level": "N4",
+  "book_chapter": "기타 조사",
+  "book_num": 4,
+  "book_page": 382
+ },
+ {
+  "no": 401,
+  "expression": "〜きり",
+  "level": "N2",
+  "book_chapter": "기타 조사",
+  "book_num": 5,
+  "book_page": 383
+ },
+ {
+  "no": 402,
+  "expression": "〜のみ",
+  "level": "N2",
+  "book_chapter": "기타 조사",
+  "book_num": 6,
+  "book_page": 383
+ },
+ {
+  "no": 403,
+  "expression": "〜やら",
+  "level": "N2",
+  "book_chapter": "기타 조사",
+  "book_num": 7,
+  "book_page": 384
+ },
+ {
+  "no": 404,
+  "expression": "〜つつ",
+  "level": "N2",
+  "book_chapter": "기타 조사",
+  "book_num": 8,
+  "book_page": 385
+ },
+ {
+  "no": 405,
+  "expression": "〜なり",
+  "level": "N1",
+  "book_chapter": "기타 조사",
+  "book_num": 9,
+  "book_page": 386
+ },
+ {
+  "no": 406,
+  "expression": "〜て",
+  "level": "N5",
+  "book_chapter": "접속조사",
+  "book_num": 1,
+  "book_page": 389
+ },
+ {
+  "no": 407,
+  "expression": "〜と",
+  "level": "N5",
+  "book_chapter": "접속조사",
+  "book_num": 2,
+  "book_page": 390
+ },
+ {
+  "no": 408,
+  "expression": "〜ば",
+  "level": "N4",
+  "book_chapter": "접속조사",
+  "book_num": 3,
+  "book_page": 391
+ },
+ {
+  "no": 409,
+  "expression": "〜から",
+  "level": "N5",
+  "book_chapter": "접속조사",
+  "book_num": 4,
+  "book_page": 392
+ },
+ {
+  "no": 410,
+  "expression": "〜ので",
+  "level": "N4",
+  "book_chapter": "접속조사",
+  "book_num": 5,
+  "book_page": 392
+ },
+ {
+  "no": 411,
+  "expression": "〜し",
+  "level": "N4",
+  "book_chapter": "접속조사",
+  "book_num": 6,
+  "book_page": 393
+ },
+ {
+  "no": 412,
+  "expression": "〜が",
+  "level": "N5",
+  "book_chapter": "접속조사",
+  "book_num": 7,
+  "book_page": 394
+ },
+ {
+  "no": 413,
+  "expression": "〜けれども",
+  "level": "N4",
+  "book_chapter": "접속조사",
+  "book_num": 8,
+  "book_page": 395
+ },
+ {
+  "no": 414,
+  "expression": "〜ても",
+  "level": "N4",
+  "book_chapter": "접속조사",
+  "book_num": 9,
+  "book_page": 395
+ },
+ {
+  "no": 415,
+  "expression": "〜のに",
+  "level": "N4",
+  "book_chapter": "접속조사",
+  "book_num": 10,
+  "book_page": 396
+ },
+ {
+  "no": 416,
+  "expression": "〜たり",
+  "level": "N4",
+  "book_chapter": "접속조사",
+  "book_num": 11,
+  "book_page": 396
+ },
+ {
+  "no": 417,
+  "expression": "〜ながら",
+  "level": null,
+  "book_chapter": "접속조사",
+  "book_num": 12,
+  "book_page": 397
+ },
+ {
+  "no": 418,
+  "expression": "〜つつ",
+  "level": "N2",
+  "book_chapter": "접속조사",
+  "book_num": 13,
+  "book_page": 397
+ },
+ {
+  "no": 419,
+  "expression": "〜つ〜つ",
+  "level": "N1",
+  "book_chapter": "접속조사",
+  "book_num": 14,
+  "book_page": 398
+ },
+ {
+  "no": 420,
+  "expression": "〜なり",
+  "level": "N1",
+  "book_chapter": "접속조사",
+  "book_num": 15,
+  "book_page": 399
+ },
+ {
+  "no": 421,
+  "expression": "〜や",
+  "level": "N1",
+  "book_chapter": "접속조사",
+  "book_num": 16,
+  "book_page": 399
+ },
+ {
+  "no": 422,
+  "expression": "〜か",
+  "level": "N5",
+  "book_chapter": "종조사",
+  "book_num": 1,
+  "book_page": 400
+ },
+ {
+  "no": 423,
+  "expression": "〜ね",
+  "level": "N5",
+  "book_chapter": "종조사",
+  "book_num": 2,
+  "book_page": 401
+ },
+ {
+  "no": 424,
+  "expression": "〜よ",
+  "level": "N5",
+  "book_chapter": "종조사",
+  "book_num": 3,
+  "book_page": 402
+ },
+ {
+  "no": 425,
+  "expression": "〜わ",
+  "level": "N5",
+  "book_chapter": "종조사",
+  "book_num": 4,
+  "book_page": 402
+ },
+ {
+  "no": 426,
+  "expression": "〜の",
+  "level": "N4",
+  "book_chapter": "종조사",
+  "book_num": 5,
+  "book_page": 402
+ },
+ {
+  "no": 427,
+  "expression": "〜な",
+  "level": "N4",
+  "book_chapter": "종조사",
+  "book_num": 6,
+  "book_page": 403
+ },
+ {
+  "no": 428,
+  "expression": "〜さ",
+  "level": "N4",
+  "book_chapter": "종조사",
+  "book_num": 7,
+  "book_page": 403
+ },
+ {
+  "no": 429,
+  "expression": "〜ぞ",
+  "level": "N4",
+  "book_chapter": "종조사",
+  "book_num": 8,
+  "book_page": 403
+ },
+ {
+  "no": 430,
+  "expression": "〜かしら",
+  "level": "N4",
+  "book_chapter": "종조사",
+  "book_num": 9,
+  "book_page": 403
+ },
+ {
+  "no": 431,
+  "expression": "〜だい",
+  "level": "N4",
+  "book_chapter": "종조사",
+  "book_num": 10,
+  "book_page": 404
+ },
+ {
+  "no": 432,
+  "expression": "〜かい",
+  "level": "N4",
+  "book_chapter": "종조사",
+  "book_num": 11,
+  "book_page": 404
+ },
+ {
+  "no": 433,
+  "expression": "〜っけ",
+  "level": "N2",
+  "book_chapter": "종조사",
+  "book_num": 12,
+  "book_page": 404
+ },
+ {
+  "no": 434,
+  "expression": "〜が早いか",
+  "level": "N1",
+  "book_chapter": "접속조사의 응용 표현",
+  "book_num": 1,
+  "book_page": 405
+ },
+ {
+  "no": 435,
+  "expression": "〜からには",
+  "level": "N3",
+  "book_chapter": "접속조사의 응용 표현",
+  "book_num": 2,
+  "book_page": 405
+ },
+ {
+  "no": 436,
+  "expression": "〜からといって",
+  "level": "N2",
+  "book_chapter": "접속조사의 응용 표현",
+  "book_num": 3,
+  "book_page": 405
+ },
+ {
+  "no": 437,
+  "expression": "〜こととて",
+  "level": "N1",
+  "book_chapter": "형식명사에서 파생된 접속조사 표현",
+  "book_num": 1,
+  "book_page": 406
+ },
+ {
+  "no": 438,
+  "expression": "〜ところを",
+  "level": "N1",
+  "book_chapter": "형식명사에서 파생된 접속조사 표현",
+  "book_num": 2,
+  "book_page": 406
+ },
+ {
+  "no": 439,
+  "expression": "〜たところで",
+  "level": "N1",
+  "book_chapter": "형식명사에서 파생된 접속조사 표현",
+  "book_num": 3,
+  "book_page": 407
+ },
+ {
+  "no": 440,
+  "expression": "〜どころか",
+  "level": "N2",
+  "book_chapter": "형식명사에서 파생된 접속조사 표현",
+  "book_num": 4,
+  "book_page": 407
+ },
+ {
+  "no": 441,
+  "expression": "〜ものの",
+  "level": "N2",
+  "book_chapter": "형식명사에서 파생된 접속조사 표현",
+  "book_num": 5,
+  "book_page": 407
+ },
+ {
+  "no": 442,
+  "expression": "〜ものなら",
+  "level": "N2",
+  "book_chapter": "형식명사에서 파생된 접속조사 표현",
+  "book_num": 6,
+  "book_page": 408
+ },
+ {
+  "no": 443,
+  "expression": "〜ものを",
+  "level": "N1",
+  "book_chapter": "형식명사에서 파생된 접속조사 표현",
+  "book_num": 7,
+  "book_page": 408
+ },
+ {
+  "no": 444,
+  "expression": "〜こと",
+  "level": "N2",
+  "book_chapter": "형식명사에서 파생된 종조사 표현",
+  "book_num": 1,
+  "book_page": 409
+ },
+ {
+  "no": 445,
+  "expression": "〜もの",
+  "level": "N1",
+  "book_chapter": "형식명사에서 파생된 종조사 표현",
+  "book_num": 2,
+  "book_page": 410
+ },
+ {
+  "no": 446,
+  "expression": "〜ものか",
+  "level": "N2",
+  "book_chapter": "형식명사에서 파생된 종조사 표현",
+  "book_num": 3,
+  "book_page": 410
+ },
+ {
+  "no": 447,
+  "expression": "〜後で",
+  "level": "N5",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 1,
+  "book_page": 412
+ },
+ {
+  "no": 448,
+  "expression": "〜前に",
+  "level": "N5",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 2,
+  "book_page": 412
+ },
+ {
+  "no": 449,
+  "expression": "〜ために",
+  "level": "N4",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 3,
+  "book_page": 413
+ },
+ {
+  "no": 450,
+  "expression": "〜間・〜間に",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 4,
+  "book_page": 413
+ },
+ {
+  "no": 451,
+  "expression": "〜うちに",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 5,
+  "book_page": 414
+ },
+ {
+  "no": 452,
+  "expression": "〜ないうちに",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 6,
+  "book_page": 414
+ },
+ {
+  "no": 453,
+  "expression": "〜せいで",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 7,
+  "book_page": 415
+ },
+ {
+  "no": 454,
+  "expression": "〜おかげで",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 8,
+  "book_page": 415
+ },
+ {
+  "no": 455,
+  "expression": "〜くせに",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 9,
+  "book_page": 415
+ },
+ {
+  "no": 456,
+  "expression": "〜たびに",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 10,
+  "book_page": 416
+ },
+ {
+  "no": 457,
+  "expression": "〜とおり / 〜どおり",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 11,
+  "book_page": 416
+ },
+ {
+  "no": 458,
+  "expression": "〜反面",
+  "level": "N3",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 12,
+  "book_page": 416
+ },
+ {
+  "no": 459,
+  "expression": "〜以上",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 13,
+  "book_page": 417
+ },
+ {
+  "no": 460,
+  "expression": "〜上で",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 14,
+  "book_page": 417
+ },
+ {
+  "no": 461,
+  "expression": "〜上に",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 15,
+  "book_page": 417
+ },
+ {
+  "no": 462,
+  "expression": "〜上は",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 16,
+  "book_page": 418
+ },
+ {
+  "no": 463,
+  "expression": "〜あまり",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 17,
+  "book_page": 418
+ },
+ {
+  "no": 464,
+  "expression": "〜おそれがある",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 18,
+  "book_page": 418
+ },
+ {
+  "no": 465,
+  "expression": "〜一方だ",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 19,
+  "book_page": 419
+ },
+ {
+  "no": 466,
+  "expression": "〜一方で",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 20,
+  "book_page": 419
+ },
+ {
+  "no": 467,
+  "expression": "〜抜き",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 21,
+  "book_page": 419
+ },
+ {
+  "no": 468,
+  "expression": "〜向き",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 22,
+  "book_page": 420
+ },
+ {
+  "no": 469,
+  "expression": "〜向け",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 22,
+  "book_page": 420
+ },
+ {
+  "no": 470,
+  "expression": "〜下で",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 24,
+  "book_page": 421
+ },
+ {
+  "no": 471,
+  "expression": "〜限り",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 25,
+  "book_page": 421
+ },
+ {
+  "no": 472,
+  "expression": "〜割には",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 26,
+  "book_page": 421
+ },
+ {
+  "no": 473,
+  "expression": "〜最中",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 27,
+  "book_page": 422
+ },
+ {
+  "no": 474,
+  "expression": "〜際",
+  "level": "N2",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 28,
+  "book_page": 422
+ },
+ {
+  "no": 475,
+  "expression": "〜きらいがある",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 29,
+  "book_page": 422
+ },
+ {
+  "no": 476,
+  "expression": "〜故に",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 30,
+  "book_page": 423
+ },
+ {
+  "no": 477,
+  "expression": "〜限りだ",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 31,
+  "book_page": 423
+ },
+ {
+  "no": 478,
+  "expression": "〜そばから",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 32,
+  "book_page": 423
+ },
+ {
+  "no": 479,
+  "expression": "〜至り",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 33,
+  "book_page": 424
+ },
+ {
+  "no": 480,
+  "expression": "〜極み",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 34,
+  "book_page": 424
+ },
+ {
+  "no": 481,
+  "expression": "〜如何",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 35,
+  "book_page": 424
+ },
+ {
+  "no": 482,
+  "expression": "〜始末だ",
+  "level": "N1",
+  "book_chapter": "명사 응용 표현",
+  "book_num": 36,
+  "book_page": 425
+ },
+ {
+  "no": 483,
+  "expression": "こと",
+  "level": null,
+  "book_chapter": "こと",
+  "book_num": 1,
+  "book_page": 428
+ },
+ {
+  "no": 484,
+  "expression": "〜たことがある",
+  "level": "N4",
+  "book_chapter": "こと",
+  "book_num": 2,
+  "book_page": 429
+ },
+ {
+  "no": 485,
+  "expression": "〜ことがある",
+  "level": "N4",
+  "book_chapter": "こと",
+  "book_num": 3,
+  "book_page": 429
+ },
+ {
+  "no": 486,
+  "expression": "〜ことにする",
+  "level": "N4",
+  "book_chapter": "こと",
+  "book_num": 4,
+  "book_page": 429
+ },
+ {
+  "no": 487,
+  "expression": "〜ことになる",
+  "level": "N4",
+  "book_chapter": "こと",
+  "book_num": 5,
+  "book_page": 430
+ },
+ {
+  "no": 488,
+  "expression": "〜ことにしている",
+  "level": "N4",
+  "book_chapter": "こと",
+  "book_num": 6,
+  "book_page": 430
+ },
+ {
+  "no": 489,
+  "expression": "〜ことになっている",
+  "level": "N3",
+  "book_chapter": "こと",
+  "book_num": 7,
+  "book_page": 430
+ },
+ {
+  "no": 490,
+  "expression": "〜ということだ",
+  "level": "N3",
+  "book_chapter": "こと",
+  "book_num": 8,
+  "book_page": 431
+ },
+ {
+  "no": 491,
+  "expression": "〜ことか",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 9,
+  "book_page": 431
+ },
+ {
+  "no": 492,
+  "expression": "〜ことから",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 10,
+  "book_page": 432
+ },
+ {
+  "no": 493,
+  "expression": "〜ことだ",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 11,
+  "book_page": 432
+ },
+ {
+  "no": 494,
+  "expression": "〜ことに",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 12,
+  "book_page": 432
+ },
+ {
+  "no": 495,
+  "expression": "〜ことはない",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 13,
+  "book_page": 433
+ },
+ {
+  "no": 496,
+  "expression": "〜ことだから",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 14,
+  "book_page": 433
+ },
+ {
+  "no": 497,
+  "expression": "〜ことだし",
+  "level": "N1",
+  "book_chapter": "こと",
+  "book_num": 15,
+  "book_page": 433
+ },
+ {
+  "no": 498,
+  "expression": "〜ことなく",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 16,
+  "book_page": 434
+ },
+ {
+  "no": 499,
+  "expression": "〜ないことには",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 17,
+  "book_page": 434
+ },
+ {
+  "no": 500,
+  "expression": "〜ないことはない",
+  "level": "N2",
+  "book_chapter": "こと",
+  "book_num": 18,
+  "book_page": 434
+ },
+ {
+  "no": 501,
+  "expression": "もの",
+  "level": null,
+  "book_chapter": "もの",
+  "book_num": 1,
+  "book_page": 435
+ },
+ {
+  "no": 502,
+  "expression": "〜ものだ",
+  "level": "N3",
+  "book_chapter": "もの",
+  "book_num": 2,
+  "book_page": 436
+ },
+ {
+  "no": 503,
+  "expression": "〜ものがある",
+  "level": "N2",
+  "book_chapter": "もの",
+  "book_num": 3,
+  "book_page": 437
+ },
+ {
+  "no": 504,
+  "expression": "〜ものだから",
+  "level": "N2",
+  "book_chapter": "もの",
+  "book_num": 4,
+  "book_page": 437
+ },
+ {
+  "no": 505,
+  "expression": "〜というものだ",
+  "level": "N2",
+  "book_chapter": "もの",
+  "book_num": 5,
+  "book_page": 438
+ },
+ {
+  "no": 506,
+  "expression": "〜というものではない・〜というものでもない",
+  "level": "N2",
+  "book_chapter": "もの",
+  "book_num": 6,
+  "book_page": 438
+ },
+ {
+  "no": 507,
+  "expression": "ところ",
+  "level": null,
+  "book_chapter": "ところ",
+  "book_num": 1,
+  "book_page": 439
+ },
+ {
+  "no": 508,
+  "expression": "〜ところだ",
+  "level": "N4",
+  "book_chapter": "ところ",
+  "book_num": 2,
+  "book_page": 440
+ },
+ {
+  "no": 509,
+  "expression": "〜ているところだ",
+  "level": "N4",
+  "book_chapter": "ところ",
+  "book_num": 3,
+  "book_page": 440
+ },
+ {
+  "no": 510,
+  "expression": "〜たところだ",
+  "level": "N4",
+  "book_chapter": "ところ",
+  "book_num": 4,
+  "book_page": 440
+ },
+ {
+  "no": 511,
+  "expression": "〜たところ",
+  "level": "N2",
+  "book_chapter": "ところ",
+  "book_num": 5,
+  "book_page": 440
+ },
+ {
+  "no": 512,
+  "expression": "〜ところに / 〜ところへ",
+  "level": "N2",
+  "book_chapter": "ところ",
+  "book_num": 6,
+  "book_page": 441
+ },
+ {
+  "no": 513,
+  "expression": "〜といったところだ",
+  "level": "N1",
+  "book_chapter": "ところ",
+  "book_num": 7,
+  "book_page": 441
+ },
+ {
+  "no": 514,
+  "expression": "わけ",
+  "level": null,
+  "book_chapter": "わけ",
+  "book_num": 1,
+  "book_page": 442
+ },
+ {
+  "no": 515,
+  "expression": "〜わけだ",
+  "level": "N3",
+  "book_chapter": "わけ",
+  "book_num": 2,
+  "book_page": 442
+ },
+ {
+  "no": 516,
+  "expression": "〜わけではない",
+  "level": "N3",
+  "book_chapter": "わけ",
+  "book_num": 3,
+  "book_page": 443
+ },
+ {
+  "no": 517,
+  "expression": "〜わけがない",
+  "level": "N3",
+  "book_chapter": "わけ",
+  "book_num": 4,
+  "book_page": 443
+ },
+ {
+  "no": 518,
+  "expression": "〜わけにはいかない",
+  "level": "N3",
+  "book_chapter": "わけ",
+  "book_num": 5,
+  "book_page": 443
+ },
+ {
+  "no": 519,
+  "expression": "はず",
+  "level": null,
+  "book_chapter": "はず",
+  "book_num": 1,
+  "book_page": 444
+ },
+ {
+  "no": 520,
+  "expression": "〜はずだ",
+  "level": "N4",
+  "book_chapter": "はず",
+  "book_num": 2,
+  "book_page": 444
+ },
+ {
+  "no": 521,
+  "expression": "〜はずがない",
+  "level": "N4",
+  "book_chapter": "はず",
+  "book_num": 3,
+  "book_page": 445
+ },
+ {
+  "no": 522,
+  "expression": "〜はずだった",
+  "level": "N3",
+  "book_chapter": "はず",
+  "book_num": 4,
+  "book_page": 445
+ },
+ {
+  "no": 523,
+  "expression": "お / ご",
+  "level": "N4",
+  "book_chapter": "접두어",
+  "book_num": 1,
+  "book_page": 448
+ },
+ {
+  "no": 524,
+  "expression": "大 (おお / だい)",
+  "level": "N4",
+  "book_chapter": "접두어",
+  "book_num": 2,
+  "book_page": 449
+ },
+ {
+  "no": 525,
+  "expression": "真",
+  "level": "N4",
+  "book_chapter": "접두어",
+  "book_num": 3,
+  "book_page": 450
+ },
+ {
+  "no": 526,
+  "expression": "最",
+  "level": "N3",
+  "book_chapter": "접두어",
+  "book_num": 4,
+  "book_page": 451
+ },
+ {
+  "no": 527,
+  "expression": "無",
+  "level": "N3",
+  "book_chapter": "접두어",
+  "book_num": 5,
+  "book_page": 451
+ },
+ {
+  "no": 528,
+  "expression": "不",
+  "level": "N3",
+  "book_chapter": "접두어",
+  "book_num": 6,
+  "book_page": 452
+ },
+ {
+  "no": 529,
+  "expression": "もの",
+  "level": "N3",
+  "book_chapter": "접두어",
+  "book_num": 7,
+  "book_page": 452
+ },
+ {
+  "no": 530,
+  "expression": "素",
+  "level": "N2",
+  "book_chapter": "접두어",
+  "book_num": 8,
+  "book_page": 452
+ },
+ {
+  "no": 531,
+  "expression": "未",
+  "level": "N2",
+  "book_chapter": "접두어",
+  "book_num": 9,
+  "book_page": 453
+ },
+ {
+  "no": 532,
+  "expression": "猛",
+  "level": "N1",
+  "book_chapter": "접두어",
+  "book_num": 10,
+  "book_page": 453
+ },
+ {
+  "no": 533,
+  "expression": "〜ごろ",
+  "level": "N5",
+  "book_chapter": "접미어",
+  "book_num": 1,
+  "book_page": 455
+ },
+ {
+  "no": 534,
+  "expression": "〜たち",
+  "level": "N5",
+  "book_chapter": "접미어",
+  "book_num": 2,
+  "book_page": 455
+ },
+ {
+  "no": 535,
+  "expression": "〜ら",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 3,
+  "book_page": 456
+ },
+ {
+  "no": 536,
+  "expression": "〜がる",
+  "level": "N4",
+  "book_chapter": "접미어",
+  "book_num": 4,
+  "book_page": 456
+ },
+ {
+  "no": 537,
+  "expression": "〜さ",
+  "level": "N4",
+  "book_chapter": "접미어",
+  "book_num": 5,
+  "book_page": 457
+ },
+ {
+  "no": 538,
+  "expression": "〜方",
+  "level": "N4",
+  "book_chapter": "접미어",
+  "book_num": 6,
+  "book_page": 457
+ },
+ {
+  "no": 539,
+  "expression": "中",
+  "level": "N4",
+  "book_chapter": "접미어",
+  "book_num": 7,
+  "book_page": 458
+ },
+ {
+  "no": 540,
+  "expression": "目",
+  "level": "N4",
+  "book_chapter": "접미어",
+  "book_num": 8,
+  "book_page": 459
+ },
+ {
+  "no": 541,
+  "expression": "〜ぶり",
+  "level": "N4",
+  "book_chapter": "접미어",
+  "book_num": 9,
+  "book_page": 460
+ },
+ {
+  "no": 542,
+  "expression": "〜らしい",
+  "level": "N4",
+  "book_chapter": "접미어",
+  "book_num": 10,
+  "book_page": 460
+ },
+ {
+  "no": 543,
+  "expression": "〜化",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 11,
+  "book_page": 460
+ },
+ {
+  "no": 544,
+  "expression": "〜がち",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 12,
+  "book_page": 461
+ },
+ {
+  "no": 545,
+  "expression": "〜げ",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 13,
+  "book_page": 461
+ },
+ {
+  "no": 546,
+  "expression": "〜ごと",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 14,
+  "book_page": 462
+ },
+ {
+  "no": 547,
+  "expression": "〜だらけ",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 15,
+  "book_page": 462
+ },
+ {
+  "no": 548,
+  "expression": "〜とおり / 〜どおり",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 16,
+  "book_page": 463
+ },
+ {
+  "no": 549,
+  "expression": "〜的",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 17,
+  "book_page": 463
+ },
+ {
+  "no": 550,
+  "expression": "〜み",
+  "level": "N3",
+  "book_chapter": "접미어",
+  "book_num": 18,
+  "book_page": 464
+ },
+ {
+  "no": 551,
+  "expression": "〜気味",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 19,
+  "book_page": 464
+ },
+ {
+  "no": 552,
+  "expression": "〜向け",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 20,
+  "book_page": 465
+ },
+ {
+  "no": 553,
+  "expression": "〜向き",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 21,
+  "book_page": 465
+ },
+ {
+  "no": 554,
+  "expression": "〜次第",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 22,
+  "book_page": 466
+ },
+ {
+  "no": 555,
+  "expression": "〜上",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 23,
+  "book_page": 466
+ },
+ {
+  "no": 556,
+  "expression": "〜がたい(難い)",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 24,
+  "book_page": 467
+ },
+ {
+  "no": 557,
+  "expression": "〜っこない",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 25,
+  "book_page": 467
+ },
+ {
+  "no": 558,
+  "expression": "〜っぽい",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 26,
+  "book_page": 468
+ },
+ {
+  "no": 559,
+  "expression": "〜づらい",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 27,
+  "book_page": 468
+ },
+ {
+  "no": 560,
+  "expression": "〜っぱなし(〜っ放し)",
+  "level": "N2",
+  "book_chapter": "접미어",
+  "book_num": 28,
+  "book_page": 469
+ },
+ {
+  "no": 561,
+  "expression": "〜かたがた",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 29,
+  "book_page": 469
+ },
+ {
+  "no": 562,
+  "expression": "〜がてら",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 30,
+  "book_page": 470
+ },
+ {
+  "no": 563,
+  "expression": "〜ずくめ",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 31,
+  "book_page": 470
+ },
+ {
+  "no": 564,
+  "expression": "〜たて(立て)",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 32,
+  "book_page": 471
+ },
+ {
+  "no": 565,
+  "expression": "〜なり",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 33,
+  "book_page": 472
+ },
+ {
+  "no": 566,
+  "expression": "〜風",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 34,
+  "book_page": 472
+ },
+ {
+  "no": 567,
+  "expression": "〜放題",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 35,
+  "book_page": 473
+ },
+ {
+  "no": 568,
+  "expression": "〜まみれ",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 36,
+  "book_page": 473
+ },
+ {
+  "no": 569,
+  "expression": "〜めく",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 37,
+  "book_page": 474
+ },
+ {
+  "no": 570,
+  "expression": "〜ぶる",
+  "level": "N1",
+  "book_chapter": "접미어",
+  "book_num": 38,
+  "book_page": 474
+ },
+ {
+  "no": 571,
+  "expression": "〜合う",
+  "level": "N4",
+  "book_chapter": "복합 동사",
+  "book_num": 1,
+  "book_page": 479
+ },
+ {
+  "no": 572,
+  "expression": "〜直す",
+  "level": "N4",
+  "book_chapter": "복합 동사",
+  "book_num": 2,
+  "book_page": 479
+ },
+ {
+  "no": 573,
+  "expression": "〜切る",
+  "level": "N3",
+  "book_chapter": "복합 동사",
+  "book_num": 3,
+  "book_page": 480
+ },
+ {
+  "no": 574,
+  "expression": "〜込む",
+  "level": "N3",
+  "book_chapter": "복합 동사",
+  "book_num": 4,
+  "book_page": 480
+ },
+ {
+  "no": 575,
+  "expression": "〜上げる",
+  "level": "N2",
+  "book_chapter": "복합 동사",
+  "book_num": 5,
+  "book_page": 480
+ },
+ {
+  "no": 576,
+  "expression": "〜あわせる(合わせる)",
+  "level": null,
+  "book_chapter": "복합 동사",
+  "book_num": 6,
+  "book_page": 481
+ },
+ {
+  "no": 577,
+  "expression": "〜うる(得る)",
+  "level": "N2",
+  "book_chapter": "복합 동사",
+  "book_num": 7,
+  "book_page": 481
+ },
+ {
+  "no": 578,
+  "expression": "〜かえす(返す)",
+  "level": null,
+  "book_chapter": "복합 동사",
+  "book_num": 8,
+  "book_page": 482
+ },
+ {
+  "no": 579,
+  "expression": "〜かける",
+  "level": "N2",
+  "book_chapter": "복합 동사",
+  "book_num": 9,
+  "book_page": 482
+ },
+ {
+  "no": 580,
+  "expression": "〜かねる",
+  "level": "N2",
+  "book_chapter": "복합 동사",
+  "book_num": 10,
+  "book_page": 483
+ },
+ {
+  "no": 581,
+  "expression": "〜なれる(慣れる)",
+  "level": "N2",
+  "book_chapter": "복합 동사",
+  "book_num": 11,
+  "book_page": 483
+ },
+ {
+  "no": 582,
+  "expression": "〜ぬく(抜く)",
+  "level": "N2",
+  "book_chapter": "복합 동사",
+  "book_num": 12,
+  "book_page": 484
+ },
+ {
+  "no": 583,
+  "expression": "〜こなす",
+  "level": "N1",
+  "book_chapter": "복합 동사",
+  "book_num": 13,
+  "book_page": 484
+ },
+ {
+  "no": 584,
+  "expression": "〜そこなう(損なう)",
+  "level": "N1",
+  "book_chapter": "복합 동사",
+  "book_num": 14,
+  "book_page": 484
+ },
+ {
+  "no": 585,
+  "expression": "〜立てる",
+  "level": "N1",
+  "book_chapter": "복합 동사",
+  "book_num": 15,
+  "book_page": 485
+ },
+ {
+  "no": 586,
+  "expression": "〜つくす(尽くす)",
+  "level": "N1",
+  "book_chapter": "복합 동사",
+  "book_num": 16,
+  "book_page": 485
+ },
+ {
+  "no": 587,
+  "expression": "〜通す",
+  "level": "N1",
+  "book_chapter": "복합 동사",
+  "book_num": 17,
+  "book_page": 485
+ }
+]
