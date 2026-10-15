@@ -1,2 +1,6 @@
 __pycache__/
 .DS_Store
+# XcodeGen 생성물
+ios/*.xcodeproj
+xcuserdata/
+DerivedData/
