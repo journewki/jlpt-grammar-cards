@@ -21,6 +21,10 @@ final class RubyTests: XCTestCase {
         XCTAssertEqual(Ruby.plainText("{駅|えき}の{前|まえ}に"), "駅の前に")
     }
 
+    func testSpokenTextUsesReadings() {
+        XCTAssertEqual(Ruby.spokenText("{一言|ひとこと}{言|い}った"), "ひとこといった")
+    }
+
     func testSegmentsAndHighlights() {
         let segs = Ruby.segments("{駅|えき}の{前|まえ}に{銀行|ぎんこう}があります。", highlights: ["に", "があります"])
         XCTAssertEqual(segs.first, RubySegment(base: "駅", ruby: "えき", highlighted: false))

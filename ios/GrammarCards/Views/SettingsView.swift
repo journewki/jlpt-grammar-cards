@@ -5,6 +5,8 @@ struct SettingsView: View {
     @AppStorage(SettingsKey.reviewRatio) private var reviewRatio = StudySettings().reviewRatio
     @AppStorage(SettingsKey.showMeaning) private var showMeaning = false
     @AppStorage(SettingsKey.showFurigana) private var showFurigana = true
+    @AppStorage(SettingsKey.autoPlaySpeech) private var autoPlaySpeech = false
+    @AppStorage(SettingsKey.speechRate) private var speechRate = SpeechRate.normal.rawValue
 
     var body: some View {
         Form {
@@ -25,6 +27,20 @@ struct SettingsView: View {
             Section("카드 표시") {
                 Toggle("뜻 항상 보기", isOn: $showMeaning)
                 Toggle("후리가나 표시", isOn: $showFurigana)
+            }
+
+            Section {
+                Toggle("카드가 넘어갈 때 예문 자동 재생", isOn: $autoPlaySpeech)
+                Picker("읽기 속도", selection: $speechRate) {
+                    ForEach(SpeechRate.allCases) { Text($0.label).tag($0.rawValue) }
+                }
+                Button("예문 소리 들어 보기") {
+                    Speaker.shared.speak(markup: "{今日|きょう}はいい{天気|てんき}ですね。")
+                }
+            } header: {
+                Text("소리")
+            } footer: {
+                Text("더 자연스러운 음성은 iPhone 설정 > 손쉬운 사용 > 읽기 및 말하기 > 음성 > 일본어에서 '향상된 음질' 음성을 내려받으면 자동으로 사용돼요.")
             }
 
             Section("정보") {

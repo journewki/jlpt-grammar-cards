@@ -6,6 +6,8 @@ enum SettingsKey {
     static let reviewRatio = "reviewRatio"
     static let showMeaning = "showMeaning"
     static let showFurigana = "showFurigana"
+    static let autoPlaySpeech = "autoPlaySpeech"
+    static let speechRate = "speechRate"
 }
 
 extension StudySettings {

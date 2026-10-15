@@ -16,6 +16,11 @@ enum Ruby {
         markup.replacing(pattern) { String($0.output.1) }
     }
 
+    /// 소리 내어 읽을 문장: 한자 대신 후리가나 읽기 "{雨|あめ}が降る" → "あめが降る"
+    static func spokenText(_ markup: String) -> String {
+        markup.replacing(pattern) { String($0.output.2) }
+    }
+
     /// 화면에 그릴 조각으로 나눈다. highlights 는 루비를 뺀 문장에서 앞에서부터 차례로 찾는다.
     static func segments(_ markup: String, highlights: [String] = []) -> [RubySegment] {
         // 1) 토큰화: (본문, 후리가나?)

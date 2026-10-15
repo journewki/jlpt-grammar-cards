@@ -41,6 +41,8 @@ ios/
 │   │   ├── CardFaceView.swift  카드 한 장
 │   │   ├── RubyText.swift      후리가나 예문 표시
 │   │   └── SettingsView.swift  카드 수, 모름 비율, 표시 설정
-│   └── Support/AppSettings.swift
+│   └── Support/
+│       ├── AppSettings.swift   설정 키
+│       └── Speaker.swift       일본어 TTS (예문 읽기)
 └── GrammarCardsTests/
 ```

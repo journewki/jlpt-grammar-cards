@@ -17,6 +17,7 @@ struct StudyView: View {
     @Environment(\.dismiss) private var dismiss
     @AppStorage(SettingsKey.showMeaning) private var showMeaning = false
     @AppStorage(SettingsKey.showFurigana) private var showFurigana = true
+    @AppStorage(SettingsKey.autoPlaySpeech) private var autoPlaySpeech = false
 
     @State private var session: StudySession?
     @State private var revealed = false
@@ -58,6 +59,7 @@ struct StudyView: View {
             .navigationBarTitleDisplayMode(.inline)
         }
         .onAppear { if session == nil { start() } }
+        .onDisappear { Speaker.shared.stop() }
     }
 
     @ViewBuilder
@@ -86,6 +88,9 @@ struct StudyView: View {
                 )
                 .onTapGesture { withAnimation(.easeInOut(duration: 0.2)) { revealed.toggle() } }
                 .id(card.no)
+                .task(id: card.no) {
+                    if autoPlaySpeech { Speaker.shared.speak(markup: card.example.sentenceJa) }
+                }
                 .transition(.asymmetric(insertion: .scale(scale: 0.95).combined(with: .opacity),
                                         removal: .opacity))
 

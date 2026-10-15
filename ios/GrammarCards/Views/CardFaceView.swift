@@ -13,6 +13,17 @@ struct CardFaceView: View {
                 Tag(text: level.rawValue, color: .accentColor)
                 Tag(text: grammar.category, color: .secondary)
                 Spacer()
+                Button {
+                    Speaker.shared.speak(markup: grammar.example.sentenceJa)
+                } label: {
+                    Image(systemName: "speaker.wave.2.fill")
+                        .font(.title3)
+                        .padding(8)
+                        .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .foregroundStyle(Color.accentColor)
+                .accessibilityLabel("예문 듣기")
             }
 
             VStack(alignment: .leading, spacing: 4) {
