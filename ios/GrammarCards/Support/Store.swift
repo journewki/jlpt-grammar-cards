@@ -21,6 +21,9 @@ final class Store {
     init() {
         // 오프라인으로 시작해도 바로 열리도록 마지막 확인 결과를 기억해 둔다
         isUnlocked = UserDefaults.standard.bool(forKey: SettingsKey.unlocked)
+        #if PERSONAL_UNLOCK
+        isUnlocked = true   // 개발자 개인용 빌드: 항상 잠금 해제
+        #endif
         updatesTask = Task { [weak self] in
             for await result in Transaction.updates {
                 await self?.handle(result)
@@ -95,6 +98,10 @@ final class Store {
     }
 
     private func setUnlocked(_ value: Bool) {
+        #if PERSONAL_UNLOCK
+        isUnlocked = true
+        return
+        #endif
         if value { FreeTrial.clear() }
         isUnlocked = value
         UserDefaults.standard.set(value, forKey: SettingsKey.unlocked)
