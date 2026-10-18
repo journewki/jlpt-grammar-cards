@@ -5,8 +5,15 @@ import SwiftData
 
 enum JLPTLevel: String, Codable, CaseIterable, Identifiable {
     case n5 = "N5", n4 = "N4", n3 = "N3", n2 = "N2", n1 = "N1"
+    /// 일상표현 덱 (급수 없음, 별도 탭)
+    case daily = "DAILY"
+
+    /// 문법 탭에 나오는 급수
+    static let grammarLevels: [JLPTLevel] = [.n5, .n4, .n3, .n2, .n1]
 
     var id: String { rawValue }
+    /// 화면 표시용 이름
+    var displayName: String { self == .daily ? "일상표현" : rawValue }
     /// 번들 데이터 파일 이름 (n5.json …)
     var fileName: String { rawValue.lowercased() }
 }

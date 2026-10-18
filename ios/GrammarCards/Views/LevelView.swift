@@ -80,15 +80,15 @@ struct LevelView: View {
                 }
             }
         }
-        .navigationTitle(level.rawValue)
+        .navigationTitle(level.displayName)
         .toolbar {
             Menu {
-                Button("\(level.rawValue) 학습 기록 초기화", role: .destructive) { confirmReset = true }
+                Button("\(level.displayName) 학습 기록 초기화", role: .destructive) { confirmReset = true }
             } label: {
                 Image(systemName: "ellipsis.circle")
             }
         }
-        .confirmationDialog("\(level.rawValue)의 알고 있음/모름 기록을 모두 지울까요?",
+        .confirmationDialog("\(level.displayName)의 알고 있음/모름 기록을 모두 지울까요?",
                             isPresented: $confirmReset, titleVisibility: .visible) {
             Button("초기화", role: .destructive) { ProgressRepository.reset(level, in: context) }
         }
@@ -98,7 +98,7 @@ struct LevelView: View {
                isPresented: Binding(get: { trialElsewhere != nil }, set: { if !$0 { trialElsewhere = nil } })) {
             Button("확인", role: .cancel) {}
         } message: {
-            Text("\(trialElsewhere?.rawValue ?? "")에서 시작한 무료 체험 사이클을 먼저 끝내 주세요. 평생 이용권이 있으면 모든 급수를 자유롭게 학습할 수 있어요.")
+            Text("\(trialElsewhere?.displayName ?? "")에서 시작한 무료 체험 사이클을 먼저 끝내 주세요. 평생 이용권이 있으면 모든 급수를 자유롭게 학습할 수 있어요.")
         }
         .sheet(item: $selected) { g in
             CardFaceView(grammar: g, level: level, showMeaning: true, showHistory: false)

@@ -36,6 +36,8 @@ targets:
         buildPhase: resources
       - path: ../data/n1.json
         buildPhase: resources
+      - path: ../data/daily.json
+        buildPhase: resources
       # Apple 개인정보 매니페스트 (UserDefaults 사용 사유)
       - path: PrivacyInfo.xcprivacy
         buildPhase: resources

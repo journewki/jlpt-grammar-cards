@@ -71,7 +71,7 @@ struct SettingsView: View {
 
             Section("정보") {
                 ForEach(JLPTLevel.allCases) { level in
-                    LabeledContent(level.rawValue, value: "\(ContentStore.cards(level).count)개")
+                    LabeledContent(level.displayName, value: "\(ContentStore.cards(level).count)개")
                 }
             }
         }

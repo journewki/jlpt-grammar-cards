@@ -14,8 +14,10 @@ struct CardFaceView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             HStack(spacing: 6) {
-                Tag(text: level.rawValue, color: .accentColor)
-                Tag(text: grammar.category, color: .secondary)
+                Tag(text: level.displayName, color: .accentColor)
+                if !grammar.category.isEmpty, grammar.category != level.displayName {
+                    Tag(text: grammar.category, color: .secondary)
+                }
                 Spacer()
                 if showHistory { HistoryBadge(history: history) }
                 Button {
@@ -54,9 +56,11 @@ struct CardFaceView: View {
                     Divider()
                     Text(grammar.meaningKo)
                         .font(.title3.weight(.semibold))
-                    Label(grammar.connection, systemImage: "link")
-                        .font(.callout)
-                        .foregroundStyle(.secondary)
+                    if !grammar.connection.isEmpty {
+                        Label(grammar.connection, systemImage: "link")
+                            .font(.callout)
+                            .foregroundStyle(.secondary)
+                    }
                     Text(grammar.example.translationKo)
                         .font(.callout)
                 }

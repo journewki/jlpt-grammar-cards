@@ -43,7 +43,7 @@ struct HomeView: View {
                     }
                 }
                 Section {
-                    ForEach(JLPTLevel.allCases) { level in
+                    ForEach(JLPTLevel.grammarLevels) { level in
                         NavigationLink(value: level) {
                             LevelRow(level: level, stats: LevelStats(level: level, progress: progress))
                         }
