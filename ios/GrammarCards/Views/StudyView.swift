@@ -160,6 +160,7 @@ struct StudyView: View {
 
         let pool: [Grammar]
         var effective = settings
+        effective.randomNewOrder = level == .daily
         switch mode {
         case .mixed:
             pool = all

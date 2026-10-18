@@ -7,6 +7,8 @@ struct StudySettings: Codable, Equatable {
     var cardsPerSession: Int = 20
     /// 사이클 중 "모름" 카드가 차지하는 비율 (0.0 ~ 1.0). 나머지는 새 카드.
     var reviewRatio: Double = 0.4
+    /// 새 카드를 번호 순 대신 무작위로 뽑을지 (일상표현 덱)
+    var randomNewOrder = false
 
     static let sessionSizeOptions = [10, 20, 30, 50]
 }
@@ -24,7 +26,7 @@ enum SessionBuilder {
     /// 한 급수 안에서 이번 사이클에 나올 카드를 고른다.
     ///
     /// 1. 모름 카드: 가장 오래전에 본 것 → 모름 횟수 많은 것 순으로 `size * reviewRatio`장
-    /// 2. 새 카드: 책 번호 순으로 남은 자리 채움
+    /// 2. 새 카드: 책 번호 순(randomNewOrder 면 무작위)으로 남은 자리 채움
     /// 3. 새 카드가 모자라면 모름 카드로, 그래도 모자라면 알고 있음 카드(오래된 순)로 채움
     /// 4. 모름 카드와 새 카드가 섞이도록 셔플
     static func build<R: RandomNumberGenerator>(
@@ -48,6 +50,7 @@ enum SessionBuilder {
 
         var unknown = grammar.filter { status($0) == .unknown }.sorted(by: oldestFirst)
         var fresh = grammar.filter { status($0) == .new }.sorted { $0.no < $1.no }
+        if settings.randomNewOrder { fresh.shuffle(using: &rng) }
         var known = grammar.filter { status($0) == .known }.sorted(by: oldestFirst)
 
         var picked: [Grammar] = []
